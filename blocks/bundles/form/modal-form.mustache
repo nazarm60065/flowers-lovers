@@ -1,0 +1,32 @@
+<form method="post" action="{{action}}" class="form modal-form"{{#ajax_component_id}}
+      id="{{.}}"{{/ajax_component_id}}>
+    <div class="form-top">
+        {{#title}}
+            <div class="form__title">{{{.}}}</div>
+        {{/title}}
+        {{#sub_title}}
+            <div class="form__subtitle">{{{.}}}</div>
+        {{/sub_title}}
+    </div>
+    <div class="form-content">
+        <div class="form-content-fields">
+            {{#html_fields}}
+                {{{html}}}
+            {{/html_fields}}
+        </div>
+        <div class="form-bottom">
+            <div class="form-submit-container">
+                <button class="form__submit button button_filled-blue-border" name="submit" type="submit">
+                    {{{submit_text}}}
+                </button>
+            </div>
+        </div>
+    </div>
+    <button class="modal-form__close" data-fancybox-close>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none"
+             viewBox="0 0 24 24">
+            <path stroke="#C4C4C4" stroke-linejoin="round" stroke-width="1.5"
+                  d="M18 6 6 18M6 6l12 12"/>
+        </svg>
+    </button>
+</form>

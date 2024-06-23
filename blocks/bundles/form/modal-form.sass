@@ -1,0 +1,46 @@
+.modal-form
+  display: none
+  position: relative
+  max-width: 496px
+  color: $main-color
+
+.modal-form .f-button.is-close-btn
+  display: none
+
+.modal-form__close
+  display: block
+  position: absolute
+  right: 0
+  bottom: calc(100% + 8px)
+  width: 40px
+  height: 40px
+  background-color: #fff
+  border-radius: 50%
+  border: 1px solid #C4C4C4
+  padding: 6px
+  outline: solid 4px #fff
+  +svg
+
++mq(tablet)
+  .modal-form
+    max-width: 496px
+    padding: 56px 64px 64px
+
+  .modal-form .form__title
+    font-size: 36px
+    em
+      font-size: 37px
+
+  .modal-form__close
+    left: 100%
+    right: auto
+    bottom: 100%
+    transition: border $default-transition
+
+    path
+      transition: $default-transition
+
+  .modal-form__close:hover
+    border-color: $primary
+    path
+      stroke: $primary

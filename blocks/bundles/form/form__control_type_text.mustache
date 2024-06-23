@@ -1,0 +1,15 @@
+<div class="form-group">
+    <label class="form-label">
+        {{#icon}}
+            <span class="form__control-icon">
+                {{{.}}}
+            </span>
+        {{/icon}}
+        <input name="{{code}}"
+               type="{{#typeInput}}{{.}}{{/typeInput}}{{^typeInput}}text{{/typeInput}}"
+               value="{{value}}"
+            {{#placeholder}} placeholder="{{.}}{{#required}} *{{/required}}"{{/placeholder}}
+            {{#inputmode}} inputmode="{{.}}"{{/inputmode}}{{#html_required}} required{{/html_required}}
+               class="form__control{{#requiredCssClass}} {{.}}{{/requiredCssClass}}{{#maskCssClass}} {{.}}{{/maskCssClass}}{{#additionalCssClass}} {{.}}{{/additionalCssClass}}">
+    </label>
+</div>
