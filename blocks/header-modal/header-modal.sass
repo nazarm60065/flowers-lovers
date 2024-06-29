@@ -1,0 +1,155 @@
+@import "../header-modal-menu/header-modal-menu"
+
+.header-modal
+  display: none
+  background-color: $beige
+  position: fixed
+  top: 0
+  left: 0
+  right: 0
+  bottom: 0
+  padding-top: 10px
+  padding-bottom: 15px
+  overflow: hidden
+  z-index: -1
+  visibility: hidden
+  opacity: 0
+  transition: opacity $default-transition, z-index 0s $default-transition, visibility 0s $default-transition
+
+.header-modal_ready
+  display: block
+
+.page_menu-opened .header-modal
+  z-index: 1000
+  opacity: 1
+  visibility: visible
+  transition: opacity $default-transition, z-index 0s, visibility 0s
+
+.header-modal-overlay
+  display: none
+
+.header-modal-container
+  display: flex
+  flex-direction: column
+  height: 100%
+
+.header-modal-top
+  display: flex
+  align-items: flex-end
+  padding-bottom: 15px
+  border-bottom: 1px solid #EAD2CB
+  flex-shrink: 0
+
+.header-modal__title
+  font-size: 13px
+  line-height: 15.6px
+  letter-spacing: 0.12em
+  color: $brown-light
+  text-transform: uppercase
+
+.header-modal__close
+  width: 26px
+  height: 26px
+  flex-shrink: 0
+  margin-left: auto
+  +svg
+
+
+.header-modal-content
+  height: 100%
+  min-height: 0
+  margin-right: -10px
+  padding-right: 10px
+  overflow: hidden auto
+
+.header-modal-content::-webkit-scrollbar
+  width: 4px
+
+.header-modal-content::-webkit-scrollbar-thumb
+  width: 4px
+  background-color: $pink-light-color
+
+.header-modal-item
+  display: flex
+  align-items: center
+  gap: 10px
+  font-family: $wellingtons-font
+  font-size: 12px
+  line-height: 20.4px
+  letter-spacing: 0.02em
+
+.header-modal-item__icon
+  flex-shrink: 0
+  width: 24px
+  height: 24px
+  +svg
+
+.header-modal-personal
+  padding-bottom: 15px
+  margin: 15px 0
+  border-bottom: 1px solid $pink-light-color
+
+.header-modal-delivery
+  display: grid
+  grid-template-columns: 115px 115px 1fr
+  gap: 10px
+  padding-bottom: 15px
+  border-bottom: 1px solid $pink-light-color
+  margin: 15px 0
+
+.header-modal-about
+  margin: 15px 0
+
+.header-modal-contacts
+  margin: 15px 0
+  display: grid
+  grid-template-columns: 115px 115px 1fr
+  gap: 10px
+
+
++mq(tablet)
+  .header-modal
+    width: 720px
+    right: auto
+    padding-top: 23px
+
+  .header-modal-overlay
+    position: fixed
+    top: 0
+    left: 0
+    right: 0
+    bottom: 0
+    cursor: pointer
+    background-color: rgba(0,0,0, 0.2)
+    z-index: -1
+    visibility: hidden
+    opacity: 0
+    transition: opacity $default-transition, z-index 0s $default-transition, visibility 0s $default-transition
+
+  .header-modal-overlay_ready
+    display: block
+
+  .page_menu-opened .header-modal-overlay
+    z-index: 999
+    opacity: 1
+    visibility: visible
+    transition: opacity $default-transition, z-index 0s, visibility 0s
+
+  .header-modal-container
+    padding: 0 50px
+
+  .header-modal-top
+    border: none
+    padding-bottom: 30px
+
+  .header-modal__title
+    display: none
+
+  .header-modal__close
+    margin-left: 0
+
+  .header-modal-personal,
+  .header-modal-delivery,
+  .header-modal-about,
+  .header-modal-contacts
+    display: none

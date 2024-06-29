@@ -1,0 +1,35 @@
+.footer-socials
+  margin-top: 15px
+  display: flex
+  align-items: center
+  justify-content: center
+  flex-wrap: wrap
+  gap: 10px
+  font-size: 12px
+  line-height: 14.4px
+  letter-spacing: 0.12em
+  text-transform: uppercase
+
+.footer-socials-item
+  flex-grow: 1
+
+.footer-socials-item__link
+  display: flex
+  align-items: center
+  justify-content: center
+  gap: 10px
+
+.footer-socials-item__link-icon
+  width: 20px
+  height: 20px
+  flex-shrink: 0
+  +svg
+
++mq(desktop)
+  .footer-socials
+    margin-top: 0
+    gap: 50px
+
+  .footer-social
+    font-size: 13px
+    line-height: 15.6px

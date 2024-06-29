@@ -1,0 +1,146 @@
+@import "../header-burger/header-burger"
+@import "../header-top/header-top"
+@import "../header-menu/header-menu"
+@import "../header-modal/header-modal"
+
+.header
+  position: relative
+
+.header_homepage .header-float
+  background-color: transparent
+  border-bottom: none
+  color: $beige
+
+.header_homepage .header-logo path
+  fill: $beige
+
+.header_homepage .header-item path
+  stroke: $beige
+
+.header-float
+  height: 68px
+  position: absolute
+  top: 0
+  left: 0
+  right: 0
+  background-color: #FFF8EF
+  transition: transform $default-transition, top $default-transition
+
+.header_scroll .header-float
+  position: fixed
+  top: 0!important
+  transform: translate3d(0, -100%, 0)
+
+.header_scroll-up .header-float
+  transform: translate3d(0, 0, 0)
+
+.header-container
+  height: 100%
+  display: grid
+  grid-template-columns: 1fr 90px 1fr
+  align-items: flex-start
+  gap: 20px
+
+.header-logo
+  position: relative
+  width: 90px
+  height: 37px
+  margin-top: 14px
+  +svg
+
+.header-toggle-container
+  height: 100%
+
+.header__toggle
+  height: 100%
+  padding: 14px 3px 0
+  display: flex
+  align-items: flex-start
+
+
+.header-menu-and-toolbar
+  display: flex
+  justify-content: flex-end
+  gap: 10px
+
+.header-toolbar
+  margin-top: 14px
+  display: flex
+  justify-content: flex-end
+  align-items: center
+  gap: 9px
+
+.header-item
+  width: 22px
+  height: 22px
+  +svg
+
+.header-cart
+  position: relative
+
+.header-cart__count
+  font-family: Arial, sans-serif
+  position: absolute
+  top: -5px
+  right: -8px
+  width: 11px
+  height: 11px
+  border-radius: 50%
+  border: 1px solid
+  font-size: 7px
+  font-weight: 500
+  line-height: 1
+  text-align: center
+  display: flex
+  align-items: center
+  justify-content: center
+
++mq(tablet, max)
+  .header__toggle-text
+    display: none
+
+  .header-personal
+    display: none
+
+  .header-menu
+    display: none
+
++mq(tablet)
+  .header-container
+    grid-template-columns: 1fr 126px 1fr
+
+  .header-float
+    height: 115px
+    padding: 30px 0
+    border-bottom: 1px solid $beige-dark
+
+  .header-logo
+    width: 126px
+    height: 53px
+    margin: 0
+
+  .header__toggle
+    height: auto
+    display: flex
+    align-items: center
+    gap: 14px
+    padding: 8px 3px
+    text-transform: uppercase
+    font-size: 13px
+    line-height: 15.6px
+    letter-spacing: 0.12em
+
+  .header-menu-and-toolbar
+    display: flex
+    gap: 30px
+
+  .header-toolbar
+    gap: 15px
+    margin-top: 4px
+
+  .header-item
+    width: 25px
+    height: 25px
+
+  .header-cart__count
+    font-size: 8px

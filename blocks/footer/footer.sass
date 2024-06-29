@@ -1,0 +1,87 @@
+@import "../footer-logo/footer-logo"
+@import "../footer-menu/footer-menu"
+@import "../footer-socials/footer-socials"
+
+.footer
+  margin-top: auto
+  background-color: $main-color
+  padding-top: 35px
+  padding-bottom: 23px
+  color: $beige
+
+.footer-contacts-and-social
+  padding: 30px 0 33px
+  position: relative
+
+.footer-contacts-and-social:after
+  content: ''
+  position: absolute
+  left: 0
+  right: 0
+  bottom: 0
+  height: 4px
+  border-top: 1px solid $brown-light10
+  border-bottom: 1px solid $brown-light10
+
+.footer-contacts
+  display: flex
+  justify-content: center
+  flex-wrap: wrap
+  gap: 10px
+  font-family: $wellingtons-font
+  font-size: 18px
+  line-height: 1
+  text-align: center
+
+.footer-dev
+  margin-top: 12px
+  font-family: $wellingtons-font
+  font-size: 12px
+  line-height: 20.4px
+  letter-spacing: 0.02em
+  text-align: center
+
+.footer__copyright
+  margin-top: 15px
+  font-family: $wellingtons-font
+  color: $brown-dark
+  font-size: 10px
+  line-height: 14px
+  text-align: center
+
++mq(desktop)
+  .footer
+    padding: 70px 0 80px
+
+  .footer-inner
+    display: flex
+    gap: 40px
+    justify-content: space-between
+    position: relative
+    max-width: 1160px
+
+  .footer-logo-container
+    margin-top: 10px
+    width: 140px
+    flex-shrink: 0
+
+  .footer-content
+    max-width: 860px
+
+  .footer-contacts-and-social
+    display: flex
+    padding: 33px 0 36px
+
+  .footer-contacts
+    width: 300px
+    justify-content: flex-start
+    font-size: 16px
+    letter-spacing: 0.02em
+  .footer__copyright
+    margin-top: 40px
+    text-align: left
+
+  .footer-dev
+    position: absolute
+    bottom: 0
+    left: 0

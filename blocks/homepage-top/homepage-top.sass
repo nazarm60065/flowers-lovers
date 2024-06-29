@@ -1,0 +1,163 @@
+.homepage-top
+  position: relative
+  z-index: 0
+
+.homepage-top-slider:after
+  content: ''
+  position: absolute
+  top: 0
+  left: 0
+  right: 0
+  height: 50%
+  pointer-events: none
+  z-index: 4
+  background: linear-gradient(180deg, rgba(58, 41, 29, 0.368) 0%, rgba(58, 41, 29, 0) 30.21%)
+
+.homepage-top-slide
+  line-height: 0
+  height: 416px
+
+.homepage-top-slide__img
+  width: 100%
+  height: 100%
+  object-fit: cover
+
+.homepage-top-slider__arrow,
+.homepage-top-cards__arrow
+  position: absolute
+  top: 50%
+  width: 32px
+  height: 32px
+  margin-top: -16px
+  +svg
+
+.homepage-top-slider__arrow_prev
+  left: 10px
+
+.homepage-top-slider__arrow_next
+  right: 10px
+
+.homepage-top-cards-wrapper
+  background-color: $beige-dark
+  overflow: hidden
+
+.homepage-top-cards
+  padding: 20px 0
+  overflow: visible
+
+.homepage-top-card
+  background-color: $beige
+  text-align: center
+  padding: 6px
+  height: auto
+
+.homepage-top-card-container
+  border: 1px solid $beige-dark
+  padding: 36px 30px 50px
+  height: 100%
+
+.homepage-top-card__suptitle
+  font-family: $anastasia-font
+  font-size: 30px
+  line-height: 39.3px
+  margin-bottom: 3px
+
+.homepage-top-card__title
+  font-size: 24px
+  line-height: 1
+  letter-spacing: 0.12em
+  text-transform: uppercase
+
+.homepage-top-card-link-container
+  margin-top: 17px
+
+.homepage-top-card__link
+  color: $orange-color
+  font-size: 12px
+  line-height: 14.4px
+  letter-spacing: 0.12em
+  text-transform: uppercase
+  border-bottom: 1px solid $pink-color
+  padding-bottom: 2px
+
+.homepage-top-cards-dots
+  display: flex
+  align-items: center
+  justify-content: center
+  gap: 19px
+  position: absolute
+  bottom: 40px
+  left: 0
+  right: 0
+
+.homepage-top-cards-dots .swiper-pagination-bullet
+  width: 5px
+  height: 5px
+  border-radius: 50%
+  border: 1px solid $main-color
+  background-color: $main-color
+  transition: background-color $default-transition
+
+.homepage-top-cards-dots .swiper-pagination-bullet-active
+  background-color: transparent
+
++mq(tablet)
+  .homepage-top-slide
+    height: 694px
+
++mq(desktop, max)
+  .homepage-top-cards__arrow
+    display: none
+
++mq(desktop)
+  .homepage-top-slide
+    height: 750px
+
+  .homepage-top-slider__arrow
+    display: none
+
+  .homepage-top-cards-wrapper
+    position: absolute
+    top: 180px
+    left: 50%
+    margin-left: -342px
+    width: 684px
+
+  .homepage-top-cards-container
+    padding: 0
+    max-width: none
+
+  .homepage-top-cards
+    padding: 0
+
+  .homepage-top-card
+    min-height: 286px
+
+  .homepage-top-card-container
+    padding: 73px 50px 50px
+
+  .homepage-top-card__suptitle
+    width: 100%
+    margin-bottom: 0
+
+  .homepage-top-card__title
+    width: 100%
+    font-size: 32px
+    line-height: 1
+
+  .homepage-top-card-link-container
+    margin-top: 23px
+    width: 100%
+
+  .homepage-top-card__link
+    font-size: 13px
+    line-height: 15.6px
+
+  .homepage-top-cards-dots
+    bottom: 23px
+
+  .homepage-top-cards__arrow_prev
+    left: 15px
+
+  .homepage-top-cards__arrow_next
+    right: 15px

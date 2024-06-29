@@ -1,0 +1,66 @@
+.footer-menu
+  padding-bottom: 3px
+  position: relative
+  &:after
+    content: ''
+    position: absolute
+    left: 0
+    right: 0
+    bottom: 0
+    height: 4px
+    border-top: 1px solid $brown-light10
+    border-bottom: 1px solid $brown-light10
+
+.footer-menu-section-top
+  font-size: 18px
+  line-height: 19px
+  letter-spacing: 0.12em
+  text-transform: uppercase
+
+.footer-menu-item
+  margin-bottom: 15px
+  &:last-child
+    margin-bottom: 0
+
+.footer-menu-item__link
+  font-family: $wellingtons-font
+  font-size: 12px
+  line-height: 20.4px
+  letter-spacing: 0.02em
+
++mq(desktop, max)
+  .footer-menu-section
+    padding: 0 0 20px
+    border-bottom: 1px solid $brown-light10
+
+  .footer-menu-section-top
+    padding-top: 20px
+    display: flex
+    justify-content: space-between
+
+  .footer-menu-section_opened .footer-menu-section-top__icon
+    transform: rotate(-180deg)
+
+  .footer-menu-section-top__icon
+    margin-top: 5px
+    margin-left: auto
+    width: 15px
+    height: 8px
+    transition: transform $default-transition
+    +svg
+
+  .footer-menu-list
+    padding-top: 20px
+
++mq(desktop)
+  .footer-menu
+    display: grid
+    grid-template-columns: repeat(3, minmax(0, 1fr))
+    gap: 40px
+    padding-bottom: 38px
+
+  .footer-menu-section-top__icon
+    display: none
+
+  .footer-menu-list
+    margin-top: 32px

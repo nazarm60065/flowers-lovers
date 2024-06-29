@@ -1,0 +1,93 @@
+.header-modal-menu-wrapper
+  margin-bottom: 35px
+
+.header-modal-menu-section
+  padding-bottom: 15px
+  border-bottom: 1px solid $pink-light-color
+
+.header-modal-menu-section_opened .header-modal-menu-section-top__icon
+  transform: rotate(180deg)
+
+.header-modal-menu-section-top
+  padding-top: 15px
+  display: flex
+  align-items: center
+  gap: 10px
+  text-transform: uppercase
+  font-size: 15px
+  line-height: 19px
+  letter-spacing: 0.12em
+
+.header-modal-menu-section-top__icon
+  margin-left: auto
+  flex-shrink: 0
+  transition: $default-transition
+  width: 15px
+  height: 8px
+  +svg
+.header-modal-menu-item
+  margin-bottom: 12px
+  &:last-child
+    margin-bottom: 0
+
+.header-modal-menu-item__link
+  font-family: $wellingtons-font
+  font-size: 12px
+  line-height: 20.4px
+  letter-spacing: 0.02em
+
+
+.header-modal-menu-list
+  margin-top: 15px
+
+.header-modal-menu-link-container
+  margin-top: 20px
+
+.header-modal-menu__link
+  font-size: 12px
+  line-height: 14.4px
+  letter-spacing: 0.12em
+  color: $orange-color
+  border-bottom: 1px solid
+  text-transform: uppercase
+
++mq(tablet)
+  .header-modal-menu
+    display: grid
+    grid-template-columns: repeat(3, minmax(0, 1fr))
+    gap: 40px
+    padding-bottom: 25px
+    border-bottom: 1px solid $beige-dark
+
+  .header-modal-menu-col
+    position: relative
+
+  .header-modal-menu-col:after
+    content: ''
+    position: absolute
+    top: 0
+    bottom: 0
+    left: calc(100% + 20px)
+    width: 1px
+    background-color: $beige-dark
+
+  .header-modal-menu-section
+    border-bottom: none
+    padding-bottom: 0
+
+  .header-modal-menu-section-top
+    font-size: 15px
+    line-height: 18px
+    letter-spacing: 0.12em
+    padding-top: 0
+
+  .header-modal-menu-section-top__icon
+    display: none
+
+  .header-modal-menu-link-container
+    margin-top: 30px
+
+  .header-modal-menu__link
+    font-size: 13px
+    line-height: 15.6px
+

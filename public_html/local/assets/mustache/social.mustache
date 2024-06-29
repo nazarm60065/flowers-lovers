@@ -1,0 +1,16 @@
+{{#items.isNotEmpty}}
+    <div class="socials">
+        {{#items}}
+            <div class="socials-item">
+                <a href="{{href}}" class="socials-item__link">
+                    {{#icon}}
+                        <span class="socials-item__link-icon">{{{.}}}</span>
+                    {{/icon}}
+                    {{#text}}
+                        <span class="socials-item__link-text">{{{.}}}</span>
+                    {{/text}}
+                </a>
+            </div>
+        {{/items}}
+    </div>
+{{/items.isNotEmpty}}

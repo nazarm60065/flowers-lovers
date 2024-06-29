@@ -28,9 +28,9 @@ textarea
   margin: 0
   padding: 0
   color: $main-color
-  background-color: #fff
+  background-color: $beige
   font-size: 16px
-  font-family: $default-font
+  font-family: $gothic-font
   font-weight: normal
   font-style: normal
   line-height: 1.25
@@ -38,12 +38,9 @@ textarea
   flex-direction: column
   min-height: 100vh
 
-.page__title
-  font-size: 32px
-  font-weight: 600
-  line-height: 1
-  letter-spacing: -0.04em
-  margin: 0 0 24px
+.page_menu-opened
+  overflow: hidden
+  padding-right: var(--scrollbar-width)
 
 .mobile
   &-hide
@@ -66,17 +63,9 @@ textarea
     &-block
       display: block
 
-  .page__title
-    font-size: 48px
-    line-height: 43.2px
-    margin-bottom: 28px
-
 +mq(desktop, max)
   .desktop-only
     display: none
-
-  .page_menu-opened
-    overflow: hidden
 
 +mq(desktop)
   .tablet-only
@@ -95,8 +84,6 @@ textarea
 
 @import "../../button/button"
 @import "../../container/container"
-
+@import "../../social/social"
 @import "../../header/header"
-
 @import "../../footer/footer"
-@import "../../breadcrumbs/breadcrumbs"

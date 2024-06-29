@@ -39,6 +39,9 @@ export class AdaptiveAccordion extends Accordion {
       if (!this.params._active) {
         this.params._active = true
 
+        if (this.params.hideOnStart) {
+          this.hiddenList.forEach(hidden => (hidden.style.display = 'none'))
+        }
         super.checkDefault()
       }
     }

@@ -1,6 +1,7 @@
 import loadingAttributePolyfill from 'loading-attribute-polyfill/dist/loading-attribute-polyfill.module'
 
-import {Header} from "../../header/header"
+import header from '../../header/header'
+import footer from '../../footer/footer'
 
 import './common.sass'
 import './templates'
@@ -10,7 +11,8 @@ window.loadingAttributePolyfill = loadingAttributePolyfill
 document.addEventListener('DOMContentLoaded', () => {
   setTimeout(setCssVariables)
 
-  new Header()
+  header()
+  footer()
 })
 
 function setCssVariables() {

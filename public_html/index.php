@@ -5,15 +5,13 @@
     <meta name="viewport"
           content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Проект УЗН АО</title>
+    <title>Проект Flowers Lovers</title>
 </head>
 <body>
-<h1>Проект УЗН АО</h1>
+<h1>Проект Flowers Lovers</h1>
 <ul>
     <li><a href="homepage.php">Главная</a></li>
-    <li><a href="news.php">Новости</a></li>
-    <li><a href="news-detail.php">Новости детальная</a></li>
-    <li><a href="vacancies.php">Вакансии</a></li>
+    <li><a href="static.php">Статичный раздел</a></li>
 </ul>
 </body>
 </html>

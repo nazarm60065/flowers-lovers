@@ -1,1 +1,0 @@
-import '../../vacancies-list/vacancies-list.mustache'

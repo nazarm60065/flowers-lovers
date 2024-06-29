@@ -1,0 +1,29 @@
+.footer-logo-container
+  padding-bottom: 35px
+  position: relative
+
+.footer-logo-container:after
+  content: ''
+  position: absolute
+  left: 0
+  right: 0
+  bottom: 0
+  height: 4px
+  border-top: 1px solid $brown-light10
+  border-bottom: 1px solid $brown-light10
+
+.footer-logo
+  position: relative
+  width: 110px
+  height: 46px
+  margin: 0 auto
+  +svg
+
++mq(tablet)
+  .footer-logo
+    width: 140px
+    height: 58px
+
++mq(desktop)
+  .footer-logo-container:after
+    display: none

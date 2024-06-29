@@ -1,9 +1,11 @@
 /* Fonts */
-$default-font: 'Inter', Arial, sans-serif
-$playfair-font: 'PlayfairDisplay', 'Times New Roman', serif
+$gothic-font: 'Engravers Gothic', Arial, sans-serif
+$default-font: $gothic-font
+$wellingtons-font: 'TT Wellingtons', Arial, sans-serif
+$anastasia-font: 'AnastasiaScript', Georgia, serif
 
 /* Colors */
-$main-color: #2F2F2F
+$main-color: #242424
 $main-color90: transparentize($main-color, .1)
 $main-color80: transparentize($main-color, .2)
 $main-color70: transparentize($main-color, .3)
@@ -15,30 +17,24 @@ $main-color12: transparentize($main-color, .88)
 $main-color10: transparentize($main-color, .9)
 $main-color4: transparentize($main-color, .96)
 
-$primary: #005DE9
-$primary90: transparentize($primary, .1)
-$primary80: transparentize($primary, .2)
-$primary70: transparentize($primary, .3)
-$primary60: transparentize($primary, .4)
-$primary50: transparentize($primary, .5)
-$primary12: transparentize($primary, .88)
-$primary10: transparentize($primary, .9)
+$pink-color: #DEADA6
+$pink-color90: transparentize($pink-color, .1)
+$pink-color80: transparentize($pink-color, .2)
+$pink-color70: transparentize($pink-color, .3)
+$pink-color60: transparentize($pink-color, .4)
+$pink-color50: transparentize($pink-color, .5)
+$pink-color12: transparentize($pink-color, .88)
+$pink-color10: transparentize($pink-color, .9)
 
-$primary-focused: #0057DA
+$pink-light-color: #EAD2CB
 
-$dark-grey-color: #4D4D4D
-$dark-grey-color64: transparentize($dark-grey-color, .36)
+$beige: #FFFAED
+$beige-dark: #F9ECDC
+$brown-dark: #707070
+$orange-color: #DE7553
 
-$darkest-grey-color: #2F2F2F
-$darkest-grey-color80: transparentize($darkest-grey-color, .2)
-
-$black-color: #111111
-
-$border-color: #E1E1E1
-
-$light-violet-color: #998BC4
-
-$blue-color: #3181E0
+$brown-light: #A19892
+$brown-light10: transparentize($brown-light, .9)
 
 /* Breakpoints
   Точки адаптивного перехода разрешений
@@ -64,8 +60,8 @@ $breakpoints: (mobile: $bp1, tablet: $bp2, desktop: $bp3, wide-screen: $bp4)
 
 $co1: 20px
 $co2: 34px
-$co3: 40px
-$co4: 40px
+$co3: 80px
+$co4: 80px
 
 /* Transition
   Значения времени переходов
@@ -75,7 +71,7 @@ $default-transition: 0.3s
 /* Header  height
   Значения высоты шапки
   */
-$hh1: 81px
+$hh1: 95px
 $hh2: 101px
 $hh3: 109px
 $hmh: 50px

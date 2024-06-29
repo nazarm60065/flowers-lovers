@@ -1,0 +1,25 @@
+<form method="post" action="{{action}}" class="form"{{#ajax_component_id}}
+      id="{{.}}"{{/ajax_component_id}}>
+    <div class="form-top">
+        {{#title}}
+            <div class="form__title">{{{.}}}</div>
+        {{/title}}
+        {{#sub_title}}
+            <div class="form__subtitle">{{{.}}}</div>
+        {{/sub_title}}
+    </div>
+    <div class="form-content">
+        <div class="form-content-fields">
+            {{#html_fields}}
+                {{{html}}}
+            {{/html_fields}}
+        </div>
+        <div class="form-bottom">
+            <div class="form-submit-container">
+                <button class="form__submit button button_filled-blue-border" name="submit" type="submit">
+                    {{{submit_text}}}
+                </button>
+            </div>
+        </div>
+    </div>
+</form>
