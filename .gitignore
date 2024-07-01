@@ -36,6 +36,7 @@ node_modules
 /vendor
 /app
 /local/assets/local/
+/local/assets/videos/
 /local/assets/mustache/
 
 composer.phar

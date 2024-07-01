@@ -1,0 +1,154 @@
+.homepage-catalog
+  margin: 35px 0 50px
+  overflow: hidden
+
+.homepage-catalog-top
+  margin-bottom: 30px
+
+.homepage-catalog-slider
+  overflow: visible
+  max-width: 300px
+  margin: 0 auto
+
+.homepage-catalog-slide
+  width: 100%
+  max-width: 300px
+  text-align: center
+
+.homepage-catalog-slide-image-wrapper
+  position: relative
+  padding-bottom: 100%
+
+.homepage-catalog-slide-image-inner
+  +absoluteFluid
+
+.homepage-catalog-slide-image__img
+  width: 100%
+  height: 100%
+  object-fit: cover
+
+.homepage-catalog-slide__available
+  position: absolute
+  top: 10px
+  left: 13px
+  background-color: $beige
+  font-family: $wellingtons-font
+  font-size: 11px
+  line-height: 19.41px
+  letter-spacing: 0.02em
+  padding: 6px 11px
+
+.homepage-catalog-slide__label
+  position: absolute
+  bottom: 10px
+  left: 13px
+  font-family:  $wellingtons-font
+  font-size: 9px
+  line-height: 15.53px
+  letter-spacing: 0.02em
+  padding: 3px 6px
+  background-color: #FFF8EFB2
+
+.homepage-catalog-slide-content
+  margin-top: 15px
+
+.homepage-catalog-slide__title
+  font-family: $wellingtons-font
+  font-size: 12px
+  line-height: 20.4px
+  letter-spacing: 0.02em
+
+.homepage-catalog-slide-price-base
+  font-size: 18px
+  line-height: 1
+  letter-spacing: 0.12em
+  white-space: nowrap
+
+.homepage-catalog-slide-sku
+  display: flex
+  flex-wrap: wrap
+  justify-content: center
+  align-items: center
+  gap: 15px
+  margin-top: 16px
+
+.homepage-catalog-slide-sku-item
+  font-family: $wellingtons-font
+  line-height: 1
+  letter-spacing: 0.02em
+  color: $brown-light
+  transition: color $default-transition
+
+.homepage-catalog-slide-sku-item_active
+  color: $main-color
+
+.homepage-catalog-slide-sku-item__value
+  display: block
+  font-size: 10px
+
+.homepage-catalog-slide-sku-item__note
+  display: block
+  font-size: 8px
+  margin-top: 4px
+
+.homepage-catalog-slide-button-container
+  margin-top: 17px
+
+.homepage-catalog-slide__to-cart
+  padding: 6px 19px 9px
+
++mq(tablet, max)
+  .homepage-catalog-toolbar
+    display: none
+    
++mq(tablet)
+  .homepage-catalog-top
+    position: relative
+    padding: 0 70px
+
+  .homepage-catalog-toolbar
+    position: absolute
+    right: 0
+    top: 0
+    display: flex
+    align-items: center
+
+  .homepage-catalog-slider__arrow
+    width: 32px
+    height: 32px
+    +svg
+
+  .homepage-catalog-slider
+    max-width: none
+
++mq(desktop)
+  .homepage-catalog
+    margin: 100px 0 50px
+
+  .homepage-catalog-top
+    margin-bottom: 35px
+
+  .homepage-catalog-slide
+    max-width: 388px
+
+  .homepage-catalog-slide__available
+    top: 16px
+    left: 16px
+    font-size: 12px
+    line-height: 20.37px
+
+  .homepage-catalog-slide__label
+    bottom: 16px
+    left: 16px
+    padding: 5px 8px 4px
+    font-size: 12px
+    line-height: 20.37px
+
+  .homepage-catalog-slide-content
+    margin-top: 10px
+
+  .homepage-catalog-slide-price-base
+    font-size: 18px
+
+  .homepage-catalog-slide-button-container
+    margin-top: 22px

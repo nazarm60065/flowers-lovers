@@ -1,0 +1,103 @@
+.homepage-sections
+  max-width: $bp4
+  position: relative
+  margin: 35px auto
+  padding-bottom: 70px
+  z-index: 0
+
+.homepage-sections:after
+  content: ''
+  position: absolute
+  left: 15px
+  right: 15px
+  bottom: 0
+  height: 6px
+  border-top: 1px solid $beige-dark
+  border-bottom: 1px solid $beige-dark
+  max-width: 1160px
+  margin: 0 auto
+
+.homepage-sections-top
+  text-align: center
+  margin-bottom: 35px
+  letter-spacing: 0.12em
+  text-transform: uppercase
+
+.homepage-sections__suptitle
+  font-size: 13px
+  line-height: 15.6px
+  letter-spacing: 0.12em
+
+
+.homepage-sections-list
+  display: grid
+  gap: 2px
+
+.homepage-section
+  position: relative
+  width: 100%
+  color: $beige
+
+.homepage-section:before
+  content: ''
+  +absoluteFluid
+  background: linear-gradient(0deg, rgba(58, 41, 29, 0.7) 0%, rgba(58, 41, 29, 0) 31.83%)
+
+.homepage-section-image
+  line-height: 0
+  width: 100%
+
+.homepage-section-image__img
+  width: 100%
+  height: auto
+
+.homepage-section-content
+  position: absolute
+  left: 0
+  right: 0
+  bottom: 0
+  color: $beige
+  text-align: center
+  letter-spacing: 0.12em
+  margin: 0 auto
+  padding: 32px 16px
+
+.homepage-section__title
+  font-size: 24px
+  line-height: 1
+  text-transform: uppercase
+
+.homepage-section__subtitle
+  margin-top: 10px
+  font-size: 13px
+  line-height: 15.6px
+  text-transform: uppercase
+
+
++mq(tablet)
+  .homepage-sections-list
+    grid-template-columns: repeat(3, minmax(0, 1fr))
+
+  .homepage-section:first-child
+    grid-column-start: 1
+    grid-column-end: 3
+
++mq(desktop)
+  .homepage-sections
+    margin: 60px auto 100px
+    padding-bottom: 60px
+
+  .homepage-sections-top
+    margin-bottom: 60px
+
+  .homepage-sections__suptitle
+    margin-bottom: 7px
+
+  .homepage-section-content
+    padding-bottom: 48px
+
+  .homepage-section__title
+    font-size: 32px
+
+  .homepage-section__subtitle
+    margin-top: 2px

@@ -1,0 +1,88 @@
+.homepage-collection
+  margin: 35px 0 70px
+  overflow: hidden
+
+.homepage-collection-top
+  margin-bottom: 20px
+
+.homepage-collection-tabs
+  overflow: visible
+  margin-bottom: 35px
+
+.homepage-collection-tabs:before,
+.homepage-collection-tabs:after
+  content: ''
+  position: absolute
+  top: 0
+  height: 100%
+  width: 80px
+  pointer-events: none
+  transition: opacity $default-transition
+  z-index: 3
+
+.homepage-collection-tabs:before
+  left: -20px
+  background: linear-gradient(-90deg, rgba(255, 250, 237, 0) 0%, #FFFAED 59.37%)
+
+.homepage-collection-tabs:after
+  right: -20px
+  background: linear-gradient(90deg, rgba(255, 250, 237, 0) 0%, #FFFAED 59.37%)
+
+.homepage-collection-tabs.slider_first-slide:before
+  opacity: 0
+
+.homepage-collection-tabs.slider_last-slide:after
+  opacity: 0
+
+.homepage-collection-tab
+  width: auto
+
+.homepage-collection-tab__button
+  font-family: $wellingtons-font
+  font-size: 12px
+  line-height: 20.4px
+  letter-spacing: 0.02em
+  color: $brown-light
+  transition: color $default-transition
+
+.homepage-collection-tab_active_active .homepage-collection-tab__button
+  color: $main-color
+
+.homepage-collection-tabs__arrow
+  position: absolute
+  top: 50%
+  margin-top: -8px
+  width: 9px
+  height: 16px
+  transition: opacity $default-transition
+  +svg
+
+.homepage-collection-tabs__arrow_disabled
+  opacity: 0
+  pointer-events: none
+
+.homepage-collection-tabs__arrow_prev
+  left: 0
+
+.homepage-collection-tabs__arrow_next
+  right: 0
+
+.homepage-collection-slider
+  max-width: 340px
+  width: calc(100% + 20px)
+  margin-left: -20px
+  transition: opacity $default-transition
+
+.homepage-collection-slider_hide
+  opacity: 0
+
+.homepage-collection-slider .homepage-catalog-slide
+  max-width: 340px
+
+.homepage-collection-button-container
+  margin-top: 35px
+  text-align: center
+
+.homepage-collection__button
+  display: inline-block
+  padding: 12px 13px 13px

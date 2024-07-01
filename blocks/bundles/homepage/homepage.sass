@@ -2,4 +2,18 @@
 @import "../../mixins/mixins"
 @import "../../slider/slider"
 @import "../../homepage-top/homepage-top"
+@import "../../homepage-catalog/homepage-catalog"
+@import "../../homepage-jumbo/homepage-jumbo"
+@import "../../homepage-sections/homepage-sections"
+@import "../../homepage-collection/homepage-collection"
 
+.homepage__title
+  font-size: 24px
+  line-height: 1
+  letter-spacing: 0.12em
+  text-align: center
+  text-transform: uppercase
+
++mq(tablet)
+  .homepage__title
+    font-size: 32px
