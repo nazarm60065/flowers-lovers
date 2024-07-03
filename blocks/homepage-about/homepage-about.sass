@@ -1,0 +1,94 @@
+.homepage-about
+  margin: 70px 0
+
+.homepage-about-image-wrapper
+  width: 100%
+  line-height: 0
+
+.homepage-about-image__img
+  width: 100%
+  height: auto
+
+.homepage-about-card
+  padding: 60px 0
+  text-align: center
+  position: relative
+  
+.homepage-about-card:before
+  content: ''
+  +absoluteFluid
+  background-color: $beige-dark
+  z-index: -1
+
+.homepage-about-card:after
+  content: ''
+  position: absolute
+  top: 10px
+  left: 10px
+  right: 10px
+  bottom: 10px
+  border: 1px solid $pink-light-color
+  z-index: -1
+
+.homepage-about-card__suptitle
+  font-family: $anastasia-font
+  font-size: 30px
+  line-height: 39.3px
+
+.homepage-about-card__title
+  margin-bottom: 30px
+
+.homepage-about-card__text
+  font-family: $wellingtons-font
+  font-size: 12px
+  line-height: 20.4px
+  letter-spacing: 0.02em
+  padding: 0 20px
+
+.homepage-about-card-button-container
+  margin-top: 12px
+
+.homepage-about-card__button
+  padding: 10px 26px 13px
+  display: inline-block
+  border-color: $beige-dark
+
++mq(tablet)
+  .homepage-about
+    display: grid
+    grid-template-columns: repeat(2, minmax(0, 1fr))
+
+  .homepage-about-image-wrapper
+    max-width: 100%
+
+  .homepage-about-card
+    height: auto
+    padding: 40px 20px
+    display: flex
+    flex-direction: column
+    justify-content: center
+
+  .homepage-about-container
+    padding: 0
+
+  .homepage-about-card__title
+    margin-bottom: 20px
+    width: 100%
+
+  .homepage-about-card__text
+    padding: 0
+    width: 100%
+    max-width: 358px
+    margin-left: auto
+    margin-right: auto
+
+  .homepage-about-card-button-container
+    margin-top: 18px
+
+  +mq(desktop, max)
+    .homepage-about-card__title
+      font-size: 24px
+
++mq(wide-screen)
+  .homepage-about-card-button-container
+    margin-top: 20px

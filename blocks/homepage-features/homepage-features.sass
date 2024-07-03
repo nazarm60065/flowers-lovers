@@ -1,0 +1,124 @@
+.homepage-features
+  margin: 70px 0 35px
+  padding-bottom: 88px
+  text-align: center
+  position: relative
+
+.homepage-features:after
+  content: ''
+  position: absolute
+  left: 14px
+  right: 14px
+  bottom: 0
+  height: 4px
+  border-top: 1px solid #F9ECDC
+  border-bottom: 1px solid #F9ECDC
+
+.homepage-features-top
+  margin-bottom: 35px
+
+.homepage-features__subtitle
+  margin-top: 15px
+  font-family: $wellingtons-font
+  font-size: 12px
+  line-height: 20.4px
+  letter-spacing: 0.02em
+  color: $brown-light
+
+.homepage-features-list
+  max-width: 280px
+  margin: auto
+
+.homepage-features-item
+  margin-bottom: 35px
+  &:last-child
+    margin-bottom: 0
+
+.homepage-features-item__icon
+  height: 85px
+  margin-bottom: 20px
+  display: flex
+  align-items: center
+  justify-content: center
+  line-height: 0
+  svg
+    max-width: 100%
+    max-height: 100%
+
+.homepage-features-item__title
+  font-size: 13px
+  line-height: 15.6px
+  letter-spacing: 0.12em
+  text-transform: uppercase
+
+.homepage-features-item__text
+  margin-top: 10px
+  font-family: $wellingtons-font
+  font-size: 12px
+  line-height: 20.4px
+  letter-spacing: 0.02em
+  color: $brown-light
+
++mq(tablet)
+  .homepage-features-list
+    width: 100%
+    max-width: none
+    display: flex
+    flex-wrap: wrap
+    gap: 20px
+    justify-content: space-between
+
+  .homepage-features-item
+    width: calc(33.33% - 24px)
+
++mq(desktop)
+  .homepage-features
+    margin: 100px 0 60px
+    padding-bottom: 100px
+
+  .homepage-features-top
+    max-width: 564px
+    margin: 0 auto 60px
+
+  .homepage-features:after
+    max-width: 1160px
+    margin: auto
+
+
+  .homepage-features-list
+    max-width: 1074px
+
+  .homepage-features-item
+    max-width: 280px
+    margin: 0
+    position: relative
+
+  .homepage-features-item:after
+    content: ''
+    position: absolute
+    top: -20px
+    left: calc(100% + 58px)
+    bottom: 20px
+    width: 1px
+    background-color: $beige-dark
+
+  .homepage-features-item:nth-child(3n):after
+    display: none
+
+  .homepage-features-item__icon
+    height: 130px
+    margin-bottom: 40px
+    svg
+      width: auto
+      height: 130px
+
+  .homepage-features-item__title
+    font-size: 18px
+
++mq(wide-screen)
+  .homepage-features-list
+    max-width: 1244px
+    padding: 0 60px
+
+  .homepage-features-item:after
+    left: calc(100% + 71px)

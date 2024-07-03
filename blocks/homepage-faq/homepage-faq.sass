@@ -1,0 +1,49 @@
+.homepage-faq
+  margin: 35px 0 55px
+
+.homepage-faq__title
+  margin-bottom: 30px
+
+.homepage-faq-list
+  border-top: 1px solid $beige-dark
+  font-family: $wellingtons-font
+  font-size: 12px
+  line-height: 20.4px
+  letter-spacing: 0.02em
+  max-width: 760px
+  margin: auto
+  
+.homepage-faq-item
+  border-bottom: 1px solid $beige-dark
+
+.homepage-faq-item_opened .homepage-faq-item-top__icon
+  transform: rotate(-180deg)
+
+.homepage-faq-item-top
+  display: flex
+  gap: 10px
+  padding: 22px 0
+  cursor: pointer
+
+.homepage-faq-item-top__icon
+  margin-top: 6px
+  margin-left: auto
+  width: 15px
+  height: 8px
+  flex-shrink: 0
+  transition: transform $default-transition
+  +svg
+
+.homepage-faq-item-hidden
+  display: none
+
+.homepage-faq-item__text
+  padding-bottom: 20px
+
++mq(desktop)
+  .homepage-faq
+    margin: 60px 0 100px
+
+  .homepage-faq__title
+    margin-bottom: 50px
+

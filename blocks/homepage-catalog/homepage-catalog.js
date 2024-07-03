@@ -15,10 +15,6 @@ export default () => {
         disabledClass: 'slider__arrow_disabled',
         lockClass: 'slider__arrow_lock',
       },
-      breakpoints: {
-        768: {
-        }
-      }
     })
   }
 }

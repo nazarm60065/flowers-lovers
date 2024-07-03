@@ -14,6 +14,7 @@ export default () => {
       modules: [Navigation],
       slidesPerView: 'auto',
       spaceBetween: 20,
+      centerInsufficientSlides: true,
       on: {
         init: sliderEdgeHandler({}),
         slideChange: sliderEdgeHandler({}),
@@ -30,10 +31,12 @@ export default () => {
   }
 
   if (slider) {
-    slidesList = document.querySelectorAll('.homepage-catalog-slide')
+    slidesList = slider.querySelectorAll('.homepage-catalog-slide')
 
     new Swiper(slider, {
-      spaceBetween: 2
+      spaceBetween: 2,
+      slidesPerView: 'auto',
+      centerInsufficientSlides: true,
     })
 
     if (tabs) {
@@ -59,8 +62,7 @@ export default () => {
     if (slider && tab) {
       slider.classList.add('homepage-collection-slider_hide')
 
-      clearTimeout(timer)
-      timer = setTimeout(() => {
+      setTimeout(() => {
         filterSlides(tab)
         slider.classList.remove('homepage-collection-slider_hide')
       }, 300)
