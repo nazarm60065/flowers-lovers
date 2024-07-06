@@ -1,0 +1,75 @@
+.homepage-viewed
+  overflow: hidden
+  background-color: $beige-dark
+  padding: 22px 0 50px
+
+.homepage-viewed-top
+  margin-bottom: 25px
+
+.homepage-viewed__title
+  font-size: 13px
+  line-height: 15.6px
+  letter-spacing: 0.12em
+  text-transform: uppercase
+
+.homepage-viewed-slider
+  max-width: 360px
+  width: calc(100% + $co1)
+  margin-left: -$co1
+  transition: opacity $default-transition
+
+.homepage-viewed-slider .homepage-catalog-slide
+  width: 50%
+
++mq(tablet, max)
+  .homepage-viewed-toolbar
+    display: none
+
++mq(tablet)
+  .homepage-viewed-top
+    position: relative
+    display: flex
+    align-items: center
+
+  .homepage-viewed__title
+    font-size: 16px
+    line-height: 1.1
+
+  .homepage-viewed-toolbar
+    display: flex
+    align-items: center
+    margin-left: auto
+
+  .homepage-viewed-slider__arrow
+    width: 32px
+    height: 32px
+    +svg
+
+  .homepage-viewed-slider
+    max-width: none
+    width: calc(100% + $co2)
+    margin-left: -$co2
+
++mq(desktop)
+  .homepage-viewed
+    padding-top: 70px
+    padding-bottom: 45px
+
+  .homepage-viewed-top
+    margin-bottom: 22px
+
+  .homepage-viewed__title
+    font-size: 18px
+    line-height: 19px
+
+  .homepage-viewed-slider
+    margin-left: 0
+    width: 100%
+    max-width: 1544px
+
+  .homepage-viewed-slider .homepage-catalog-slide
+    width: calc(25% - 2px)
+
++mq(wide-screen)
+  .homepage-viewed
+    padding-bottom: 70px
