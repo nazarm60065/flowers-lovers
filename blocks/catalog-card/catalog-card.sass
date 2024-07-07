@@ -1,0 +1,131 @@
+.catalog-card
+  width: 100%
+  height: auto
+  text-align: center
+  display: flex
+  flex-direction: column
+  position: relative
+  z-index: 0
+
+.catalog-card-image-wrapper
+  width: 100%
+  position: relative
+  padding-bottom: 100%
+
+.catalog-card-image-inner
+  line-height: 0
+  +absoluteFluid
+
+.catalog-card-image__img
+  width: 100%
+  height: 100%
+  object-fit: cover
+
+.catalog-card__available
+  position: absolute
+  top: 10px
+  left: 13px
+  background-color: $beige
+  font-family: $wellingtons-font
+  font-size: 11px
+  line-height: 19.41px
+  letter-spacing: 0.02em
+  padding: 6px 11px
+
+.catalog-card__label
+  position: absolute
+  bottom: 10px
+  left: 13px
+  font-family:  $wellingtons-font
+  font-size: 9px
+  line-height: 15.53px
+  letter-spacing: 0.02em
+  padding: 3px 6px
+  background-color: #FFF8EFB2
+
+.catalog-card-content
+  width: 100%
+  height: 100%
+  min-width: 0
+  display: flex
+  flex-direction: column
+  margin-top: 15px
+
+.catalog-card__title
+  width: 100%
+  font-family: $wellingtons-font
+  font-size: 12px
+  line-height: 20.4px
+  letter-spacing: 0.02em
+
+.catalog-card-price
+  width: 100%
+  margin-bottom: 16px
+
+.catalog-card-price-base
+  font-size: 18px
+  line-height: 1
+  letter-spacing: 0.12em
+  white-space: nowrap
+
+.catalog-card-sku
+  width: 100%
+  display: flex
+  flex-wrap: wrap
+  justify-content: center
+  align-items: center
+  gap: 15px
+  margin-bottom: 17px
+  position: relative
+  z-index: 1
+
+.catalog-card-sku-item
+  font-family: $wellingtons-font
+  line-height: 1
+  letter-spacing: 0.02em
+  color: $brown-light
+  transition: color $default-transition
+
+.catalog-card-sku-item_active
+  color: $main-color
+
+.catalog-card-sku-item__value
+  display: block
+  font-size: 10px
+
+.catalog-card-sku-item__note
+  display: block
+  font-size: 8px
+  margin-top: 4px
+
+.catalog-card-button-container
+  width: 100%
+  margin-top: auto
+  position: relative
+  z-index: 1
+
+.catalog-card__to-cart
+  padding: 6px 19px 9px
+
++mq(desktop)
+  .catalog-card__available
+    top: 16px
+    left: 16px
+    font-size: 12px
+    line-height: 20.37px
+
+  .catalog-card__label
+    bottom: 16px
+    left: 16px
+    padding: 5px 8px 4px
+    font-size: 12px
+    line-height: 20.37px
+
+  .catalog-card-content
+    margin-top: 10px
+
+  .catalog-card-price-base
+    font-size: 18px
+
+  .catalog-card-sku
+    margin-bottom: 22px

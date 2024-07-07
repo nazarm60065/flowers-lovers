@@ -1,0 +1,25 @@
+.breadcrumbs
+  font-family: $wellingtons-font
+  font-size: 10px
+  line-height: 14px
+  letter-spacing: 0.02em
+  display: flex
+  flex-wrap: wrap
+  align-items: flex-start
+  gap: 24px
+  margin-bottom: 28px
+
+.breadcrumbs__item
+  position: relative
+
+  &:after
+    content: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='5' height='10' fill='none'%3E%3Cpath stroke='%23D2B9AE' stroke-linecap='round' stroke-miterlimit='10' stroke-width='.5' d='m.362 9.5 4.135-4.337a.237.237 0 0 0 0-.326L.362.5'/%3E%3C/svg%3E")
+    position: absolute
+    left: calc(100% + 10px)
+    top: 2px
+
+.breadcrumbs__item_last
+  color: $brown-light
+
+  &:after
+    display: none

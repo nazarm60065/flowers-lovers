@@ -130,176 +130,180 @@ $pageConfig = [
       </div>
       <div class="swiper homepage-catalog-slider">
         <div class="swiper-wrapper">
-          <div class="swiper-slide homepage-catalog-slide homepage-catalog-card">
-            <div class="homepage-catalog-slide-image-wrapper">
-              <div class="homepage-catalog-slide-image-inner homepage-catalog-slide-image-inner_active">
-                <div class="homepage-catalog-slide__available">
+          <div class="swiper-slide catalog-card homepage-catalog-slide">
+            <div class="catalog-card-image-wrapper">
+              <div class="catalog-card-image-inner catalog-card-image-inner_active">
+                <div class="catalog-card__available">
                   Только под заказ
                 </div>
                 <img src="/local/assets/images/catalog/image1.jpg" alt="Дыхание весны"
-                     class="homepage-catalog-slide-image__img" loading="lazy">
-                <div class="homepage-catalog-slide__label">
+                     class="catalog-card-image__img" loading="lazy">
+                <div class="catalog-card__label">
                   На фото размер L
                 </div>
               </div>
             </div>
-            <div class="homepage-catalog-slide-content">
-              <div class="homepage-catalog-slide__title">Дыхание весны</div>
-              <div class="homepage-catalog-slide-price">
-                <div class="homepage-catalog-slide-price-base">
-                  <span class="homepage-catalog-slide-price__value">19 500</span><span
-                    class="homepage-catalog-slide-price__currency">₽</span>
+            <div class="catalog-card-content">
+              <div class="catalog-card__title">Дыхание весны</div>
+              <div class="catalog-card-price">
+                <div class="catalog-card-price-base">
+                  <span class="catalog-card-price__value">19 500</span><span
+                    class="catalog-card-price__currency">₽</span>
                 </div>
               </div>
-              <div class="homepage-catalog-slide-sku">
-                <button class="homepage-catalog-slide-sku-item" type="button">
-                  <span class="homepage-catalog-slide-sku-item__value">XS</span>
-                  <span class="homepage-catalog-slide-sku-item__note">30 см</span>
+              <div class="catalog-card-sku">
+                <button class="catalog-card-sku-item" type="button">
+                  <span class="catalog-card-sku-item__value">XS</span>
+                  <span class="catalog-card-sku-item__note">30 см</span>
                 </button>
-                <button class="homepage-catalog-slide-sku-item" type="button">
-                  <span class="homepage-catalog-slide-sku-item__value">S</span>
-                  <span class="homepage-catalog-slide-sku-item__note">35 см</span>
+                <button class="catalog-card-sku-item" type="button">
+                  <span class="catalog-card-sku-item__value">S</span>
+                  <span class="catalog-card-sku-item__note">35 см</span>
                 </button>
-                <button class="homepage-catalog-slide-sku-item" type="button">
-                  <span class="homepage-catalog-slide-sku-item__value">М</span>
-                  <span class="homepage-catalog-slide-sku-item__note">40 см</span>
+                <button class="catalog-card-sku-item" type="button">
+                  <span class="catalog-card-sku-item__value">М</span>
+                  <span class="catalog-card-sku-item__note">40 см</span>
                 </button>
-                <button class="homepage-catalog-slide-sku-item homepage-catalog-slide-sku-item_active" type="button">
-                  <span class="homepage-catalog-slide-sku-item__value">L</span>
-                  <span class="homepage-catalog-slide-sku-item__note">45 см</span>
+                <button class="catalog-card-sku-item catalog-card-sku-item_active" type="button">
+                  <span class="catalog-card-sku-item__value">L</span>
+                  <span class="catalog-card-sku-item__note">45 см</span>
                 </button>
-                <button class="homepage-catalog-slide-sku-item" type="button">
-                  <span class="homepage-catalog-slide-sku-item__value">XXL</span>
-                  <span class="homepage-catalog-slide-sku-item__note">65 см</span>
+                <button class="catalog-card-sku-item" type="button">
+                  <span class="catalog-card-sku-item__value">XXL</span>
+                  <span class="catalog-card-sku-item__note">65 см</span>
                 </button>
               </div>
-              <div class="homepage-catalog-slide-button-container">
-                <button class="button button_linear homepage-catalog-slide__to-cart" type="button">В корзину</button>
+              <div class="catalog-card-button-container">
+                <button class="button button_linear catalog-card__to-cart" type="button">В корзину</button>
               </div>
             </div>
+            <a href="#" class="link-as-card"></a>
           </div>
-          <div class="swiper-slide homepage-catalog-slide homepage-catalog-card">
-            <div class="homepage-catalog-slide-image-wrapper">
-              <div class="homepage-catalog-slide-image-inner homepage-catalog-slide-image-inner_active">
+          <div class="swiper-slide catalog-card homepage-catalog-slide">
+            <div class="catalog-card-image-wrapper">
+              <div class="catalog-card-image-inner catalog-card-image-inner_active">
                 <img src="/local/assets/images/catalog/image2.jpg" alt="Дыхание весны"
-                     class="homepage-catalog-slide-image__img" loading="lazy">
-                <div class="homepage-catalog-slide__label">
+                     class="catalog-card-image__img" loading="lazy">
+                <div class="catalog-card__label">
                   На фото 55 шт.
                 </div>
               </div>
             </div>
-            <div class="homepage-catalog-slide-content">
-              <div class="homepage-catalog-slide__title">Пионовидные розы O'HARA (розовая) в корзине</div>
-              <div class="homepage-catalog-slide-price">
-                <div class="homepage-catalog-slide-price-base">
-                  <span class="homepage-catalog-slide-price__value">22 400</span><span
-                    class="homepage-catalog-slide-price__currency">₽</span>
+            <div class="catalog-card-content">
+              <div class="catalog-card__title">Пионовидные розы O'HARA (розовая) в корзине</div>
+              <div class="catalog-card-price">
+                <div class="catalog-card-price-base">
+                  <span class="catalog-card-price__value">22 400</span><span
+                    class="catalog-card-price__currency">₽</span>
                 </div>
               </div>
-              <div class="homepage-catalog-slide-sku">
-                <button class="homepage-catalog-slide-sku-item" type="button">
-                  <span class="homepage-catalog-slide-sku-item__value">35 шт.</span>
+              <div class="catalog-card-sku">
+                <button class="catalog-card-sku-item" type="button">
+                  <span class="catalog-card-sku-item__value">35 шт.</span>
                 </button>
-                <button class="homepage-catalog-slide-sku-item homepage-catalog-slide-sku-item_active" type="button">
-                  <span class="homepage-catalog-slide-sku-item__value">55 шт.</span>
+                <button class="catalog-card-sku-item catalog-card-sku-item_active" type="button">
+                  <span class="catalog-card-sku-item__value">55 шт.</span>
                 </button>
-                <button class="homepage-catalog-slide-sku-item" type="button">
-                  <span class="homepage-catalog-slide-sku-item__value">75 шт.</span>
+                <button class="catalog-card-sku-item" type="button">
+                  <span class="catalog-card-sku-item__value">75 шт.</span>
                 </button>
-                <button class="homepage-catalog-slide-sku-item" type="button">
-                  <span class="homepage-catalog-slide-sku-item__value">101 шт.</span>
+                <button class="catalog-card-sku-item" type="button">
+                  <span class="catalog-card-sku-item__value">101 шт.</span>
                 </button>
               </div>
-              <div class="homepage-catalog-slide-button-container">
-                <button class="button button_linear homepage-catalog-slide__to-cart" type="button">В корзину</button>
+              <div class="catalog-card-button-container">
+                <button class="button button_linear catalog-card__to-cart" type="button">В корзину</button>
               </div>
             </div>
+            <a href="#" class="link-as-card"></a>
           </div>
-          <div class="swiper-slide homepage-catalog-slide homepage-catalog-card">
-            <div class="homepage-catalog-slide-image-wrapper">
-              <div class="homepage-catalog-slide-image-inner homepage-catalog-slide-image-inner_active">
+          <div class="swiper-slide catalog-card homepage-catalog-slide">
+            <div class="catalog-card-image-wrapper">
+              <div class="catalog-card-image-inner catalog-card-image-inner_active">
                 <img src="/local/assets/images/catalog/image3.jpg" alt="Дыхание весны"
-                     class="homepage-catalog-slide-image__img" loading="lazy">
-                <div class="homepage-catalog-slide__label">
+                     class="catalog-card-image__img" loading="lazy">
+                <div class="catalog-card__label">
                   На фото размер L
                 </div>
               </div>
             </div>
-            <div class="homepage-catalog-slide-content">
-              <div class="homepage-catalog-slide__title">Искушение</div>
-              <div class="homepage-catalog-slide-price">
-                <div class="homepage-catalog-slide-price-base">
-                  <span class="homepage-catalog-slide-price__value">33 900</span><span
-                    class="homepage-catalog-slide-price__currency">₽</span>
+            <div class="catalog-card-content">
+              <div class="catalog-card__title">Искушение</div>
+              <div class="catalog-card-price">
+                <div class="catalog-card-price-base">
+                  <span class="catalog-card-price__value">33 900</span><span
+                    class="catalog-card-price__currency">₽</span>
                 </div>
               </div>
-              <div class="homepage-catalog-slide-sku">
-                <button class="homepage-catalog-slide-sku-item" type="button">
-                  <span class="homepage-catalog-slide-sku-item__value">S</span>
-                  <span class="homepage-catalog-slide-sku-item__note">35 см</span>
+              <div class="catalog-card-sku">
+                <button class="catalog-card-sku-item" type="button">
+                  <span class="catalog-card-sku-item__value">S</span>
+                  <span class="catalog-card-sku-item__note">35 см</span>
                 </button>
-                <button class="homepage-catalog-slide-sku-item" type="button">
-                  <span class="homepage-catalog-slide-sku-item__value">М</span>
-                  <span class="homepage-catalog-slide-sku-item__note">40 см</span>
+                <button class="catalog-card-sku-item" type="button">
+                  <span class="catalog-card-sku-item__value">М</span>
+                  <span class="catalog-card-sku-item__note">40 см</span>
                 </button>
-                <button class="homepage-catalog-slide-sku-item homepage-catalog-slide-sku-item_active" type="button">
-                  <span class="homepage-catalog-slide-sku-item__value">L</span>
-                  <span class="homepage-catalog-slide-sku-item__note">45 см</span>
+                <button class="catalog-card-sku-item catalog-card-sku-item_active" type="button">
+                  <span class="catalog-card-sku-item__value">L</span>
+                  <span class="catalog-card-sku-item__note">45 см</span>
                 </button>
               </div>
-              <div class="homepage-catalog-slide-button-container">
-                <button class="button button_linear homepage-catalog-slide__to-cart" type="button">В корзину</button>
+              <div class="catalog-card-button-container">
+                <button class="button button_linear catalog-card__to-cart" type="button">В корзину</button>
               </div>
             </div>
+            <a href="#" class="link-as-card"></a>
           </div>
-          <div class="swiper-slide homepage-catalog-slide homepage-catalog-card">
-            <div class="homepage-catalog-slide-image-wrapper">
-              <div class="homepage-catalog-slide-image-inner homepage-catalog-slide-image-inner_active">
+          <div class="swiper-slide catalog-card homepage-catalog-slide">
+            <div class="catalog-card-image-wrapper">
+              <div class="catalog-card-image-inner catalog-card-image-inner_active">
                 <img src="/local/assets/images/catalog/image4.jpg" alt="Дыхание весны"
-                     class="homepage-catalog-slide-image__img" loading="lazy">
-                <div class="homepage-catalog-slide__label">
+                     class="catalog-card-image__img" loading="lazy">
+                <div class="catalog-card__label">
                   На фото 69 шт.
                 </div>
               </div>
             </div>
-            <div class="homepage-catalog-slide-content">
-              <div class="homepage-catalog-slide__title">Розы алые</div>
-              <div class="homepage-catalog-slide-price">
-                <div class="homepage-catalog-slide-price-base">
-                  <span class="homepage-catalog-slide-price__value">22 400</span><span
-                    class="homepage-catalog-slide-price__currency">₽</span>
+            <div class="catalog-card-content">
+              <div class="catalog-card__title">Розы алые</div>
+              <div class="catalog-card-price">
+                <div class="catalog-card-price-base">
+                  <span class="catalog-card-price__value">22 400</span><span
+                    class="catalog-card-price__currency">₽</span>
                 </div>
               </div>
-              <div class="homepage-catalog-slide-sku">
-                <button class="homepage-catalog-slide-sku-item" type="button">
-                  <span class="homepage-catalog-slide-sku-item__value">29 шт.</span>
+              <div class="catalog-card-sku">
+                <button class="catalog-card-sku-item" type="button">
+                  <span class="catalog-card-sku-item__value">29 шт.</span>
                 </button>
-                <button class="homepage-catalog-slide-sku-item" type="button">
-                  <span class="homepage-catalog-slide-sku-item__value">39 шт.</span>
+                <button class="catalog-card-sku-item" type="button">
+                  <span class="catalog-card-sku-item__value">39 шт.</span>
                 </button>
-                <button class="homepage-catalog-slide-sku-item" type="button">
-                  <span class="homepage-catalog-slide-sku-item__value">49 шт.</span>
+                <button class="catalog-card-sku-item" type="button">
+                  <span class="catalog-card-sku-item__value">49 шт.</span>
                 </button>
-                <button class="homepage-catalog-slide-sku-item" type="button">
-                  <span class="homepage-catalog-slide-sku-item__value">59 шт.</span>
+                <button class="catalog-card-sku-item" type="button">
+                  <span class="catalog-card-sku-item__value">59 шт.</span>
                 </button>
-                <button class="homepage-catalog-slide-sku-item homepage-catalog-slide-sku-item_active" type="button">
-                  <span class="homepage-catalog-slide-sku-item__value">69 шт.</span>
+                <button class="catalog-card-sku-item catalog-card-sku-item_active" type="button">
+                  <span class="catalog-card-sku-item__value">69 шт.</span>
                 </button>
-                <button class="homepage-catalog-slide-sku-item" type="button">
-                  <span class="homepage-catalog-slide-sku-item__value">79 шт.</span>
+                <button class="catalog-card-sku-item" type="button">
+                  <span class="catalog-card-sku-item__value">79 шт.</span>
                 </button>
-                <button class="homepage-catalog-slide-sku-item" type="button">
-                  <span class="homepage-catalog-slide-sku-item__value">89 шт.</span>
+                <button class="catalog-card-sku-item" type="button">
+                  <span class="catalog-card-sku-item__value">89 шт.</span>
                 </button>
-                <button class="homepage-catalog-slide-sku-item" type="button">
-                  <span class="homepage-catalog-slide-sku-item__value">101 шт.</span>
+                <button class="catalog-card-sku-item" type="button">
+                  <span class="catalog-card-sku-item__value">101 шт.</span>
                 </button>
               </div>
-              <div class="homepage-catalog-slide-button-container">
-                <button class="button button_linear homepage-catalog-slide__to-cart" type="button">В корзину</button>
+              <div class="catalog-card-button-container">
+                <button class="button button_linear catalog-card__to-cart" type="button">В корзину</button>
               </div>
             </div>
+            <a href="#" class="link-as-card"></a>
           </div>
         </div>
       </div>
@@ -454,705 +458,722 @@ $pageConfig = [
       </div>
       <div class="swiper homepage-catalog-slider homepage-collection-slider">
         <div class="swiper-wrapper">
-          <div class="swiper-slide homepage-catalog-slide homepage-catalog-card" data-tab="1">
-            <div class="homepage-catalog-slide-image-wrapper">
-              <div class="homepage-catalog-slide-image-inner homepage-catalog-slide-image-inner_active">
-                <div class="homepage-catalog-slide__available">
+          <div class="swiper-slide catalog-card homepage-catalog-slide" data-tab="1">
+            <div class="catalog-card-image-wrapper">
+              <div class="catalog-card-image-inner catalog-card-image-inner_active">
+                <div class="catalog-card__available">
                   Только под заказ
                 </div>
                 <img src="/local/assets/images/catalog/image1.jpg" alt="Дыхание весны"
-                     class="homepage-catalog-slide-image__img" loading="lazy">
-                <div class="homepage-catalog-slide__label">
+                     class="catalog-card-image__img" loading="lazy">
+                <div class="catalog-card__label">
                   На фото размер L
                 </div>
               </div>
             </div>
-            <div class="homepage-catalog-slide-content">
-              <div class="homepage-catalog-slide__title">Дыхание весны</div>
-              <div class="homepage-catalog-slide-price">
-                <div class="homepage-catalog-slide-price-base">
-                  <span class="homepage-catalog-slide-price__value">19 500</span><span
-                    class="homepage-catalog-slide-price__currency">₽</span>
+            <div class="catalog-card-content">
+              <div class="catalog-card__title">Дыхание весны</div>
+              <div class="catalog-card-price">
+                <div class="catalog-card-price-base">
+                  <span class="catalog-card-price__value">19 500</span><span
+                    class="catalog-card-price__currency">₽</span>
                 </div>
               </div>
-              <div class="homepage-catalog-slide-sku">
-                <button class="homepage-catalog-slide-sku-item" type="button">
-                  <span class="homepage-catalog-slide-sku-item__value">XS</span>
-                  <span class="homepage-catalog-slide-sku-item__note">30 см</span>
+              <div class="catalog-card-sku">
+                <button class="catalog-card-sku-item" type="button">
+                  <span class="catalog-card-sku-item__value">XS</span>
+                  <span class="catalog-card-sku-item__note">30 см</span>
                 </button>
-                <button class="homepage-catalog-slide-sku-item" type="button">
-                  <span class="homepage-catalog-slide-sku-item__value">S</span>
-                  <span class="homepage-catalog-slide-sku-item__note">35 см</span>
+                <button class="catalog-card-sku-item" type="button">
+                  <span class="catalog-card-sku-item__value">S</span>
+                  <span class="catalog-card-sku-item__note">35 см</span>
                 </button>
-                <button class="homepage-catalog-slide-sku-item" type="button">
-                  <span class="homepage-catalog-slide-sku-item__value">М</span>
-                  <span class="homepage-catalog-slide-sku-item__note">40 см</span>
+                <button class="catalog-card-sku-item" type="button">
+                  <span class="catalog-card-sku-item__value">М</span>
+                  <span class="catalog-card-sku-item__note">40 см</span>
                 </button>
-                <button class="homepage-catalog-slide-sku-item homepage-catalog-slide-sku-item_active" type="button">
-                  <span class="homepage-catalog-slide-sku-item__value">L</span>
-                  <span class="homepage-catalog-slide-sku-item__note">45 см</span>
+                <button class="catalog-card-sku-item catalog-card-sku-item_active" type="button">
+                  <span class="catalog-card-sku-item__value">L</span>
+                  <span class="catalog-card-sku-item__note">45 см</span>
                 </button>
-                <button class="homepage-catalog-slide-sku-item" type="button">
-                  <span class="homepage-catalog-slide-sku-item__value">XXL</span>
-                  <span class="homepage-catalog-slide-sku-item__note">65 см</span>
+                <button class="catalog-card-sku-item" type="button">
+                  <span class="catalog-card-sku-item__value">XXL</span>
+                  <span class="catalog-card-sku-item__note">65 см</span>
                 </button>
               </div>
-              <div class="homepage-catalog-slide-button-container">
-                <button class="button button_linear homepage-catalog-slide__to-cart" type="button">собрать похожий
+              <div class="catalog-card-button-container">
+                <button class="button button_linear catalog-card__to-cart" type="button">собрать похожий
                 </button>
               </div>
             </div>
+            <a href="#" class="link-as-card"></a>
           </div>
-          <div class="swiper-slide homepage-catalog-slide homepage-catalog-card" data-tab="2">
-            <div class="homepage-catalog-slide-image-wrapper">
-              <div class="homepage-catalog-slide-image-inner homepage-catalog-slide-image-inner_active">
+          <div class="swiper-slide catalog-card homepage-catalog-slide" data-tab="2">
+            <div class="catalog-card-image-wrapper">
+              <div class="catalog-card-image-inner catalog-card-image-inner_active">
                 <img src="/local/assets/images/catalog/image2.jpg" alt="Дыхание весны"
-                     class="homepage-catalog-slide-image__img" loading="lazy">
-                <div class="homepage-catalog-slide__label">
+                     class="catalog-card-image__img" loading="lazy">
+                <div class="catalog-card__label">
                   На фото 55 шт.
                 </div>
               </div>
             </div>
-            <div class="homepage-catalog-slide-content">
-              <div class="homepage-catalog-slide__title">Пионовидные розы O'HARA (розовая) в корзине</div>
-              <div class="homepage-catalog-slide-price">
-                <div class="homepage-catalog-slide-price-base">
-                  <span class="homepage-catalog-slide-price__value">22 400</span><span
-                    class="homepage-catalog-slide-price__currency">₽</span>
+            <div class="catalog-card-content">
+              <div class="catalog-card__title">Пионовидные розы O'HARA (розовая) в корзине</div>
+              <div class="catalog-card-price">
+                <div class="catalog-card-price-base">
+                  <span class="catalog-card-price__value">22 400</span><span
+                    class="catalog-card-price__currency">₽</span>
                 </div>
               </div>
-              <div class="homepage-catalog-slide-sku">
-                <button class="homepage-catalog-slide-sku-item" type="button">
-                  <span class="homepage-catalog-slide-sku-item__value">35 шт.</span>
+              <div class="catalog-card-sku">
+                <button class="catalog-card-sku-item" type="button">
+                  <span class="catalog-card-sku-item__value">35 шт.</span>
                 </button>
-                <button class="homepage-catalog-slide-sku-item homepage-catalog-slide-sku-item_active" type="button">
-                  <span class="homepage-catalog-slide-sku-item__value">55 шт.</span>
+                <button class="catalog-card-sku-item catalog-card-sku-item_active" type="button">
+                  <span class="catalog-card-sku-item__value">55 шт.</span>
                 </button>
-                <button class="homepage-catalog-slide-sku-item" type="button">
-                  <span class="homepage-catalog-slide-sku-item__value">75 шт.</span>
+                <button class="catalog-card-sku-item" type="button">
+                  <span class="catalog-card-sku-item__value">75 шт.</span>
                 </button>
-                <button class="homepage-catalog-slide-sku-item" type="button">
-                  <span class="homepage-catalog-slide-sku-item__value">101 шт.</span>
+                <button class="catalog-card-sku-item" type="button">
+                  <span class="catalog-card-sku-item__value">101 шт.</span>
                 </button>
               </div>
-              <div class="homepage-catalog-slide-button-container">
-                <button class="button button_linear homepage-catalog-slide__to-cart" type="button">В корзину</button>
+              <div class="catalog-card-button-container">
+                <button class="button button_linear catalog-card__to-cart" type="button">В корзину</button>
               </div>
             </div>
+            <a href="#" class="link-as-card"></a>
           </div>
-          <div class="swiper-slide homepage-catalog-slide homepage-catalog-card" data-tab="3">
-            <div class="homepage-catalog-slide-image-wrapper">
-              <div class="homepage-catalog-slide-image-inner homepage-catalog-slide-image-inner_active">
+          <div class="swiper-slide catalog-card homepage-catalog-slide" data-tab="3">
+            <div class="catalog-card-image-wrapper">
+              <div class="catalog-card-image-inner catalog-card-image-inner_active">
                 <img src="/local/assets/images/catalog/image3.jpg" alt="Дыхание весны"
-                     class="homepage-catalog-slide-image__img" loading="lazy">
-                <div class="homepage-catalog-slide__label">
+                     class="catalog-card-image__img" loading="lazy">
+                <div class="catalog-card__label">
                   На фото размер L
                 </div>
               </div>
             </div>
-            <div class="homepage-catalog-slide-content">
-              <div class="homepage-catalog-slide__title">Искушение</div>
-              <div class="homepage-catalog-slide-price">
-                <div class="homepage-catalog-slide-price-base">
-                  <span class="homepage-catalog-slide-price__value">33 900</span><span
-                    class="homepage-catalog-slide-price__currency">₽</span>
+            <div class="catalog-card-content">
+              <div class="catalog-card__title">Искушение</div>
+              <div class="catalog-card-price">
+                <div class="catalog-card-price-base">
+                  <span class="catalog-card-price__value">33 900</span><span
+                    class="catalog-card-price__currency">₽</span>
                 </div>
               </div>
-              <div class="homepage-catalog-slide-sku">
-                <button class="homepage-catalog-slide-sku-item" type="button">
-                  <span class="homepage-catalog-slide-sku-item__value">S</span>
-                  <span class="homepage-catalog-slide-sku-item__note">35 см</span>
+              <div class="catalog-card-sku">
+                <button class="catalog-card-sku-item" type="button">
+                  <span class="catalog-card-sku-item__value">S</span>
+                  <span class="catalog-card-sku-item__note">35 см</span>
                 </button>
-                <button class="homepage-catalog-slide-sku-item" type="button">
-                  <span class="homepage-catalog-slide-sku-item__value">М</span>
-                  <span class="homepage-catalog-slide-sku-item__note">40 см</span>
+                <button class="catalog-card-sku-item" type="button">
+                  <span class="catalog-card-sku-item__value">М</span>
+                  <span class="catalog-card-sku-item__note">40 см</span>
                 </button>
-                <button class="homepage-catalog-slide-sku-item homepage-catalog-slide-sku-item_active" type="button">
-                  <span class="homepage-catalog-slide-sku-item__value">L</span>
-                  <span class="homepage-catalog-slide-sku-item__note">45 см</span>
+                <button class="catalog-card-sku-item catalog-card-sku-item_active" type="button">
+                  <span class="catalog-card-sku-item__value">L</span>
+                  <span class="catalog-card-sku-item__note">45 см</span>
                 </button>
               </div>
-              <div class="homepage-catalog-slide-button-container">
-                <button class="button button_linear homepage-catalog-slide__to-cart" type="button">В корзину</button>
+              <div class="catalog-card-button-container">
+                <button class="button button_linear catalog-card__to-cart" type="button">В корзину</button>
               </div>
             </div>
+            <a href="#" class="link-as-card"></a>
           </div>
-          <div class="swiper-slide homepage-catalog-slide homepage-catalog-card" data-tab="1">
-            <div class="homepage-catalog-slide-image-wrapper">
-              <div class="homepage-catalog-slide-image-inner homepage-catalog-slide-image-inner_active">
+          <div class="swiper-slide catalog-card homepage-catalog-slide" data-tab="1">
+            <div class="catalog-card-image-wrapper">
+              <div class="catalog-card-image-inner catalog-card-image-inner_active">
                 <img src="/local/assets/images/catalog/image4.jpg" alt="Дыхание весны"
-                     class="homepage-catalog-slide-image__img" loading="lazy">
-                <div class="homepage-catalog-slide__label">
+                     class="catalog-card-image__img" loading="lazy">
+                <div class="catalog-card__label">
                   На фото 69 шт.
                 </div>
               </div>
             </div>
-            <div class="homepage-catalog-slide-content">
-              <div class="homepage-catalog-slide__title">Розы алые</div>
-              <div class="homepage-catalog-slide-price">
-                <div class="homepage-catalog-slide-price-base">
-                  <span class="homepage-catalog-slide-price__value">22 400</span><span
-                    class="homepage-catalog-slide-price__currency">₽</span>
+            <div class="catalog-card-content">
+              <div class="catalog-card__title">Розы алые</div>
+              <div class="catalog-card-price">
+                <div class="catalog-card-price-base">
+                  <span class="catalog-card-price__value">22 400</span><span
+                    class="catalog-card-price__currency">₽</span>
                 </div>
               </div>
-              <div class="homepage-catalog-slide-sku">
-                <button class="homepage-catalog-slide-sku-item" type="button">
-                  <span class="homepage-catalog-slide-sku-item__value">29 шт.</span>
+              <div class="catalog-card-sku">
+                <button class="catalog-card-sku-item" type="button">
+                  <span class="catalog-card-sku-item__value">29 шт.</span>
                 </button>
-                <button class="homepage-catalog-slide-sku-item" type="button">
-                  <span class="homepage-catalog-slide-sku-item__value">39 шт.</span>
+                <button class="catalog-card-sku-item" type="button">
+                  <span class="catalog-card-sku-item__value">39 шт.</span>
                 </button>
-                <button class="homepage-catalog-slide-sku-item" type="button">
-                  <span class="homepage-catalog-slide-sku-item__value">49 шт.</span>
+                <button class="catalog-card-sku-item" type="button">
+                  <span class="catalog-card-sku-item__value">49 шт.</span>
                 </button>
-                <button class="homepage-catalog-slide-sku-item" type="button">
-                  <span class="homepage-catalog-slide-sku-item__value">59 шт.</span>
+                <button class="catalog-card-sku-item" type="button">
+                  <span class="catalog-card-sku-item__value">59 шт.</span>
                 </button>
-                <button class="homepage-catalog-slide-sku-item homepage-catalog-slide-sku-item_active" type="button">
-                  <span class="homepage-catalog-slide-sku-item__value">69 шт.</span>
+                <button class="catalog-card-sku-item catalog-card-sku-item_active" type="button">
+                  <span class="catalog-card-sku-item__value">69 шт.</span>
                 </button>
-                <button class="homepage-catalog-slide-sku-item" type="button">
-                  <span class="homepage-catalog-slide-sku-item__value">79 шт.</span>
+                <button class="catalog-card-sku-item" type="button">
+                  <span class="catalog-card-sku-item__value">79 шт.</span>
                 </button>
-                <button class="homepage-catalog-slide-sku-item" type="button">
-                  <span class="homepage-catalog-slide-sku-item__value">89 шт.</span>
+                <button class="catalog-card-sku-item" type="button">
+                  <span class="catalog-card-sku-item__value">89 шт.</span>
                 </button>
-                <button class="homepage-catalog-slide-sku-item" type="button">
-                  <span class="homepage-catalog-slide-sku-item__value">101 шт.</span>
+                <button class="catalog-card-sku-item" type="button">
+                  <span class="catalog-card-sku-item__value">101 шт.</span>
                 </button>
               </div>
-              <div class="homepage-catalog-slide-button-container">
-                <button class="button button_linear homepage-catalog-slide__to-cart" type="button">В корзину</button>
+              <div class="catalog-card-button-container">
+                <button class="button button_linear catalog-card__to-cart" type="button">В корзину</button>
               </div>
             </div>
+            <a href="#" class="link-as-card"></a>
           </div>
-          <div class="swiper-slide homepage-catalog-slide homepage-catalog-card" data-tab="2">
-            <div class="homepage-catalog-slide-image-wrapper">
-              <div class="homepage-catalog-slide-image-inner homepage-catalog-slide-image-inner_active">
+          <div class="swiper-slide catalog-card homepage-catalog-slide" data-tab="2">
+            <div class="catalog-card-image-wrapper">
+              <div class="catalog-card-image-inner catalog-card-image-inner_active">
                 <img src="/local/assets/images/catalog/image2.jpg" alt="Дыхание весны"
-                     class="homepage-catalog-slide-image__img" loading="lazy">
-                <div class="homepage-catalog-slide__label">
+                     class="catalog-card-image__img" loading="lazy">
+                <div class="catalog-card__label">
                   На фото 55 шт.
                 </div>
               </div>
             </div>
-            <div class="homepage-catalog-slide-content">
-              <div class="homepage-catalog-slide__title">Пионовидные розы O'HARA (розовая) в корзине</div>
-              <div class="homepage-catalog-slide-price">
-                <div class="homepage-catalog-slide-price-base">
-                  <span class="homepage-catalog-slide-price__value">22 400</span><span
-                    class="homepage-catalog-slide-price__currency">₽</span>
+            <div class="catalog-card-content">
+              <div class="catalog-card__title">Пионовидные розы O'HARA (розовая) в корзине</div>
+              <div class="catalog-card-price">
+                <div class="catalog-card-price-base">
+                  <span class="catalog-card-price__value">22 400</span><span
+                    class="catalog-card-price__currency">₽</span>
                 </div>
               </div>
-              <div class="homepage-catalog-slide-sku">
-                <button class="homepage-catalog-slide-sku-item" type="button">
-                  <span class="homepage-catalog-slide-sku-item__value">35 шт.</span>
+              <div class="catalog-card-sku">
+                <button class="catalog-card-sku-item" type="button">
+                  <span class="catalog-card-sku-item__value">35 шт.</span>
                 </button>
-                <button class="homepage-catalog-slide-sku-item homepage-catalog-slide-sku-item_active" type="button">
-                  <span class="homepage-catalog-slide-sku-item__value">55 шт.</span>
+                <button class="catalog-card-sku-item catalog-card-sku-item_active" type="button">
+                  <span class="catalog-card-sku-item__value">55 шт.</span>
                 </button>
-                <button class="homepage-catalog-slide-sku-item" type="button">
-                  <span class="homepage-catalog-slide-sku-item__value">75 шт.</span>
+                <button class="catalog-card-sku-item" type="button">
+                  <span class="catalog-card-sku-item__value">75 шт.</span>
                 </button>
-                <button class="homepage-catalog-slide-sku-item" type="button">
-                  <span class="homepage-catalog-slide-sku-item__value">101 шт.</span>
+                <button class="catalog-card-sku-item" type="button">
+                  <span class="catalog-card-sku-item__value">101 шт.</span>
                 </button>
               </div>
-              <div class="homepage-catalog-slide-button-container">
-                <button class="button button_linear homepage-catalog-slide__to-cart" type="button">В корзину</button>
+              <div class="catalog-card-button-container">
+                <button class="button button_linear catalog-card__to-cart" type="button">В корзину</button>
               </div>
             </div>
+            <a href="#" class="link-as-card"></a>
           </div>
-          <div class="swiper-slide homepage-catalog-slide homepage-catalog-card" data-tab="3">
-            <div class="homepage-catalog-slide-image-wrapper">
-              <div class="homepage-catalog-slide-image-inner homepage-catalog-slide-image-inner_active">
+          <div class="swiper-slide catalog-card homepage-catalog-slide" data-tab="3">
+            <div class="catalog-card-image-wrapper">
+              <div class="catalog-card-image-inner catalog-card-image-inner_active">
                 <img src="/local/assets/images/catalog/image3.jpg" alt="Дыхание весны"
-                     class="homepage-catalog-slide-image__img" loading="lazy">
-                <div class="homepage-catalog-slide__label">
+                     class="catalog-card-image__img" loading="lazy">
+                <div class="catalog-card__label">
                   На фото размер L
                 </div>
               </div>
             </div>
-            <div class="homepage-catalog-slide-content">
-              <div class="homepage-catalog-slide__title">Искушение</div>
-              <div class="homepage-catalog-slide-price">
-                <div class="homepage-catalog-slide-price-base">
-                  <span class="homepage-catalog-slide-price__value">33 900</span><span
-                    class="homepage-catalog-slide-price__currency">₽</span>
+            <div class="catalog-card-content">
+              <div class="catalog-card__title">Искушение</div>
+              <div class="catalog-card-price">
+                <div class="catalog-card-price-base">
+                  <span class="catalog-card-price__value">33 900</span><span
+                    class="catalog-card-price__currency">₽</span>
                 </div>
               </div>
-              <div class="homepage-catalog-slide-sku">
-                <button class="homepage-catalog-slide-sku-item" type="button">
-                  <span class="homepage-catalog-slide-sku-item__value">S</span>
-                  <span class="homepage-catalog-slide-sku-item__note">35 см</span>
+              <div class="catalog-card-sku">
+                <button class="catalog-card-sku-item" type="button">
+                  <span class="catalog-card-sku-item__value">S</span>
+                  <span class="catalog-card-sku-item__note">35 см</span>
                 </button>
-                <button class="homepage-catalog-slide-sku-item" type="button">
-                  <span class="homepage-catalog-slide-sku-item__value">М</span>
-                  <span class="homepage-catalog-slide-sku-item__note">40 см</span>
+                <button class="catalog-card-sku-item" type="button">
+                  <span class="catalog-card-sku-item__value">М</span>
+                  <span class="catalog-card-sku-item__note">40 см</span>
                 </button>
-                <button class="homepage-catalog-slide-sku-item homepage-catalog-slide-sku-item_active" type="button">
-                  <span class="homepage-catalog-slide-sku-item__value">L</span>
-                  <span class="homepage-catalog-slide-sku-item__note">45 см</span>
+                <button class="catalog-card-sku-item catalog-card-sku-item_active" type="button">
+                  <span class="catalog-card-sku-item__value">L</span>
+                  <span class="catalog-card-sku-item__note">45 см</span>
                 </button>
               </div>
-              <div class="homepage-catalog-slide-button-container">
-                <button class="button button_linear homepage-catalog-slide__to-cart" type="button">В корзину</button>
+              <div class="catalog-card-button-container">
+                <button class="button button_linear catalog-card__to-cart" type="button">В корзину</button>
               </div>
             </div>
+            <a href="#" class="link-as-card"></a>
           </div>
-          <div class="swiper-slide homepage-catalog-slide homepage-catalog-card" data-tab="3">
-            <div class="homepage-catalog-slide-image-wrapper">
-              <div class="homepage-catalog-slide-image-inner homepage-catalog-slide-image-inner_active">
-                <div class="homepage-catalog-slide__available">
+          <div class="swiper-slide catalog-card homepage-catalog-slide" data-tab="3">
+            <div class="catalog-card-image-wrapper">
+              <div class="catalog-card-image-inner catalog-card-image-inner_active">
+                <div class="catalog-card__available">
                   Только под заказ
                 </div>
                 <img src="/local/assets/images/catalog/image1.jpg" alt="Дыхание весны"
-                     class="homepage-catalog-slide-image__img" loading="lazy">
-                <div class="homepage-catalog-slide__label">
+                     class="catalog-card-image__img" loading="lazy">
+                <div class="catalog-card__label">
                   На фото размер L
                 </div>
               </div>
             </div>
-            <div class="homepage-catalog-slide-content">
-              <div class="homepage-catalog-slide__title">Дыхание весны</div>
-              <div class="homepage-catalog-slide-price">
-                <div class="homepage-catalog-slide-price-base">
-                  <span class="homepage-catalog-slide-price__value">19 500</span><span
-                    class="homepage-catalog-slide-price__currency">₽</span>
+            <div class="catalog-card-content">
+              <div class="catalog-card__title">Дыхание весны</div>
+              <div class="catalog-card-price">
+                <div class="catalog-card-price-base">
+                  <span class="catalog-card-price__value">19 500</span><span
+                    class="catalog-card-price__currency">₽</span>
                 </div>
               </div>
-              <div class="homepage-catalog-slide-sku">
-                <button class="homepage-catalog-slide-sku-item" type="button">
-                  <span class="homepage-catalog-slide-sku-item__value">XS</span>
-                  <span class="homepage-catalog-slide-sku-item__note">30 см</span>
+              <div class="catalog-card-sku">
+                <button class="catalog-card-sku-item" type="button">
+                  <span class="catalog-card-sku-item__value">XS</span>
+                  <span class="catalog-card-sku-item__note">30 см</span>
                 </button>
-                <button class="homepage-catalog-slide-sku-item" type="button">
-                  <span class="homepage-catalog-slide-sku-item__value">S</span>
-                  <span class="homepage-catalog-slide-sku-item__note">35 см</span>
+                <button class="catalog-card-sku-item" type="button">
+                  <span class="catalog-card-sku-item__value">S</span>
+                  <span class="catalog-card-sku-item__note">35 см</span>
                 </button>
-                <button class="homepage-catalog-slide-sku-item" type="button">
-                  <span class="homepage-catalog-slide-sku-item__value">М</span>
-                  <span class="homepage-catalog-slide-sku-item__note">40 см</span>
+                <button class="catalog-card-sku-item" type="button">
+                  <span class="catalog-card-sku-item__value">М</span>
+                  <span class="catalog-card-sku-item__note">40 см</span>
                 </button>
-                <button class="homepage-catalog-slide-sku-item homepage-catalog-slide-sku-item_active" type="button">
-                  <span class="homepage-catalog-slide-sku-item__value">L</span>
-                  <span class="homepage-catalog-slide-sku-item__note">45 см</span>
+                <button class="catalog-card-sku-item catalog-card-sku-item_active" type="button">
+                  <span class="catalog-card-sku-item__value">L</span>
+                  <span class="catalog-card-sku-item__note">45 см</span>
                 </button>
-                <button class="homepage-catalog-slide-sku-item" type="button">
-                  <span class="homepage-catalog-slide-sku-item__value">XXL</span>
-                  <span class="homepage-catalog-slide-sku-item__note">65 см</span>
+                <button class="catalog-card-sku-item" type="button">
+                  <span class="catalog-card-sku-item__value">XXL</span>
+                  <span class="catalog-card-sku-item__note">65 см</span>
                 </button>
               </div>
-              <div class="homepage-catalog-slide-button-container">
-                <button class="button button_linear homepage-catalog-slide__to-cart" type="button">В корзину</button>
+              <div class="catalog-card-button-container">
+                <button class="button button_linear catalog-card__to-cart" type="button">В корзину</button>
               </div>
             </div>
+            <a href="#" class="link-as-card"></a>
           </div>
-          <div class="swiper-slide homepage-catalog-slide homepage-catalog-card" data-tab="1">
-            <div class="homepage-catalog-slide-image-wrapper">
-              <div class="homepage-catalog-slide-image-inner homepage-catalog-slide-image-inner_active">
+          <div class="swiper-slide catalog-card homepage-catalog-slide" data-tab="1">
+            <div class="catalog-card-image-wrapper">
+              <div class="catalog-card-image-inner catalog-card-image-inner_active">
                 <img src="/local/assets/images/catalog/image2.jpg" alt="Дыхание весны"
-                     class="homepage-catalog-slide-image__img" loading="lazy">
-                <div class="homepage-catalog-slide__label">
+                     class="catalog-card-image__img" loading="lazy">
+                <div class="catalog-card__label">
                   На фото 55 шт.
                 </div>
               </div>
             </div>
-            <div class="homepage-catalog-slide-content">
-              <div class="homepage-catalog-slide__title">Пионовидные розы O'HARA (розовая) в корзине</div>
-              <div class="homepage-catalog-slide-price">
-                <div class="homepage-catalog-slide-price-base">
-                  <span class="homepage-catalog-slide-price__value">22 400</span><span
-                    class="homepage-catalog-slide-price__currency">₽</span>
+            <div class="catalog-card-content">
+              <div class="catalog-card__title">Пионовидные розы O'HARA (розовая) в корзине</div>
+              <div class="catalog-card-price">
+                <div class="catalog-card-price-base">
+                  <span class="catalog-card-price__value">22 400</span><span
+                    class="catalog-card-price__currency">₽</span>
                 </div>
               </div>
-              <div class="homepage-catalog-slide-sku">
-                <button class="homepage-catalog-slide-sku-item" type="button">
-                  <span class="homepage-catalog-slide-sku-item__value">35 шт.</span>
+              <div class="catalog-card-sku">
+                <button class="catalog-card-sku-item" type="button">
+                  <span class="catalog-card-sku-item__value">35 шт.</span>
                 </button>
-                <button class="homepage-catalog-slide-sku-item homepage-catalog-slide-sku-item_active" type="button">
-                  <span class="homepage-catalog-slide-sku-item__value">55 шт.</span>
+                <button class="catalog-card-sku-item catalog-card-sku-item_active" type="button">
+                  <span class="catalog-card-sku-item__value">55 шт.</span>
                 </button>
-                <button class="homepage-catalog-slide-sku-item" type="button">
-                  <span class="homepage-catalog-slide-sku-item__value">75 шт.</span>
+                <button class="catalog-card-sku-item" type="button">
+                  <span class="catalog-card-sku-item__value">75 шт.</span>
                 </button>
-                <button class="homepage-catalog-slide-sku-item" type="button">
-                  <span class="homepage-catalog-slide-sku-item__value">101 шт.</span>
+                <button class="catalog-card-sku-item" type="button">
+                  <span class="catalog-card-sku-item__value">101 шт.</span>
                 </button>
               </div>
-              <div class="homepage-catalog-slide-button-container">
-                <button class="button button_linear homepage-catalog-slide__to-cart" type="button">В корзину</button>
+              <div class="catalog-card-button-container">
+                <button class="button button_linear catalog-card__to-cart" type="button">В корзину</button>
               </div>
             </div>
+            <a href="#" class="link-as-card"></a>
           </div>
-          <div class="swiper-slide homepage-catalog-slide homepage-catalog-card" data-tab="1">
-            <div class="homepage-catalog-slide-image-wrapper">
-              <div class="homepage-catalog-slide-image-inner homepage-catalog-slide-image-inner_active">
+          <div class="swiper-slide catalog-card homepage-catalog-slide" data-tab="1">
+            <div class="catalog-card-image-wrapper">
+              <div class="catalog-card-image-inner catalog-card-image-inner_active">
                 <img src="/local/assets/images/catalog/image3.jpg" alt="Дыхание весны"
-                     class="homepage-catalog-slide-image__img" loading="lazy">
-                <div class="homepage-catalog-slide__label">
+                     class="catalog-card-image__img" loading="lazy">
+                <div class="catalog-card__label">
                   На фото размер L
                 </div>
               </div>
             </div>
-            <div class="homepage-catalog-slide-content">
-              <div class="homepage-catalog-slide__title">Искушение</div>
-              <div class="homepage-catalog-slide-price">
-                <div class="homepage-catalog-slide-price-base">
-                  <span class="homepage-catalog-slide-price__value">33 900</span><span
-                    class="homepage-catalog-slide-price__currency">₽</span>
+            <div class="catalog-card-content">
+              <div class="catalog-card__title">Искушение</div>
+              <div class="catalog-card-price">
+                <div class="catalog-card-price-base">
+                  <span class="catalog-card-price__value">33 900</span><span
+                    class="catalog-card-price__currency">₽</span>
                 </div>
               </div>
-              <div class="homepage-catalog-slide-sku">
-                <button class="homepage-catalog-slide-sku-item" type="button">
-                  <span class="homepage-catalog-slide-sku-item__value">S</span>
-                  <span class="homepage-catalog-slide-sku-item__note">35 см</span>
+              <div class="catalog-card-sku">
+                <button class="catalog-card-sku-item" type="button">
+                  <span class="catalog-card-sku-item__value">S</span>
+                  <span class="catalog-card-sku-item__note">35 см</span>
                 </button>
-                <button class="homepage-catalog-slide-sku-item" type="button">
-                  <span class="homepage-catalog-slide-sku-item__value">М</span>
-                  <span class="homepage-catalog-slide-sku-item__note">40 см</span>
+                <button class="catalog-card-sku-item" type="button">
+                  <span class="catalog-card-sku-item__value">М</span>
+                  <span class="catalog-card-sku-item__note">40 см</span>
                 </button>
-                <button class="homepage-catalog-slide-sku-item homepage-catalog-slide-sku-item_active" type="button">
-                  <span class="homepage-catalog-slide-sku-item__value">L</span>
-                  <span class="homepage-catalog-slide-sku-item__note">45 см</span>
+                <button class="catalog-card-sku-item catalog-card-sku-item_active" type="button">
+                  <span class="catalog-card-sku-item__value">L</span>
+                  <span class="catalog-card-sku-item__note">45 см</span>
                 </button>
               </div>
-              <div class="homepage-catalog-slide-button-container">
-                <button class="button button_linear homepage-catalog-slide__to-cart" type="button">В корзину</button>
+              <div class="catalog-card-button-container">
+                <button class="button button_linear catalog-card__to-cart" type="button">В корзину</button>
               </div>
             </div>
+            <a href="#" class="link-as-card"></a>
           </div>
-          <div class="swiper-slide homepage-catalog-slide homepage-catalog-card" data-tab="1">
-            <div class="homepage-catalog-slide-image-wrapper">
-              <div class="homepage-catalog-slide-image-inner homepage-catalog-slide-image-inner_active">
+          <div class="swiper-slide catalog-card homepage-catalog-slide" data-tab="1">
+            <div class="catalog-card-image-wrapper">
+              <div class="catalog-card-image-inner catalog-card-image-inner_active">
                 <img src="/local/assets/images/catalog/image3.jpg" alt="Дыхание весны"
-                     class="homepage-catalog-slide-image__img" loading="lazy">
-                <div class="homepage-catalog-slide__label">
+                     class="catalog-card-image__img" loading="lazy">
+                <div class="catalog-card__label">
                   На фото размер L
                 </div>
               </div>
             </div>
-            <div class="homepage-catalog-slide-content">
-              <div class="homepage-catalog-slide__title">Искушение</div>
-              <div class="homepage-catalog-slide-price">
-                <div class="homepage-catalog-slide-price-base">
-                  <span class="homepage-catalog-slide-price__value">33 900</span><span
-                    class="homepage-catalog-slide-price__currency">₽</span>
+            <div class="catalog-card-content">
+              <div class="catalog-card__title">Искушение</div>
+              <div class="catalog-card-price">
+                <div class="catalog-card-price-base">
+                  <span class="catalog-card-price__value">33 900</span><span
+                    class="catalog-card-price__currency">₽</span>
                 </div>
               </div>
-              <div class="homepage-catalog-slide-sku">
-                <button class="homepage-catalog-slide-sku-item" type="button">
-                  <span class="homepage-catalog-slide-sku-item__value">S</span>
-                  <span class="homepage-catalog-slide-sku-item__note">35 см</span>
+              <div class="catalog-card-sku">
+                <button class="catalog-card-sku-item" type="button">
+                  <span class="catalog-card-sku-item__value">S</span>
+                  <span class="catalog-card-sku-item__note">35 см</span>
                 </button>
-                <button class="homepage-catalog-slide-sku-item" type="button">
-                  <span class="homepage-catalog-slide-sku-item__value">М</span>
-                  <span class="homepage-catalog-slide-sku-item__note">40 см</span>
+                <button class="catalog-card-sku-item" type="button">
+                  <span class="catalog-card-sku-item__value">М</span>
+                  <span class="catalog-card-sku-item__note">40 см</span>
                 </button>
-                <button class="homepage-catalog-slide-sku-item homepage-catalog-slide-sku-item_active" type="button">
-                  <span class="homepage-catalog-slide-sku-item__value">L</span>
-                  <span class="homepage-catalog-slide-sku-item__note">45 см</span>
+                <button class="catalog-card-sku-item catalog-card-sku-item_active" type="button">
+                  <span class="catalog-card-sku-item__value">L</span>
+                  <span class="catalog-card-sku-item__note">45 см</span>
                 </button>
               </div>
-              <div class="homepage-catalog-slide-button-container">
-                <button class="button button_linear homepage-catalog-slide__to-cart" type="button">В корзину</button>
+              <div class="catalog-card-button-container">
+                <button class="button button_linear catalog-card__to-cart" type="button">В корзину</button>
               </div>
             </div>
+            <a href="#" class="link-as-card"></a>
           </div>
-          <div class="swiper-slide homepage-catalog-slide homepage-catalog-card" data-tab="4">
-            <div class="homepage-catalog-slide-image-wrapper">
-              <div class="homepage-catalog-slide-image-inner homepage-catalog-slide-image-inner_active">
-                <div class="homepage-catalog-slide__available">
+          <div class="swiper-slide catalog-card homepage-catalog-slide" data-tab="4">
+            <div class="catalog-card-image-wrapper">
+              <div class="catalog-card-image-inner catalog-card-image-inner_active">
+                <div class="catalog-card__available">
                   Только под заказ
                 </div>
                 <img src="/local/assets/images/catalog/image1.jpg" alt="Дыхание весны"
-                     class="homepage-catalog-slide-image__img" loading="lazy">
-                <div class="homepage-catalog-slide__label">
+                     class="catalog-card-image__img" loading="lazy">
+                <div class="catalog-card__label">
                   На фото размер L
                 </div>
               </div>
             </div>
-            <div class="homepage-catalog-slide-content">
-              <div class="homepage-catalog-slide__title">Дыхание весны</div>
-              <div class="homepage-catalog-slide-price">
-                <div class="homepage-catalog-slide-price-base">
-                  <span class="homepage-catalog-slide-price__value">19 500</span><span
-                    class="homepage-catalog-slide-price__currency">₽</span>
+            <div class="catalog-card-content">
+              <div class="catalog-card__title">Дыхание весны</div>
+              <div class="catalog-card-price">
+                <div class="catalog-card-price-base">
+                  <span class="catalog-card-price__value">19 500</span><span
+                    class="catalog-card-price__currency">₽</span>
                 </div>
               </div>
-              <div class="homepage-catalog-slide-sku">
-                <button class="homepage-catalog-slide-sku-item" type="button">
-                  <span class="homepage-catalog-slide-sku-item__value">XS</span>
-                  <span class="homepage-catalog-slide-sku-item__note">30 см</span>
+              <div class="catalog-card-sku">
+                <button class="catalog-card-sku-item" type="button">
+                  <span class="catalog-card-sku-item__value">XS</span>
+                  <span class="catalog-card-sku-item__note">30 см</span>
                 </button>
-                <button class="homepage-catalog-slide-sku-item" type="button">
-                  <span class="homepage-catalog-slide-sku-item__value">S</span>
-                  <span class="homepage-catalog-slide-sku-item__note">35 см</span>
+                <button class="catalog-card-sku-item" type="button">
+                  <span class="catalog-card-sku-item__value">S</span>
+                  <span class="catalog-card-sku-item__note">35 см</span>
                 </button>
-                <button class="homepage-catalog-slide-sku-item" type="button">
-                  <span class="homepage-catalog-slide-sku-item__value">М</span>
-                  <span class="homepage-catalog-slide-sku-item__note">40 см</span>
+                <button class="catalog-card-sku-item" type="button">
+                  <span class="catalog-card-sku-item__value">М</span>
+                  <span class="catalog-card-sku-item__note">40 см</span>
                 </button>
-                <button class="homepage-catalog-slide-sku-item homepage-catalog-slide-sku-item_active" type="button">
-                  <span class="homepage-catalog-slide-sku-item__value">L</span>
-                  <span class="homepage-catalog-slide-sku-item__note">45 см</span>
+                <button class="catalog-card-sku-item catalog-card-sku-item_active" type="button">
+                  <span class="catalog-card-sku-item__value">L</span>
+                  <span class="catalog-card-sku-item__note">45 см</span>
                 </button>
-                <button class="homepage-catalog-slide-sku-item" type="button">
-                  <span class="homepage-catalog-slide-sku-item__value">XXL</span>
-                  <span class="homepage-catalog-slide-sku-item__note">65 см</span>
+                <button class="catalog-card-sku-item" type="button">
+                  <span class="catalog-card-sku-item__value">XXL</span>
+                  <span class="catalog-card-sku-item__note">65 см</span>
                 </button>
               </div>
-              <div class="homepage-catalog-slide-button-container">
-                <button class="button button_linear homepage-catalog-slide__to-cart" type="button">собрать похожий
+              <div class="catalog-card-button-container">
+                <button class="button button_linear catalog-card__to-cart" type="button">собрать похожий
                 </button>
               </div>
             </div>
+            <a href="#" class="link-as-card"></a>
           </div>
-          <div class="swiper-slide homepage-catalog-slide homepage-catalog-card" data-tab="5">
-            <div class="homepage-catalog-slide-image-wrapper">
-              <div class="homepage-catalog-slide-image-inner homepage-catalog-slide-image-inner_active">
+          <div class="swiper-slide catalog-card homepage-catalog-slide" data-tab="5">
+            <div class="catalog-card-image-wrapper">
+              <div class="catalog-card-image-inner catalog-card-image-inner_active">
                 <img src="/local/assets/images/catalog/image2.jpg" alt="Дыхание весны"
-                     class="homepage-catalog-slide-image__img" loading="lazy">
-                <div class="homepage-catalog-slide__label">
+                     class="catalog-card-image__img" loading="lazy">
+                <div class="catalog-card__label">
                   На фото 55 шт.
                 </div>
               </div>
             </div>
-            <div class="homepage-catalog-slide-content">
-              <div class="homepage-catalog-slide__title">Пионовидные розы O'HARA (розовая) в корзине</div>
-              <div class="homepage-catalog-slide-price">
-                <div class="homepage-catalog-slide-price-base">
-                  <span class="homepage-catalog-slide-price__value">22 400</span><span
-                    class="homepage-catalog-slide-price__currency">₽</span>
+            <div class="catalog-card-content">
+              <div class="catalog-card__title">Пионовидные розы O'HARA (розовая) в корзине</div>
+              <div class="catalog-card-price">
+                <div class="catalog-card-price-base">
+                  <span class="catalog-card-price__value">22 400</span><span
+                    class="catalog-card-price__currency">₽</span>
                 </div>
               </div>
-              <div class="homepage-catalog-slide-sku">
-                <button class="homepage-catalog-slide-sku-item" type="button">
-                  <span class="homepage-catalog-slide-sku-item__value">35 шт.</span>
+              <div class="catalog-card-sku">
+                <button class="catalog-card-sku-item" type="button">
+                  <span class="catalog-card-sku-item__value">35 шт.</span>
                 </button>
-                <button class="homepage-catalog-slide-sku-item homepage-catalog-slide-sku-item_active" type="button">
-                  <span class="homepage-catalog-slide-sku-item__value">55 шт.</span>
+                <button class="catalog-card-sku-item catalog-card-sku-item_active" type="button">
+                  <span class="catalog-card-sku-item__value">55 шт.</span>
                 </button>
-                <button class="homepage-catalog-slide-sku-item" type="button">
-                  <span class="homepage-catalog-slide-sku-item__value">75 шт.</span>
+                <button class="catalog-card-sku-item" type="button">
+                  <span class="catalog-card-sku-item__value">75 шт.</span>
                 </button>
-                <button class="homepage-catalog-slide-sku-item" type="button">
-                  <span class="homepage-catalog-slide-sku-item__value">101 шт.</span>
+                <button class="catalog-card-sku-item" type="button">
+                  <span class="catalog-card-sku-item__value">101 шт.</span>
                 </button>
               </div>
-              <div class="homepage-catalog-slide-button-container">
-                <button class="button button_linear homepage-catalog-slide__to-cart" type="button">В корзину</button>
+              <div class="catalog-card-button-container">
+                <button class="button button_linear catalog-card__to-cart" type="button">В корзину</button>
               </div>
             </div>
+            <a href="#" class="link-as-card"></a>
           </div>
-          <div class="swiper-slide homepage-catalog-slide homepage-catalog-card" data-tab="6">
-            <div class="homepage-catalog-slide-image-wrapper">
-              <div class="homepage-catalog-slide-image-inner homepage-catalog-slide-image-inner_active">
+          <div class="swiper-slide catalog-card homepage-catalog-slide" data-tab="6">
+            <div class="catalog-card-image-wrapper">
+              <div class="catalog-card-image-inner catalog-card-image-inner_active">
                 <img src="/local/assets/images/catalog/image3.jpg" alt="Дыхание весны"
-                     class="homepage-catalog-slide-image__img" loading="lazy">
-                <div class="homepage-catalog-slide__label">
+                     class="catalog-card-image__img" loading="lazy">
+                <div class="catalog-card__label">
                   На фото размер L
                 </div>
               </div>
             </div>
-            <div class="homepage-catalog-slide-content">
-              <div class="homepage-catalog-slide__title">Искушение</div>
-              <div class="homepage-catalog-slide-price">
-                <div class="homepage-catalog-slide-price-base">
-                  <span class="homepage-catalog-slide-price__value">33 900</span><span
-                    class="homepage-catalog-slide-price__currency">₽</span>
+            <div class="catalog-card-content">
+              <div class="catalog-card__title">Искушение</div>
+              <div class="catalog-card-price">
+                <div class="catalog-card-price-base">
+                  <span class="catalog-card-price__value">33 900</span><span
+                    class="catalog-card-price__currency">₽</span>
                 </div>
               </div>
-              <div class="homepage-catalog-slide-sku">
-                <button class="homepage-catalog-slide-sku-item" type="button">
-                  <span class="homepage-catalog-slide-sku-item__value">S</span>
-                  <span class="homepage-catalog-slide-sku-item__note">35 см</span>
+              <div class="catalog-card-sku">
+                <button class="catalog-card-sku-item" type="button">
+                  <span class="catalog-card-sku-item__value">S</span>
+                  <span class="catalog-card-sku-item__note">35 см</span>
                 </button>
-                <button class="homepage-catalog-slide-sku-item" type="button">
-                  <span class="homepage-catalog-slide-sku-item__value">М</span>
-                  <span class="homepage-catalog-slide-sku-item__note">40 см</span>
+                <button class="catalog-card-sku-item" type="button">
+                  <span class="catalog-card-sku-item__value">М</span>
+                  <span class="catalog-card-sku-item__note">40 см</span>
                 </button>
-                <button class="homepage-catalog-slide-sku-item homepage-catalog-slide-sku-item_active" type="button">
-                  <span class="homepage-catalog-slide-sku-item__value">L</span>
-                  <span class="homepage-catalog-slide-sku-item__note">45 см</span>
+                <button class="catalog-card-sku-item catalog-card-sku-item_active" type="button">
+                  <span class="catalog-card-sku-item__value">L</span>
+                  <span class="catalog-card-sku-item__note">45 см</span>
                 </button>
               </div>
-              <div class="homepage-catalog-slide-button-container">
-                <button class="button button_linear homepage-catalog-slide__to-cart" type="button">В корзину</button>
+              <div class="catalog-card-button-container">
+                <button class="button button_linear catalog-card__to-cart" type="button">В корзину</button>
               </div>
             </div>
+            <a href="#" class="link-as-card"></a>
           </div>
-          <div class="swiper-slide homepage-catalog-slide homepage-catalog-card" data-tab="7">
-            <div class="homepage-catalog-slide-image-wrapper">
-              <div class="homepage-catalog-slide-image-inner homepage-catalog-slide-image-inner_active">
+          <div class="swiper-slide catalog-card homepage-catalog-slide" data-tab="7">
+            <div class="catalog-card-image-wrapper">
+              <div class="catalog-card-image-inner catalog-card-image-inner_active">
                 <img src="/local/assets/images/catalog/image4.jpg" alt="Дыхание весны"
-                     class="homepage-catalog-slide-image__img" loading="lazy">
-                <div class="homepage-catalog-slide__label">
+                     class="catalog-card-image__img" loading="lazy">
+                <div class="catalog-card__label">
                   На фото 69 шт.
                 </div>
               </div>
             </div>
-            <div class="homepage-catalog-slide-content">
-              <div class="homepage-catalog-slide__title">Розы алые</div>
-              <div class="homepage-catalog-slide-price">
-                <div class="homepage-catalog-slide-price-base">
-                  <span class="homepage-catalog-slide-price__value">22 400</span><span
-                    class="homepage-catalog-slide-price__currency">₽</span>
+            <div class="catalog-card-content">
+              <div class="catalog-card__title">Розы алые</div>
+              <div class="catalog-card-price">
+                <div class="catalog-card-price-base">
+                  <span class="catalog-card-price__value">22 400</span><span
+                    class="catalog-card-price__currency">₽</span>
                 </div>
               </div>
-              <div class="homepage-catalog-slide-sku">
-                <button class="homepage-catalog-slide-sku-item" type="button">
-                  <span class="homepage-catalog-slide-sku-item__value">29 шт.</span>
+              <div class="catalog-card-sku">
+                <button class="catalog-card-sku-item" type="button">
+                  <span class="catalog-card-sku-item__value">29 шт.</span>
                 </button>
-                <button class="homepage-catalog-slide-sku-item" type="button">
-                  <span class="homepage-catalog-slide-sku-item__value">39 шт.</span>
+                <button class="catalog-card-sku-item" type="button">
+                  <span class="catalog-card-sku-item__value">39 шт.</span>
                 </button>
-                <button class="homepage-catalog-slide-sku-item" type="button">
-                  <span class="homepage-catalog-slide-sku-item__value">49 шт.</span>
+                <button class="catalog-card-sku-item" type="button">
+                  <span class="catalog-card-sku-item__value">49 шт.</span>
                 </button>
-                <button class="homepage-catalog-slide-sku-item" type="button">
-                  <span class="homepage-catalog-slide-sku-item__value">59 шт.</span>
+                <button class="catalog-card-sku-item" type="button">
+                  <span class="catalog-card-sku-item__value">59 шт.</span>
                 </button>
-                <button class="homepage-catalog-slide-sku-item homepage-catalog-slide-sku-item_active" type="button">
-                  <span class="homepage-catalog-slide-sku-item__value">69 шт.</span>
+                <button class="catalog-card-sku-item catalog-card-sku-item_active" type="button">
+                  <span class="catalog-card-sku-item__value">69 шт.</span>
                 </button>
-                <button class="homepage-catalog-slide-sku-item" type="button">
-                  <span class="homepage-catalog-slide-sku-item__value">79 шт.</span>
+                <button class="catalog-card-sku-item" type="button">
+                  <span class="catalog-card-sku-item__value">79 шт.</span>
                 </button>
-                <button class="homepage-catalog-slide-sku-item" type="button">
-                  <span class="homepage-catalog-slide-sku-item__value">89 шт.</span>
+                <button class="catalog-card-sku-item" type="button">
+                  <span class="catalog-card-sku-item__value">89 шт.</span>
                 </button>
-                <button class="homepage-catalog-slide-sku-item" type="button">
-                  <span class="homepage-catalog-slide-sku-item__value">101 шт.</span>
+                <button class="catalog-card-sku-item" type="button">
+                  <span class="catalog-card-sku-item__value">101 шт.</span>
                 </button>
               </div>
-              <div class="homepage-catalog-slide-button-container">
-                <button class="button button_linear homepage-catalog-slide__to-cart" type="button">В корзину</button>
+              <div class="catalog-card-button-container">
+                <button class="button button_linear catalog-card__to-cart" type="button">В корзину</button>
               </div>
             </div>
+            <a href="#" class="link-as-card"></a>
           </div>
-          <div class="swiper-slide homepage-catalog-slide homepage-catalog-card" data-tab="8">
-            <div class="homepage-catalog-slide-image-wrapper">
-              <div class="homepage-catalog-slide-image-inner homepage-catalog-slide-image-inner_active">
-                <div class="homepage-catalog-slide__available">
+          <div class="swiper-slide catalog-card homepage-catalog-slide" data-tab="8">
+            <div class="catalog-card-image-wrapper">
+              <div class="catalog-card-image-inner catalog-card-image-inner_active">
+                <div class="catalog-card__available">
                   Только под заказ
                 </div>
                 <img src="/local/assets/images/catalog/image1.jpg" alt="Дыхание весны"
-                     class="homepage-catalog-slide-image__img" loading="lazy">
-                <div class="homepage-catalog-slide__label">
+                     class="catalog-card-image__img" loading="lazy">
+                <div class="catalog-card__label">
                   На фото размер L
                 </div>
               </div>
             </div>
-            <div class="homepage-catalog-slide-content">
-              <div class="homepage-catalog-slide__title">Дыхание весны</div>
-              <div class="homepage-catalog-slide-price">
-                <div class="homepage-catalog-slide-price-base">
-                  <span class="homepage-catalog-slide-price__value">19 500</span><span
-                    class="homepage-catalog-slide-price__currency">₽</span>
+            <div class="catalog-card-content">
+              <div class="catalog-card__title">Дыхание весны</div>
+              <div class="catalog-card-price">
+                <div class="catalog-card-price-base">
+                  <span class="catalog-card-price__value">19 500</span><span
+                    class="catalog-card-price__currency">₽</span>
                 </div>
               </div>
-              <div class="homepage-catalog-slide-sku">
-                <button class="homepage-catalog-slide-sku-item" type="button">
-                  <span class="homepage-catalog-slide-sku-item__value">XS</span>
-                  <span class="homepage-catalog-slide-sku-item__note">30 см</span>
+              <div class="catalog-card-sku">
+                <button class="catalog-card-sku-item" type="button">
+                  <span class="catalog-card-sku-item__value">XS</span>
+                  <span class="catalog-card-sku-item__note">30 см</span>
                 </button>
-                <button class="homepage-catalog-slide-sku-item" type="button">
-                  <span class="homepage-catalog-slide-sku-item__value">S</span>
-                  <span class="homepage-catalog-slide-sku-item__note">35 см</span>
+                <button class="catalog-card-sku-item" type="button">
+                  <span class="catalog-card-sku-item__value">S</span>
+                  <span class="catalog-card-sku-item__note">35 см</span>
                 </button>
-                <button class="homepage-catalog-slide-sku-item" type="button">
-                  <span class="homepage-catalog-slide-sku-item__value">М</span>
-                  <span class="homepage-catalog-slide-sku-item__note">40 см</span>
+                <button class="catalog-card-sku-item" type="button">
+                  <span class="catalog-card-sku-item__value">М</span>
+                  <span class="catalog-card-sku-item__note">40 см</span>
                 </button>
-                <button class="homepage-catalog-slide-sku-item homepage-catalog-slide-sku-item_active" type="button">
-                  <span class="homepage-catalog-slide-sku-item__value">L</span>
-                  <span class="homepage-catalog-slide-sku-item__note">45 см</span>
+                <button class="catalog-card-sku-item catalog-card-sku-item_active" type="button">
+                  <span class="catalog-card-sku-item__value">L</span>
+                  <span class="catalog-card-sku-item__note">45 см</span>
                 </button>
-                <button class="homepage-catalog-slide-sku-item" type="button">
-                  <span class="homepage-catalog-slide-sku-item__value">XXL</span>
-                  <span class="homepage-catalog-slide-sku-item__note">65 см</span>
+                <button class="catalog-card-sku-item" type="button">
+                  <span class="catalog-card-sku-item__value">XXL</span>
+                  <span class="catalog-card-sku-item__note">65 см</span>
                 </button>
               </div>
-              <div class="homepage-catalog-slide-button-container">
-                <button class="button button_linear homepage-catalog-slide__to-cart" type="button">собрать похожий
+              <div class="catalog-card-button-container">
+                <button class="button button_linear catalog-card__to-cart" type="button">собрать похожий
                 </button>
               </div>
             </div>
+            <a href="#" class="link-as-card"></a>
           </div>
-          <div class="swiper-slide homepage-catalog-slide homepage-catalog-card" data-tab="9">
-            <div class="homepage-catalog-slide-image-wrapper">
-              <div class="homepage-catalog-slide-image-inner homepage-catalog-slide-image-inner_active">
+          <div class="swiper-slide catalog-card homepage-catalog-slide" data-tab="9">
+            <div class="catalog-card-image-wrapper">
+              <div class="catalog-card-image-inner catalog-card-image-inner_active">
                 <img src="/local/assets/images/catalog/image2.jpg" alt="Дыхание весны"
-                     class="homepage-catalog-slide-image__img" loading="lazy">
-                <div class="homepage-catalog-slide__label">
+                     class="catalog-card-image__img" loading="lazy">
+                <div class="catalog-card__label">
                   На фото 55 шт.
                 </div>
               </div>
             </div>
-            <div class="homepage-catalog-slide-content">
-              <div class="homepage-catalog-slide__title">Пионовидные розы O'HARA (розовая) в корзине</div>
-              <div class="homepage-catalog-slide-price">
-                <div class="homepage-catalog-slide-price-base">
-                  <span class="homepage-catalog-slide-price__value">22 400</span><span
-                    class="homepage-catalog-slide-price__currency">₽</span>
+            <div class="catalog-card-content">
+              <div class="catalog-card__title">Пионовидные розы O'HARA (розовая) в корзине</div>
+              <div class="catalog-card-price">
+                <div class="catalog-card-price-base">
+                  <span class="catalog-card-price__value">22 400</span><span
+                    class="catalog-card-price__currency">₽</span>
                 </div>
               </div>
-              <div class="homepage-catalog-slide-sku">
-                <button class="homepage-catalog-slide-sku-item" type="button">
-                  <span class="homepage-catalog-slide-sku-item__value">35 шт.</span>
+              <div class="catalog-card-sku">
+                <button class="catalog-card-sku-item" type="button">
+                  <span class="catalog-card-sku-item__value">35 шт.</span>
                 </button>
-                <button class="homepage-catalog-slide-sku-item homepage-catalog-slide-sku-item_active" type="button">
-                  <span class="homepage-catalog-slide-sku-item__value">55 шт.</span>
+                <button class="catalog-card-sku-item catalog-card-sku-item_active" type="button">
+                  <span class="catalog-card-sku-item__value">55 шт.</span>
                 </button>
-                <button class="homepage-catalog-slide-sku-item" type="button">
-                  <span class="homepage-catalog-slide-sku-item__value">75 шт.</span>
+                <button class="catalog-card-sku-item" type="button">
+                  <span class="catalog-card-sku-item__value">75 шт.</span>
                 </button>
-                <button class="homepage-catalog-slide-sku-item" type="button">
-                  <span class="homepage-catalog-slide-sku-item__value">101 шт.</span>
+                <button class="catalog-card-sku-item" type="button">
+                  <span class="catalog-card-sku-item__value">101 шт.</span>
                 </button>
               </div>
-              <div class="homepage-catalog-slide-button-container">
-                <button class="button button_linear homepage-catalog-slide__to-cart" type="button">В корзину</button>
+              <div class="catalog-card-button-container">
+                <button class="button button_linear catalog-card__to-cart" type="button">В корзину</button>
               </div>
             </div>
+            <a href="#" class="link-as-card"></a>
           </div>
-          <div class="swiper-slide homepage-catalog-slide homepage-catalog-card" data-tab="10">
-            <div class="homepage-catalog-slide-image-wrapper">
-              <div class="homepage-catalog-slide-image-inner homepage-catalog-slide-image-inner_active">
+          <div class="swiper-slide catalog-card homepage-catalog-slide" data-tab="10">
+            <div class="catalog-card-image-wrapper">
+              <div class="catalog-card-image-inner catalog-card-image-inner_active">
                 <img src="/local/assets/images/catalog/image3.jpg" alt="Дыхание весны"
-                     class="homepage-catalog-slide-image__img" loading="lazy">
-                <div class="homepage-catalog-slide__label">
+                     class="catalog-card-image__img" loading="lazy">
+                <div class="catalog-card__label">
                   На фото размер L
                 </div>
               </div>
             </div>
-            <div class="homepage-catalog-slide-content">
-              <div class="homepage-catalog-slide__title">Искушение</div>
-              <div class="homepage-catalog-slide-price">
-                <div class="homepage-catalog-slide-price-base">
-                  <span class="homepage-catalog-slide-price__value">33 900</span><span
-                    class="homepage-catalog-slide-price__currency">₽</span>
+            <div class="catalog-card-content">
+              <div class="catalog-card__title">Искушение</div>
+              <div class="catalog-card-price">
+                <div class="catalog-card-price-base">
+                  <span class="catalog-card-price__value">33 900</span><span
+                    class="catalog-card-price__currency">₽</span>
                 </div>
               </div>
-              <div class="homepage-catalog-slide-sku">
-                <button class="homepage-catalog-slide-sku-item" type="button">
-                  <span class="homepage-catalog-slide-sku-item__value">S</span>
-                  <span class="homepage-catalog-slide-sku-item__note">35 см</span>
+              <div class="catalog-card-sku">
+                <button class="catalog-card-sku-item" type="button">
+                  <span class="catalog-card-sku-item__value">S</span>
+                  <span class="catalog-card-sku-item__note">35 см</span>
                 </button>
-                <button class="homepage-catalog-slide-sku-item" type="button">
-                  <span class="homepage-catalog-slide-sku-item__value">М</span>
-                  <span class="homepage-catalog-slide-sku-item__note">40 см</span>
+                <button class="catalog-card-sku-item" type="button">
+                  <span class="catalog-card-sku-item__value">М</span>
+                  <span class="catalog-card-sku-item__note">40 см</span>
                 </button>
-                <button class="homepage-catalog-slide-sku-item homepage-catalog-slide-sku-item_active" type="button">
-                  <span class="homepage-catalog-slide-sku-item__value">L</span>
-                  <span class="homepage-catalog-slide-sku-item__note">45 см</span>
+                <button class="catalog-card-sku-item catalog-card-sku-item_active" type="button">
+                  <span class="catalog-card-sku-item__value">L</span>
+                  <span class="catalog-card-sku-item__note">45 см</span>
                 </button>
               </div>
-              <div class="homepage-catalog-slide-button-container">
-                <button class="button button_linear homepage-catalog-slide__to-cart" type="button">В корзину</button>
+              <div class="catalog-card-button-container">
+                <button class="button button_linear catalog-card__to-cart" type="button">В корзину</button>
               </div>
             </div>
+            <a href="#" class="link-as-card"></a>
           </div>
         </div>
       </div>
@@ -1271,7 +1292,7 @@ $pageConfig = [
       </div>
     </div>
   </section>
-  <div class="homepage-faq">
+  <section class="homepage-faq">
     <div class="container homepage-faq-container">
       <div class="homepage__title homepage-faq__title">Часто задаваемые вопросы</div>
       <div class="homepage-faq-list">
@@ -1361,7 +1382,7 @@ $pageConfig = [
         </div>
       </div>
     </div>
-  </div>
+  </section>
   <section class="homepage-viewed">
     <div class="container homepage-viewed-container">
       <div class="homepage-viewed-top">
@@ -1387,251 +1408,257 @@ $pageConfig = [
       </div>
       <div class="swiper homepage-catalog-slider homepage-viewed-slider">
         <div class="swiper-wrapper">
-          <div class="swiper-slide homepage-catalog-slide homepage-catalog-card" data-tab="1">
-            <div class="homepage-catalog-slide-image-wrapper">
-              <div class="homepage-catalog-slide-image-inner homepage-catalog-slide-image-inner_active">
-                <div class="homepage-catalog-slide__available">
+          <div class="swiper-slide catalog-card homepage-catalog-slide" data-tab="1">
+            <div class="catalog-card-image-wrapper">
+              <div class="catalog-card-image-inner catalog-card-image-inner_active">
+                <div class="catalog-card__available">
                   Только под заказ
                 </div>
                 <img src="/local/assets/images/catalog/image1.jpg" alt="Дыхание весны"
-                     class="homepage-catalog-slide-image__img" loading="lazy">
-                <div class="homepage-catalog-slide__label">
+                     class="catalog-card-image__img" loading="lazy">
+                <div class="catalog-card__label">
                   На фото размер L
                 </div>
               </div>
             </div>
-            <div class="homepage-catalog-slide-content">
-              <div class="homepage-catalog-slide__title">Дыхание весны</div>
-              <div class="homepage-catalog-slide-price">
-                <div class="homepage-catalog-slide-price-base">
-                  <span class="homepage-catalog-slide-price__value">19 500</span><span
-                    class="homepage-catalog-slide-price__currency">₽</span>
+            <div class="catalog-card-content">
+              <div class="catalog-card__title">Дыхание весны</div>
+              <div class="catalog-card-price">
+                <div class="catalog-card-price-base">
+                  <span class="catalog-card-price__value">19 500</span><span
+                    class="catalog-card-price__currency">₽</span>
                 </div>
               </div>
-              <div class="homepage-catalog-slide-sku">
-                <button class="homepage-catalog-slide-sku-item" type="button">
-                  <span class="homepage-catalog-slide-sku-item__value">XS</span>
-                  <span class="homepage-catalog-slide-sku-item__note">30 см</span>
+              <div class="catalog-card-sku">
+                <button class="catalog-card-sku-item" type="button">
+                  <span class="catalog-card-sku-item__value">XS</span>
+                  <span class="catalog-card-sku-item__note">30 см</span>
                 </button>
-                <button class="homepage-catalog-slide-sku-item" type="button">
-                  <span class="homepage-catalog-slide-sku-item__value">S</span>
-                  <span class="homepage-catalog-slide-sku-item__note">35 см</span>
+                <button class="catalog-card-sku-item" type="button">
+                  <span class="catalog-card-sku-item__value">S</span>
+                  <span class="catalog-card-sku-item__note">35 см</span>
                 </button>
-                <button class="homepage-catalog-slide-sku-item" type="button">
-                  <span class="homepage-catalog-slide-sku-item__value">М</span>
-                  <span class="homepage-catalog-slide-sku-item__note">40 см</span>
+                <button class="catalog-card-sku-item" type="button">
+                  <span class="catalog-card-sku-item__value">М</span>
+                  <span class="catalog-card-sku-item__note">40 см</span>
                 </button>
-                <button class="homepage-catalog-slide-sku-item homepage-catalog-slide-sku-item_active" type="button">
-                  <span class="homepage-catalog-slide-sku-item__value">L</span>
-                  <span class="homepage-catalog-slide-sku-item__note">45 см</span>
+                <button class="catalog-card-sku-item catalog-card-sku-item_active" type="button">
+                  <span class="catalog-card-sku-item__value">L</span>
+                  <span class="catalog-card-sku-item__note">45 см</span>
                 </button>
-                <button class="homepage-catalog-slide-sku-item" type="button">
-                  <span class="homepage-catalog-slide-sku-item__value">XXL</span>
-                  <span class="homepage-catalog-slide-sku-item__note">65 см</span>
+                <button class="catalog-card-sku-item" type="button">
+                  <span class="catalog-card-sku-item__value">XXL</span>
+                  <span class="catalog-card-sku-item__note">65 см</span>
                 </button>
               </div>
-              <div class="homepage-catalog-slide-button-container">
-                <button class="button button_linear homepage-catalog-slide__to-cart" type="button">собрать похожий
+              <div class="catalog-card-button-container">
+                <button class="button button_linear catalog-card__to-cart" type="button">собрать похожий
                 </button>
               </div>
             </div>
+            <a href="#" class="link-as-card"></a>
           </div>
-          <div class="swiper-slide homepage-catalog-slide homepage-catalog-card" data-tab="2">
-            <div class="homepage-catalog-slide-image-wrapper">
-              <div class="homepage-catalog-slide-image-inner homepage-catalog-slide-image-inner_active">
+          <div class="swiper-slide catalog-card homepage-catalog-slide" data-tab="2">
+            <div class="catalog-card-image-wrapper">
+              <div class="catalog-card-image-inner catalog-card-image-inner_active">
                 <img src="/local/assets/images/catalog/image2.jpg" alt="Дыхание весны"
-                     class="homepage-catalog-slide-image__img" loading="lazy">
-                <div class="homepage-catalog-slide__label">
+                     class="catalog-card-image__img" loading="lazy">
+                <div class="catalog-card__label">
                   На фото 55 шт.
                 </div>
               </div>
             </div>
-            <div class="homepage-catalog-slide-content">
-              <div class="homepage-catalog-slide__title">Пионовидные розы O'HARA (розовая) в корзине</div>
-              <div class="homepage-catalog-slide-price">
-                <div class="homepage-catalog-slide-price-base">
-                  <span class="homepage-catalog-slide-price__value">22 400</span><span
-                    class="homepage-catalog-slide-price__currency">₽</span>
+            <div class="catalog-card-content">
+              <div class="catalog-card__title">Пионовидные розы O'HARA (розовая) в корзине</div>
+              <div class="catalog-card-price">
+                <div class="catalog-card-price-base">
+                  <span class="catalog-card-price__value">22 400</span><span
+                    class="catalog-card-price__currency">₽</span>
                 </div>
               </div>
-              <div class="homepage-catalog-slide-sku">
-                <button class="homepage-catalog-slide-sku-item" type="button">
-                  <span class="homepage-catalog-slide-sku-item__value">35 шт.</span>
+              <div class="catalog-card-sku">
+                <button class="catalog-card-sku-item" type="button">
+                  <span class="catalog-card-sku-item__value">35 шт.</span>
                 </button>
-                <button class="homepage-catalog-slide-sku-item homepage-catalog-slide-sku-item_active" type="button">
-                  <span class="homepage-catalog-slide-sku-item__value">55 шт.</span>
+                <button class="catalog-card-sku-item catalog-card-sku-item_active" type="button">
+                  <span class="catalog-card-sku-item__value">55 шт.</span>
                 </button>
-                <button class="homepage-catalog-slide-sku-item" type="button">
-                  <span class="homepage-catalog-slide-sku-item__value">75 шт.</span>
+                <button class="catalog-card-sku-item" type="button">
+                  <span class="catalog-card-sku-item__value">75 шт.</span>
                 </button>
-                <button class="homepage-catalog-slide-sku-item" type="button">
-                  <span class="homepage-catalog-slide-sku-item__value">101 шт.</span>
+                <button class="catalog-card-sku-item" type="button">
+                  <span class="catalog-card-sku-item__value">101 шт.</span>
                 </button>
               </div>
-              <div class="homepage-catalog-slide-button-container">
-                <button class="button button_linear homepage-catalog-slide__to-cart" type="button">В корзину</button>
+              <div class="catalog-card-button-container">
+                <button class="button button_linear catalog-card__to-cart" type="button">В корзину</button>
               </div>
             </div>
+            <a href="#" class="link-as-card"></a>
           </div>
-          <div class="swiper-slide homepage-catalog-slide homepage-catalog-card" data-tab="3">
-            <div class="homepage-catalog-slide-image-wrapper">
-              <div class="homepage-catalog-slide-image-inner homepage-catalog-slide-image-inner_active">
+          <div class="swiper-slide catalog-card homepage-catalog-slide" data-tab="3">
+            <div class="catalog-card-image-wrapper">
+              <div class="catalog-card-image-inner catalog-card-image-inner_active">
                 <img src="/local/assets/images/catalog/image3.jpg" alt="Дыхание весны"
-                     class="homepage-catalog-slide-image__img" loading="lazy">
-                <div class="homepage-catalog-slide__label">
+                     class="catalog-card-image__img" loading="lazy">
+                <div class="catalog-card__label">
                   На фото размер L
                 </div>
               </div>
             </div>
-            <div class="homepage-catalog-slide-content">
-              <div class="homepage-catalog-slide__title">Искушение</div>
-              <div class="homepage-catalog-slide-price">
-                <div class="homepage-catalog-slide-price-base">
-                  <span class="homepage-catalog-slide-price__value">33 900</span><span
-                    class="homepage-catalog-slide-price__currency">₽</span>
+            <div class="catalog-card-content">
+              <div class="catalog-card__title">Искушение</div>
+              <div class="catalog-card-price">
+                <div class="catalog-card-price-base">
+                  <span class="catalog-card-price__value">33 900</span><span
+                    class="catalog-card-price__currency">₽</span>
                 </div>
               </div>
-              <div class="homepage-catalog-slide-sku">
-                <button class="homepage-catalog-slide-sku-item" type="button">
-                  <span class="homepage-catalog-slide-sku-item__value">S</span>
-                  <span class="homepage-catalog-slide-sku-item__note">35 см</span>
+              <div class="catalog-card-sku">
+                <button class="catalog-card-sku-item" type="button">
+                  <span class="catalog-card-sku-item__value">S</span>
+                  <span class="catalog-card-sku-item__note">35 см</span>
                 </button>
-                <button class="homepage-catalog-slide-sku-item" type="button">
-                  <span class="homepage-catalog-slide-sku-item__value">М</span>
-                  <span class="homepage-catalog-slide-sku-item__note">40 см</span>
+                <button class="catalog-card-sku-item" type="button">
+                  <span class="catalog-card-sku-item__value">М</span>
+                  <span class="catalog-card-sku-item__note">40 см</span>
                 </button>
-                <button class="homepage-catalog-slide-sku-item homepage-catalog-slide-sku-item_active" type="button">
-                  <span class="homepage-catalog-slide-sku-item__value">L</span>
-                  <span class="homepage-catalog-slide-sku-item__note">45 см</span>
+                <button class="catalog-card-sku-item catalog-card-sku-item_active" type="button">
+                  <span class="catalog-card-sku-item__value">L</span>
+                  <span class="catalog-card-sku-item__note">45 см</span>
                 </button>
               </div>
-              <div class="homepage-catalog-slide-button-container">
-                <button class="button button_linear homepage-catalog-slide__to-cart" type="button">В корзину</button>
+              <div class="catalog-card-button-container">
+                <button class="button button_linear catalog-card__to-cart" type="button">В корзину</button>
               </div>
             </div>
+            <a href="#" class="link-as-card"></a>
           </div>
-          <div class="swiper-slide homepage-catalog-slide homepage-catalog-card" data-tab="1">
-            <div class="homepage-catalog-slide-image-wrapper">
-              <div class="homepage-catalog-slide-image-inner homepage-catalog-slide-image-inner_active">
+          <div class="swiper-slide catalog-card homepage-catalog-slide" data-tab="1">
+            <div class="catalog-card-image-wrapper">
+              <div class="catalog-card-image-inner catalog-card-image-inner_active">
                 <img src="/local/assets/images/catalog/image4.jpg" alt="Дыхание весны"
-                     class="homepage-catalog-slide-image__img" loading="lazy">
-                <div class="homepage-catalog-slide__label">
+                     class="catalog-card-image__img" loading="lazy">
+                <div class="catalog-card__label">
                   На фото 69 шт.
                 </div>
               </div>
             </div>
-            <div class="homepage-catalog-slide-content">
-              <div class="homepage-catalog-slide__title">Розы алые</div>
-              <div class="homepage-catalog-slide-price">
-                <div class="homepage-catalog-slide-price-base">
-                  <span class="homepage-catalog-slide-price__value">22 400</span><span
-                    class="homepage-catalog-slide-price__currency">₽</span>
+            <div class="catalog-card-content">
+              <div class="catalog-card__title">Розы алые</div>
+              <div class="catalog-card-price">
+                <div class="catalog-card-price-base">
+                  <span class="catalog-card-price__value">22 400</span><span
+                    class="catalog-card-price__currency">₽</span>
                 </div>
               </div>
-              <div class="homepage-catalog-slide-sku">
-                <button class="homepage-catalog-slide-sku-item" type="button">
-                  <span class="homepage-catalog-slide-sku-item__value">29 шт.</span>
+              <div class="catalog-card-sku">
+                <button class="catalog-card-sku-item" type="button">
+                  <span class="catalog-card-sku-item__value">29 шт.</span>
                 </button>
-                <button class="homepage-catalog-slide-sku-item" type="button">
-                  <span class="homepage-catalog-slide-sku-item__value">39 шт.</span>
+                <button class="catalog-card-sku-item" type="button">
+                  <span class="catalog-card-sku-item__value">39 шт.</span>
                 </button>
-                <button class="homepage-catalog-slide-sku-item" type="button">
-                  <span class="homepage-catalog-slide-sku-item__value">49 шт.</span>
+                <button class="catalog-card-sku-item" type="button">
+                  <span class="catalog-card-sku-item__value">49 шт.</span>
                 </button>
-                <button class="homepage-catalog-slide-sku-item" type="button">
-                  <span class="homepage-catalog-slide-sku-item__value">59 шт.</span>
+                <button class="catalog-card-sku-item" type="button">
+                  <span class="catalog-card-sku-item__value">59 шт.</span>
                 </button>
-                <button class="homepage-catalog-slide-sku-item homepage-catalog-slide-sku-item_active" type="button">
-                  <span class="homepage-catalog-slide-sku-item__value">69 шт.</span>
+                <button class="catalog-card-sku-item catalog-card-sku-item_active" type="button">
+                  <span class="catalog-card-sku-item__value">69 шт.</span>
                 </button>
-                <button class="homepage-catalog-slide-sku-item" type="button">
-                  <span class="homepage-catalog-slide-sku-item__value">79 шт.</span>
+                <button class="catalog-card-sku-item" type="button">
+                  <span class="catalog-card-sku-item__value">79 шт.</span>
                 </button>
-                <button class="homepage-catalog-slide-sku-item" type="button">
-                  <span class="homepage-catalog-slide-sku-item__value">89 шт.</span>
+                <button class="catalog-card-sku-item" type="button">
+                  <span class="catalog-card-sku-item__value">89 шт.</span>
                 </button>
-                <button class="homepage-catalog-slide-sku-item" type="button">
-                  <span class="homepage-catalog-slide-sku-item__value">101 шт.</span>
+                <button class="catalog-card-sku-item" type="button">
+                  <span class="catalog-card-sku-item__value">101 шт.</span>
                 </button>
               </div>
-              <div class="homepage-catalog-slide-button-container">
-                <button class="button button_linear homepage-catalog-slide__to-cart" type="button">В корзину</button>
+              <div class="catalog-card-button-container">
+                <button class="button button_linear catalog-card__to-cart" type="button">В корзину</button>
               </div>
             </div>
+            <a href="#" class="link-as-card"></a>
           </div>
-          <div class="swiper-slide homepage-catalog-slide homepage-catalog-card" data-tab="2">
-            <div class="homepage-catalog-slide-image-wrapper">
-              <div class="homepage-catalog-slide-image-inner homepage-catalog-slide-image-inner_active">
+          <div class="swiper-slide catalog-card homepage-catalog-slide" data-tab="2">
+            <div class="catalog-card-image-wrapper">
+              <div class="catalog-card-image-inner catalog-card-image-inner_active">
                 <img src="/local/assets/images/catalog/image2.jpg" alt="Дыхание весны"
-                     class="homepage-catalog-slide-image__img" loading="lazy">
-                <div class="homepage-catalog-slide__label">
+                     class="catalog-card-image__img" loading="lazy">
+                <div class="catalog-card__label">
                   На фото 55 шт.
                 </div>
               </div>
             </div>
-            <div class="homepage-catalog-slide-content">
-              <div class="homepage-catalog-slide__title">Пионовидные розы O'HARA (розовая) в корзине</div>
-              <div class="homepage-catalog-slide-price">
-                <div class="homepage-catalog-slide-price-base">
-                  <span class="homepage-catalog-slide-price__value">22 400</span><span
-                    class="homepage-catalog-slide-price__currency">₽</span>
+            <div class="catalog-card-content">
+              <div class="catalog-card__title">Пионовидные розы O'HARA (розовая) в корзине</div>
+              <div class="catalog-card-price">
+                <div class="catalog-card-price-base">
+                  <span class="catalog-card-price__value">22 400</span><span
+                    class="catalog-card-price__currency">₽</span>
                 </div>
               </div>
-              <div class="homepage-catalog-slide-sku">
-                <button class="homepage-catalog-slide-sku-item" type="button">
-                  <span class="homepage-catalog-slide-sku-item__value">35 шт.</span>
+              <div class="catalog-card-sku">
+                <button class="catalog-card-sku-item" type="button">
+                  <span class="catalog-card-sku-item__value">35 шт.</span>
                 </button>
-                <button class="homepage-catalog-slide-sku-item homepage-catalog-slide-sku-item_active" type="button">
-                  <span class="homepage-catalog-slide-sku-item__value">55 шт.</span>
+                <button class="catalog-card-sku-item catalog-card-sku-item_active" type="button">
+                  <span class="catalog-card-sku-item__value">55 шт.</span>
                 </button>
-                <button class="homepage-catalog-slide-sku-item" type="button">
-                  <span class="homepage-catalog-slide-sku-item__value">75 шт.</span>
+                <button class="catalog-card-sku-item" type="button">
+                  <span class="catalog-card-sku-item__value">75 шт.</span>
                 </button>
-                <button class="homepage-catalog-slide-sku-item" type="button">
-                  <span class="homepage-catalog-slide-sku-item__value">101 шт.</span>
+                <button class="catalog-card-sku-item" type="button">
+                  <span class="catalog-card-sku-item__value">101 шт.</span>
                 </button>
               </div>
-              <div class="homepage-catalog-slide-button-container">
-                <button class="button button_linear homepage-catalog-slide__to-cart" type="button">В корзину</button>
+              <div class="catalog-card-button-container">
+                <button class="button button_linear catalog-card__to-cart" type="button">В корзину</button>
               </div>
             </div>
+            <a href="#" class="link-as-card"></a>
           </div>
-          <div class="swiper-slide homepage-catalog-slide homepage-catalog-card" data-tab="3">
-            <div class="homepage-catalog-slide-image-wrapper">
-              <div class="homepage-catalog-slide-image-inner homepage-catalog-slide-image-inner_active">
+          <div class="swiper-slide catalog-card homepage-catalog-slide" data-tab="3">
+            <div class="catalog-card-image-wrapper">
+              <div class="catalog-card-image-inner catalog-card-image-inner_active">
                 <img src="/local/assets/images/catalog/image3.jpg" alt="Дыхание весны"
-                     class="homepage-catalog-slide-image__img" loading="lazy">
-                <div class="homepage-catalog-slide__label">
+                     class="catalog-card-image__img" loading="lazy">
+                <div class="catalog-card__label">
                   На фото размер L
                 </div>
               </div>
             </div>
-            <div class="homepage-catalog-slide-content">
-              <div class="homepage-catalog-slide__title">Искушение</div>
-              <div class="homepage-catalog-slide-price">
-                <div class="homepage-catalog-slide-price-base">
-                  <span class="homepage-catalog-slide-price__value">33 900</span><span
-                    class="homepage-catalog-slide-price__currency">₽</span>
+            <div class="catalog-card-content">
+              <div class="catalog-card__title">Искушение</div>
+              <div class="catalog-card-price">
+                <div class="catalog-card-price-base">
+                  <span class="catalog-card-price__value">33 900</span><span
+                    class="catalog-card-price__currency">₽</span>
                 </div>
               </div>
-              <div class="homepage-catalog-slide-sku">
-                <button class="homepage-catalog-slide-sku-item" type="button">
-                  <span class="homepage-catalog-slide-sku-item__value">S</span>
-                  <span class="homepage-catalog-slide-sku-item__note">35 см</span>
+              <div class="catalog-card-sku">
+                <button class="catalog-card-sku-item" type="button">
+                  <span class="catalog-card-sku-item__value">S</span>
+                  <span class="catalog-card-sku-item__note">35 см</span>
                 </button>
-                <button class="homepage-catalog-slide-sku-item" type="button">
-                  <span class="homepage-catalog-slide-sku-item__value">М</span>
-                  <span class="homepage-catalog-slide-sku-item__note">40 см</span>
+                <button class="catalog-card-sku-item" type="button">
+                  <span class="catalog-card-sku-item__value">М</span>
+                  <span class="catalog-card-sku-item__note">40 см</span>
                 </button>
-                <button class="homepage-catalog-slide-sku-item homepage-catalog-slide-sku-item_active" type="button">
-                  <span class="homepage-catalog-slide-sku-item__value">L</span>
-                  <span class="homepage-catalog-slide-sku-item__note">45 см</span>
+                <button class="catalog-card-sku-item catalog-card-sku-item_active" type="button">
+                  <span class="catalog-card-sku-item__value">L</span>
+                  <span class="catalog-card-sku-item__note">45 см</span>
                 </button>
               </div>
-              <div class="homepage-catalog-slide-button-container">
-                <button class="button button_linear homepage-catalog-slide__to-cart" type="button">В корзину</button>
+              <div class="catalog-card-button-container">
+                <button class="button button_linear catalog-card__to-cart" type="button">В корзину</button>
               </div>
             </div>
+            <a href="#" class="link-as-card"></a>
           </div>
         </div>
       </div>

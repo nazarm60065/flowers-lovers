@@ -1,0 +1,144 @@
+@import '../../variables/variables'
+@import '../../mixins/mixins'
+@import '../../slider/slider'
+@import '../../pager/pager'
+@import '../../catalog-sections/catalog-sections'
+@import '../../catalog-card/catalog-card'
+@import '../../catalog-mega-card/catalog-mega-card'
+@import '../../catalog-filter/catalog-filter'
+@import '../../catalog-stack/catalog-stack'
+@import '../../homepage-viewed/homepage-viewed'
+@import '../../filter/filter'
+
+.catalog
+  padding-top: 67px
+  
+.catalog-breadcrumbs
+  border-bottom: 1px solid $beige-dark
+  padding: 10px 0
+  margin-bottom: 15px
+
+  .breadcrumbs
+    margin-bottom: 0
+
+.catalog__title
+  margin: 15px 0
+  font-size: 24px
+  font-weight: 400
+  line-height: 24px
+  letter-spacing: 0.12em
+  text-align: center
+  text-transform: uppercase
+
+.catalog-toolbar
+  display: flex
+  align-items: center
+  justify-content: space-between
+
+.catalog__toggle
+  font-size: 12px
+  font-weight: 400
+  line-height: 14.4px
+  letter-spacing: 0.12em
+  display: flex
+  align-items: center
+  gap: 8px
+  text-transform: uppercase
+  padding: 10px 0
+
+.catalog__toggle-icon
+  flex-shrink: 0
+  width: 15px
+  +svg
+
+.catalog-list
+  display: grid
+  grid-template-columns: repeat(2, minmax(0, 1fr))
+  gap: 40px 2px
+  padding-bottom: 40px
+
+.catalog-pager
+  grid-column-start: 1
+  grid-column-end: -1
+  text-align: center
+
++mq(tablet)
+  .catalog-list
+    grid-template-columns: repeat(3, minmax(0, 1fr))
+
++mq(desktop, max)
+  .catalog-bg
+    display: none
+
++mq(desktop)
+  .catalog
+    padding-top: 0
+
+  .catalog-container
+    max-width: 1320px
+
+  .catalog-breadcrumbs
+    margin-bottom: 20px
+
+  .catalog__title
+    margin: 20px 0
+
+  .catalog-toolbar
+    border-bottom: 1px solid $beige-dark
+
+  .catalog-list
+    max-width: $wp3
+    padding: 0 $co3 106px
+    margin: 0 auto
+
+  .header:not(.header_scroll)
+    color: $beige
+
+    .header-float
+      background-color: transparent
+      border-bottom: none
+
+    .header-logo path
+      fill: $beige
+
+    .header-item path
+      stroke: $beige
+
+    .header-cart__count
+      color: $beige
+
+    .header-burger__line,
+    .header-burger__line:before,
+    .header-burger__line:after
+      background-color: $beige
+
+  .catalog-bg
+    position: relative
+    width: 100%
+    padding-bottom: 17.362%
+
+  .catalog-bg:after
+    content: ''
+    +absoluteFluid
+    background: linear-gradient(180deg, rgba(58, 41, 29, 0.7) 0%, rgba(58, 41, 29, 0) 40.1%)
+
+  .catalog-bg-inner
+    +absoluteFluid
+
+  .catalog-bg__img
+    width: 100%
+    height: 100%
+    object-fit: cover
+
+  .catalog__toggle
+    transition: color $default-transition
+
+  .catalog__toggle:hover
+    color: $brown-light
+
+  .catalog-pager
+    margin-top: 40px
+
++mq(wide-screen)
+  .catalog-container
+    max-width: $wp4

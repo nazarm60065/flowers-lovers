@@ -1,0 +1,38 @@
+.catalog-mega-card
+  grid-column-start: 1
+  grid-column-end: -1
+  max-width: none
+  display: flex
+
+.catalog-mega-card-wrapper
+  padding-bottom: 77.724%
+
++mq(tablet)
+  .catalog-mega-card
+    flex-direction: row
+
+  .catalog-mega-card_reverse .catalog-mega-card-content
+    order: -1
+
+
+  .catalog-mega-card-wrapper
+    width: 100%
+    min-width: 0
+    padding-bottom: 0
+    height: 386px
+
+  .catalog-mega-card-content
+    width: 286px
+    flex-shrink: 0
+    border: 1px solid $pink-light-color
+    margin: 0
+    justify-content: center
+    padding: 20px
+
+  .catalog-mega-card-button-container
+    margin-top: 0
+
++mq(desktop)
+  .catalog-mega-card-content
+    width: 300px
+    padding: 34px

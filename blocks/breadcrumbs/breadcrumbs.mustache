@@ -1,0 +1,19 @@
+{{#items.isNotEmpty}}
+    <nav class="breadcrumbs">
+        {{#items}}
+            {{^isLast}}
+              <a href="{{{href}}}" class="breadcrumbs__item{{#isFirst}} breadcrumbs__item_first{{/isFirst}}">
+                {{{text}}}
+              </a>
+            {{/isLast}}
+            {{#isLast}}
+                <span class="breadcrumbs__item breadcrumbs__item_last">
+                    {{{text}}}
+                </span>
+            {{/isLast}}
+        {{/items}}
+    </nav>
+{{/items.isNotEmpty}}
+{{#schema}}
+    <script type="application/ld+json" data-skip-moving="true">{{{.}}}</script>
+{{/schema}}

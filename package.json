@@ -33,10 +33,12 @@
   "license": "MIT",
   "dependencies": {
     "@fancyapps/ui": "^5.0.35",
+    "autonumeric": "^4.10.5",
     "inputmask": "^5.0.9",
     "loading-attribute-polyfill": "^2.1.1",
     "lodash": "^4.17.21",
     "mustache": "^4.2.0",
+    "nouislider": "^15.8.1",
     "swiper": "^11.0.7",
     "whatwg-fetch": "^3.6.19"
   },

@@ -1,0 +1,41 @@
+.catalog-stack
+  margin: 15px 0
+  display: flex
+  align-items: center
+  flex-wrap: wrap
+  gap: 12px
+
+.catalog-stack__reset
+  padding: 5px 10px
+  font-family: $wellingtons-font
+  font-size: 10px
+  line-height: 17px
+  letter-spacing: 0.02em
+  border: 1px solid $beige-dark
+  transition: $default-transition
+  &:hover
+    border-color: $pink-color
+    color: $orange-color
+
+.catalog-stack-item
+  display: flex
+  align-items: center
+  gap: 8px
+  padding: 5px
+  font-family: $wellingtons-font
+  font-size: 10px
+  line-height: 17px
+  letter-spacing: 0.02em
+  transition: color $default-transition
+  &:hover
+    color: $brown-light
+
+.catalog-stack-item__icon
+  width: 9px
+  flex-shrink: 0
+  +svg
+
++mq(desktop, max)
+  .catalog-stack
+    display: none
+

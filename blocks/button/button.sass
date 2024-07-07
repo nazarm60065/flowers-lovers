@@ -1,3 +1,6 @@
+.button
+  transition: $default-transition
+
 .button_linear
   font-size: 13px
   line-height: 1
@@ -6,6 +9,13 @@
   text-transform: uppercase
   border: 1px solid $brown-dark
   padding: 6px 19px 9px
+
+.button_linear-brown
+  font-size: 13px
+  line-height: 1
+  letter-spacing: 0.12em
+  text-align: center
+  border: 1px solid $brown-light
 
 .button_filled-pink
   font-size: 13px
@@ -17,3 +27,13 @@
   text-transform: uppercase
   border: 2px solid $beige
   outline: 1px solid $pink-light-color
+
++mq(desktop)
+  .button_linear:not(:disabled):hover
+    border-color: $pink-color
+    color: $orange-color
+
+  .button_filled-pink:not(:disabled):hover
+    background-color: $beige-dark
+    outline-color: $brown-light
+    color: $brown-dark

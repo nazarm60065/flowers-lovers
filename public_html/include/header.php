@@ -315,5 +315,4 @@ if ($pageConfig['isCatalogPage']) {
   </div>
 </div>
 <main class="main <?= $pageConfig['main_class'] ?>">
-    <? if (empty($pageConfig['notShowNavChain'])) include 'breadcrumbs.php' ?>
 
