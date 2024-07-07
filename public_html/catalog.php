@@ -1157,13 +1157,229 @@ $pageConfig = [
                   </div>
                   —
                   <div class="filter-range-item filter-range-max">
-                    <input type="text" class="form-hidden filter-range__control filter-range-max__control" value="45000">
+                    <input type="text" class="filter-range__control filter-range-max__control" value="45000">
                   </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
+      </div>
+      <div class="filter-group">
+        <div class="container filter-group-container">
+          <div class="filter-group-top">
+            <div class="filter-group__title">Время доставки</div>
+            <div class="filter-group__icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="17" height="9" fill="none" viewBox="0 0 17 9">
+                <path stroke="#242424" stroke-linecap="round" stroke-miterlimit="10" stroke-width=".6"
+                      d="m1 .829 7.229 7.229c.15.15.391.15.542 0L16 .829" />
+              </svg>
+            </div>
+          </div>
+          <div class="filter-group-hidden">
+            <div class="filter-group-inner">
+              <div class="filter-checkbox-list">
+                <div class="filter-checkbox">
+                  <label class="filter-checkbox-label">
+                    <input type="checkbox" class="form-hidden filter-checkbox__control" name="property1">
+                    <span class="filter-checkbox__marker"></span>
+                    <span class="filter-checkbox__text">Экспресс</span>
+                  </label>
+                </div>
+                <div class="filter-checkbox">
+                  <label class="filter-checkbox-label">
+                    <input type="checkbox" class="form-hidden filter-checkbox__control" name="property2">
+                    <span class="filter-checkbox__marker"></span>
+                    <span class="filter-checkbox__text">В течение дня</span>
+                  </label>
+                </div>
+                <div class="filter-checkbox">
+                  <label class="filter-checkbox-label">
+                    <input type="checkbox" class="form-hidden filter-checkbox__control" name="property3">
+                    <span class="filter-checkbox__marker"></span>
+                    <span class="filter-checkbox__text">В течение недели</span>
+                  </label>
+                </div>
+                <div class="filter-checkbox">
+                  <label class="filter-checkbox-label">
+                    <input type="checkbox" class="form-hidden filter-checkbox__control" name="property4">
+                    <span class="filter-checkbox__marker"></span>
+                    <span class="filter-checkbox__text">Под заказ</span>
+                  </label>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="filter-group">
+        <div class="container filter-group-container">
+          <div class="filter-group-top">
+            <div class="filter-group__title">Цветовая гамма</div>
+            <div class="filter-group__icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="17" height="9" fill="none" viewBox="0 0 17 9">
+                <path stroke="#242424" stroke-linecap="round" stroke-miterlimit="10" stroke-width=".6"
+                      d="m1 .829 7.229 7.229c.15.15.391.15.542 0L16 .829" />
+              </svg>
+            </div>
+          </div>
+          <div class="filter-group-hidden">
+            <div class="filter-group-inner">
+              <div class="filter-checkbox-list">
+                <div class="filter-checkbox">
+                  <label class="filter-checkbox-label">
+                    <input type="checkbox" class="form-hidden filter-checkbox__control" name="property2_1">
+                    <span class="filter-checkbox__marker"></span>
+                    <span class="filter-checkbox__text">яркая</span>
+                  </label>
+                </div>
+                <div class="filter-checkbox">
+                  <label class="filter-checkbox-label">
+                    <input type="checkbox" class="form-hidden filter-checkbox__control" name="property2_2">
+                    <span class="filter-checkbox__marker"></span>
+                    <span class="filter-checkbox__text">пастельная</span>
+                  </label>
+                </div>
+                <div class="filter-checkbox">
+                  <label class="filter-checkbox-label">
+                    <input type="checkbox" class="form-hidden filter-checkbox__control" name="property2_3">
+                    <span class="filter-checkbox__marker"></span>
+                    <span class="filter-checkbox__text">розовая</span>
+                  </label>
+                </div>
+                <div class="filter-checkbox">
+                  <label class="filter-checkbox-label">
+                    <input type="checkbox" class="form-hidden filter-checkbox__control" name="property2_4">
+                    <span class="filter-checkbox__marker"></span>
+                    <span class="filter-checkbox__text">акварельная</span>
+                  </label>
+                </div>
+                <div class="filter-checkbox">
+                  <label class="filter-checkbox-label">
+                    <input type="checkbox" class="form-hidden filter-checkbox__control" name="property2_5">
+                    <span class="filter-checkbox__marker"></span>
+                    <span class="filter-checkbox__text">белая</span>
+                  </label>
+                </div>
+                <div class="filter-checkbox">
+                  <label class="filter-checkbox-label">
+                    <input type="checkbox" class="form-hidden filter-checkbox__control" name="property2_6">
+                    <span class="filter-checkbox__marker"></span>
+                    <span class="filter-checkbox__text">свежая</span>
+                  </label>
+                </div>
+                <div class="filter-checkbox">
+                  <label class="filter-checkbox-label">
+                    <input type="checkbox" class="form-hidden filter-checkbox__control" name="property2_7">
+                    <span class="filter-checkbox__marker"></span>
+                    <span class="filter-checkbox__text">зеленая</span>
+                  </label>
+                </div>
+                <div class="filter-checkbox">
+                  <label class="filter-checkbox-label">
+                    <input type="checkbox" class="form-hidden filter-checkbox__control" name="property2_8">
+                    <span class="filter-checkbox__marker"></span>
+                    <span class="filter-checkbox__text">нежная</span>
+                  </label>
+                </div>
+                <div class="filter-checkbox">
+                  <label class="filter-checkbox-label">
+                    <input type="checkbox" class="form-hidden filter-checkbox__control" name="property2_9">
+                    <span class="filter-checkbox__marker"></span>
+                    <span class="filter-checkbox__text">солнечная</span>
+                  </label>
+                </div>
+                <div class="filter-checkbox">
+                  <label class="filter-checkbox-label">
+                    <input type="checkbox" class="form-hidden filter-checkbox__control" name="property2_10">
+                    <span class="filter-checkbox__marker"></span>
+                    <span class="filter-checkbox__text">натуральная бежевая</span>
+                  </label>
+                </div>
+                <div class="filter-checkbox">
+                  <label class="filter-checkbox-label">
+                    <input type="checkbox" class="form-hidden filter-checkbox__control" name="property2_11">
+                    <span class="filter-checkbox__marker"></span>
+                    <span class="filter-checkbox__text">оранжевая</span>
+                  </label>
+                </div>
+                <div class="filter-checkbox">
+                  <label class="filter-checkbox-label">
+                    <input type="checkbox" class="form-hidden filter-checkbox__control" name="property2_12">
+                    <span class="filter-checkbox__marker"></span>
+                    <span class="filter-checkbox__text">дерзкая</span>
+                  </label>
+                </div>
+                <div class="filter-checkbox">
+                  <label class="filter-checkbox-label">
+                    <input type="checkbox" class="form-hidden filter-checkbox__control" name="property2_13">
+                    <span class="filter-checkbox__marker"></span>
+                    <span class="filter-checkbox__text">лавандовая цвета неба</span>
+                  </label>
+                </div>
+                <div class="filter-checkbox">
+                  <label class="filter-checkbox-label">
+                    <input type="checkbox" class="form-hidden filter-checkbox__control" name="property2_14">
+                    <span class="filter-checkbox__marker"></span>
+                    <span class="filter-checkbox__text">с мужским характером</span>
+                  </label>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="filter-group">
+        <div class="container filter-group-container">
+          <div class="filter-group-top">
+            <div class="filter-group__title">вид букета</div>
+            <div class="filter-group__icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="17" height="9" fill="none" viewBox="0 0 17 9">
+                <path stroke="#242424" stroke-linecap="round" stroke-miterlimit="10" stroke-width=".6"
+                      d="m1 .829 7.229 7.229c.15.15.391.15.542 0L16 .829" />
+              </svg>
+            </div>
+          </div>
+          <div class="filter-group-hidden">
+            <div class="filter-group-inner">
+              <div class="filter-checkbox-list">
+                <div class="filter-checkbox">
+                  <label class="filter-checkbox-label">
+                    <input type="checkbox" class="form-hidden filter-checkbox__control" name="property3_1">
+                    <span class="filter-checkbox__marker"></span>
+                    <span class="filter-checkbox__text">Экспресс</span>
+                  </label>
+                </div>
+                <div class="filter-checkbox">
+                  <label class="filter-checkbox-label">
+                    <input type="checkbox" class="form-hidden filter-checkbox__control" name="property3_2">
+                    <span class="filter-checkbox__marker"></span>
+                    <span class="filter-checkbox__text">В течение дня</span>
+                  </label>
+                </div>
+                <div class="filter-checkbox">
+                  <label class="filter-checkbox-label">
+                    <input type="checkbox" class="form-hidden filter-checkbox__control" name="property3_3">
+                    <span class="filter-checkbox__marker"></span>
+                    <span class="filter-checkbox__text">В течение недели</span>
+                  </label>
+                </div>
+                <div class="filter-checkbox">
+                  <label class="filter-checkbox-label">
+                    <input type="checkbox" class="form-hidden filter-checkbox__control" name="property3_4">
+                    <span class="filter-checkbox__marker"></span>
+                    <span class="filter-checkbox__text">Под заказ</span>
+                  </label>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="filter-modal-bottom">
+      <div class="container filter-modal-bottom-container">
+        <button class="button button_filled-pink filter-modal__submit" type="button">Применить фильтр (15)</button>
       </div>
     </div>
   </div>

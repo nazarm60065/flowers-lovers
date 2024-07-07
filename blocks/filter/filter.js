@@ -1,9 +1,12 @@
 import noUiSlider from 'nouislider'
 import AutoNumeric from 'autonumeric'
+import { Accordion } from '../accordion/Accordion'
 
 export default () => {
-  const rangeList = document.querySelectorAll('.filter-range')
-  const filterModal = document.querySelector('.filter-modal')
+  const rangeList = document.querySelectorAll('.filter-range'),
+    filterModal = document.querySelector('.filter-modal'),
+    filterAccordion = document.querySelector('.filter-modal-inner'),
+    page = document.querySelector('.page')
 
   if (rangeList.length) {
     rangeList.forEach(range => {
@@ -57,17 +60,38 @@ export default () => {
   }
 
   if (filterModal) {
-    const filterToggle = document.querySelector('.catalog__filter-toggle')
+    const filterToggle = document.querySelector('.catalog__filter-toggle'),
+      filterClose = filterModal.querySelector('.filter-modal__close')
 
     filterModal.classList.add('filter-modal_ready')
 
     if (filterToggle) {
       filterToggle.addEventListener('click', toggleFilter)
     }
+
+    if (filterClose) {
+      filterClose.addEventListener('click', closeFilter)
+    }
+  }
+
+  if (filterAccordion) {
+    new Accordion({
+      selectors: {
+        accordion: '.filter-modal-inner',
+        item: '.filter-group',
+        trigger: '.filter-group-top',
+        hidden: '.filter-group-hidden',
+      },
+      classes: {
+        opened: 'filter-group_opened',
+      },
+      defaultOpenIndexes: [0],
+      oneOpen: false,
+    })
   }
 
   function toggleFilter() {
-    if (filterModal.classList.contains('filter-modal_opened')) {
+    if (page.classList.contains('page_filter-opened')) {
       closeFilter()
     } else {
       openFilter()
@@ -75,11 +99,11 @@ export default () => {
   }
 
   function closeFilter() {
-    filterModal.classList.remove('filter-modal_opened')
+    page.classList.remove('page_filter-opened')
   }
 
   function openFilter() {
-    filterModal.classList.add('filter-modal_opened')
+    page.classList.add('page_filter-opened')
   }
 
   function initRangeSlider(rangeSlider) {
