@@ -4,11 +4,13 @@ $pageConfig = [
     'title' => 'Каталог',
     'inlineCss' => [
         '/local/assets/local/bundle-common/bundle-common.css',
+        '/local/assets/local/bundle-form/bundle-form.css',
         '/local/assets/local/bundle-catalog/bundle-catalog.css',
     ],
     'deferJs' => [
         '/local/assets/local/bundle-common/bundle-common.js',
         '/local/assets/local/bundle-catalog/bundle-catalog.js',
+        '/local/assets/local/bundle-form/bundle-form.js',
     ],
     'main_class' => 'catalog',
     'isMainPage' => false,
@@ -31,6 +33,9 @@ $pageConfig = [
   </div>
   <div class="container catalog-container">
     <h1 class="catalog__title">Каталог букетов</h1>
+  </div>
+  <div class="container" style="margin-bottom: 20px;">
+    <a href="#modal-message" data-fancybox>Сообщение в модальном окне</a>
   </div>
   <div class="catalog-sections-wrapper">
     <div class="container catalog-container">
@@ -74,14 +79,32 @@ $pageConfig = [
         </span>
         <span class="catalog__toggle-text">Фильтр</span>
       </button>
-      <button class="catalog__toggle catalog__sort-toggle" type="button">
-        <span class="catalog__toggle-icon">
-          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="15" fill="none" viewBox="0 0 16 15"><path
-              stroke="#242424" stroke-linecap="round" stroke-miterlimit="10" stroke-width=".5"
-              d="M7 11.29h2M5 8.763h6M3 6h10M1 3h14" /></svg>
-        </span>
-        <span class="catalog__toggle-text">Сортировка</span>
-      </button>
+      <div class="dropdown catalog-sort">
+        <button class="dropdown__current catalog__toggle catalog__sort-toggle" type="button">
+          <span class="catalog__toggle-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="15" fill="none" viewBox="0 0 16 15"><path
+                stroke="#242424" stroke-linecap="round" stroke-miterlimit="10" stroke-width=".5"
+                d="M7 11.29h2M5 8.763h6M3 6h10M1 3h14" /></svg>
+          </span>
+          <span class="dropdown-current__text catalog__toggle-text ">Сортировка</span>
+        </button>
+        <div class="dropdown-hidden catalog-sort-hidden">
+          <div class="dropdown-list catalog-sort-list" id="sort">
+            <div class="catalog-sort-item" data-value="По популярности">
+              <a href="#" class="catalog-sort-item__link">По популярности</a>
+            </div>
+            <div class="catalog-sort-item" data-value="Сначала дешевле">
+              <a href="#" class="catalog-sort-item__link">Сначала дешевле</a>
+            </div>
+            <div class="catalog-sort-item" data-value="Сначала дороже">
+              <a href="#" class="catalog-sort-item__link">Сначала дороже</a>
+            </div>
+            <div class="catalog-sort-item" data-value="По новизне">
+              <a href="#" class="catalog-sort-item__link">По новизне</a>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
     <div class="catalog-stack">
       <button class="catalog-stack__reset" type="button">Очистить все</button>
@@ -1126,12 +1149,15 @@ $pageConfig = [
       </div>
     </div>
   </section>
+  <div class="filter-modal-overlay"></div>
   <div class="filter-modal" id="filter">
     <div class="filter-modal-top">
       <div class="container filter-modal-top-container">
         <button class="button button_linear-brown filter-modal__reset" type="button">Очистить все</button>
         <button class="filter-modal__close" type="button">
-          <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="none" viewBox="0 0 32 32"><path stroke="#242424" d="m7.354 6.646 16.97 16.971M6.646 23.646l16.971-16.97"/></svg>
+          <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="none" viewBox="0 0 32 32">
+            <path stroke="#242424" d="m7.354 6.646 16.97 16.971M6.646 23.646l16.971-16.97" />
+          </svg>
         </button>
       </div>
     </div>
@@ -1150,7 +1176,8 @@ $pageConfig = [
           <div class="filter-group-hidden">
             <div class="filter-group-inner">
               <div class="filter-range">
-                <div class="filter-range-slider" data-min="6000" data-max="45000" data-step="1" data-start="6000,45000"></div>
+                <div class="filter-range-slider" data-min="6000" data-max="45000" data-step="1"
+                     data-start="6000,45000"></div>
                 <div class="filter-range-list">
                   <div class="filter-range-item filter-range-min">
                     <input type="text" class="filter-range__control filter-range-min__control" value="6000">
@@ -1382,6 +1409,27 @@ $pageConfig = [
         <button class="button button_filled-pink filter-modal__submit" type="button">Применить фильтр (15)</button>
       </div>
     </div>
+  </div>
+
+  <div class="modal-message" id="modal-message">
+    <div class="container modal-message-container">
+      <div class="modal-message-inner">
+        <div class="modal-message__text">
+          Не все цветы этого букета сейчас в сезоне и доступны к заказу, но при сборке букета мы сохраним общую гамму и
+          стилистику. А после оформления обязательно согласуем изменения с вами.
+        </div>
+        <div class="modal-message-button-container">
+          <button class="button button_filled-pink modal-message__button" type="button" data-fancybox-close>хорошо,
+            добавить в корзину
+          </button>
+        </div>
+      </div>
+    </div>
+    <button class="modal-message__close" type="button" data-fancybox-close>
+      <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="none" viewBox="0 0 32 32">
+        <path stroke="#242424" d="m7.354 6.646 16.97 16.971M6.646 23.646l16.971-16.97" />
+      </svg>
+    </button>
   </div>
 
 <? include 'include/footer.php';

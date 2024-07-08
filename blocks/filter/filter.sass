@@ -24,6 +24,9 @@
 .filter-modal_ready
   display: flex
 
+.filter-modal-overlay
+  display: none
+
 .filter-modal-top
   flex-shrink: 0
   padding-top: 24px
@@ -110,7 +113,29 @@
   text-align: center
 
 
-.filter-modal-top-container,
-.filter-group-container,
-.filter-modal-bottom-container
-  max-width: 600px
++mq(tablet)
+  .filter-modal
+    width: 720px
+    left: 0
+
+  .filter-modal-overlay
+    position: fixed
+    top: 0
+    left: 0
+    right: 0
+    bottom: 0
+    cursor: pointer
+    background-color: rgba(0,0,0, 0.2)
+    z-index: -1
+    visibility: hidden
+    opacity: 0
+    transition: opacity $default-transition, z-index 0s $default-transition, visibility 0s $default-transition
+
+  .filter-modal-overlay_ready
+    display: block
+
+  .page_filter-opened .filter-modal-overlay
+    z-index: 999
+    opacity: 1
+    visibility: visible
+    transition: opacity $default-transition, z-index 0s, visibility 0s

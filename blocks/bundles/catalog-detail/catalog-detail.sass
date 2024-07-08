@@ -1,0 +1,30 @@
+@import "../../variables/variables"
+@import "../../mixins/mixins"
+@import "../../slider/slider"
+@import "../../catalog-detail-gallery/catalog-detail-gallery"
+@import "../../catalog-detail-card/catalog-detail-card"
+@import "../../catalog-card/catalog-card"
+@import "../../homepage-viewed/homepage-viewed"
+@import "../../catalog-modal/catalog-modal"
+@import "../../catalog-delivery/catalog-delivery"
+
+.catalog-detail
+  padding-top: 80px
+
+.breadcrumbs
+  margin-bottom: 12px
+  
+.catalog-detail-top
+  border-bottom: 1px solid $beige-dark
+  margin-bottom: 20px
+
++mq(tablet)
+  .catalog-detail
+    padding-top: 125px
+
+  .catalog-detail-top
+    display: flex
+    justify-content: space-between
+    gap: 10px
+    padding-bottom: 70px
+    margin-bottom: 70px

@@ -1,0 +1,62 @@
+.custom-fancybox:has(.modal-message) .fancybox__backdrop
+  background-color: $beige
+
+.modal-message .f-button.is-close-btn
+  display: none
+
+.modal-message,
+.modal-message.fancybox__content
+  max-width: 600px
+  width: 100%
+  height: 100%
+  background-color: transparent
+  padding: 0
+
+.modal-message-container
+  height: 100%
+  display: flex
+  align-items: center
+  justify-content: center
+  padding: 0 45px
+
+.modal-message__text
+  font-family: $wellingtons-font
+  font-size: 12px
+  line-height: 20.4px
+  letter-spacing: 0.02em
+  text-align: center
+
+.modal-message-button-container
+  margin-top: 28px
+  text-align: center
+
+.modal-message__button
+  font-size: 12px
+  font-weight: 400
+  line-height: 14.4px
+  letter-spacing: 0.12em
+  text-align: center
+  padding: 11px 15px
+
+.modal-message__close
+  position: absolute
+  top: 20px
+  right: 20px
+  width: 32px
+  height: 32px
+  +svg
+
++mq(desktop)
+  .modal-message,
+  .modal-message.fancybox__content
+    height: auto
+
+  .modal-message-container
+    padding: 80px 90px
+
+  .modal-message__close
+    top: 0
+    right: 0
+
+  .modal-message-button-container
+    margin-top: 34px

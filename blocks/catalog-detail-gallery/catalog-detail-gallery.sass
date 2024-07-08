@@ -1,0 +1,59 @@
+.catalog-detail-gallery
+  margin-bottom: 36px
+
+.catalog-detail-gallery-card
+  position: relative
+  padding-bottom: 100%
+
+.catalog-detail-gallery-card-inner
+  +absoluteFluid
+  line-height: 0
+
+.catalog-detail-gallery-card__img
+  width: 100%
+  height: 100%
+  object-fit: cover
+
+.catalog-detail-gallery-card__label
+  position: absolute
+  left: 16px
+  bottom: 16px
+  font-family: $wellingtons-font
+  font-size: 12px
+  line-height: 19.92px
+  letter-spacing: 0.02em
+  text-align: center
+  padding: 3px 5px
+  background-color: $beige70
+.catalog-detail-gallery-dots
+  margin-top: 15px
+  display: flex
+  justify-content: center
+  align-items: center
+  gap: 20px
+
+  .swiper-pagination-bullet
+    display: block
+    width: 5px
+    height: 5px
+    border-radius: 50%
+    border: 1px solid $main-color
+    background-color: $main-color
+    transition: background-color $default-transition
+
+  .swiper-pagination-bullet-active
+    background-color: $beige
+
++mq(tablet)
+  .catalog-detail-gallery
+    width: 100%
+    height: 100%
+    max-width: 960px
+    margin-bottom: 0
+    flex: 1 1 380px
+
+    .swiper-wrapper
+      flex-direction: column
+      gap: 2px
+  .catalog-detail-gallery-dots
+    display: none

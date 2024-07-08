@@ -61,9 +61,18 @@ export default () => {
 
   if (filterModal) {
     const filterToggle = document.querySelector('.catalog__filter-toggle'),
-      filterClose = filterModal.querySelector('.filter-modal__close')
+      filterClose = filterModal.querySelector('.filter-modal__close'),
+      filterModalOverlay = document.querySelector('.filter-modal-overlay')
 
     filterModal.classList.add('filter-modal_ready')
+
+    if (filterModalOverlay) {
+      filterModalOverlay.classList.add('filter-modal-overlay_ready')
+
+      filterModalOverlay.addEventListener('click', () => {
+        closeFilter()
+      })
+    }
 
     if (filterToggle) {
       filterToggle.addEventListener('click', toggleFilter)

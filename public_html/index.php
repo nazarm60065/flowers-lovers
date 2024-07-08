@@ -12,6 +12,7 @@
 <ul>
     <li><a href="homepage.php">Главная</a></li>
     <li><a href="catalog.php">Каталог</a></li>
+    <li><a href="catalog-detail.php">Каталог детальная</a></li>
     <li><a href="static.php">Статичный раздел</a></li>
 </ul>
 </body>

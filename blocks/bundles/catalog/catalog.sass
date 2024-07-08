@@ -2,6 +2,7 @@
 @import '../../mixins/mixins'
 @import '../../slider/slider'
 @import '../../pager/pager'
+@import '../../dropdown/dropdown'
 @import '../../catalog-sections/catalog-sections'
 @import '../../catalog-card/catalog-card'
 @import '../../catalog-mega-card/catalog-mega-card'
@@ -9,6 +10,7 @@
 @import '../../catalog-stack/catalog-stack'
 @import '../../homepage-viewed/homepage-viewed'
 @import '../../filter/filter'
+@import '../../modal-message/modal-message'
 
 .catalog
   padding-top: 67px
@@ -61,6 +63,25 @@
   grid-column-start: 1
   grid-column-end: -1
   text-align: center
+
+.catalog-sort-hidden
+  width: 260px
+  left: auto
+  right: -$co1
+
+.catalog-sort-list
+  background-color: $beige
+  border: 1px solid $beige-dark
+
+.catalog-sort-item
+  transition: background-color $default-transition
+
+.catalog-sort-item.dropdown__value_selected
+  background-color: $beige-dark
+
+.catalog-sort-item__link
+  display: block
+  padding: 10px
 
 +mq(tablet)
   .catalog-list

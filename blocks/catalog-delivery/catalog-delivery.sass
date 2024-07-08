@@ -1,0 +1,85 @@
+.catalog-delivery
+  margin-top: 25px
+  border-top: 1px solid $pink-light-color
+
+.catalog-delivery-item
+  border-bottom: 1px solid $beige-dark
+
+.catalog-delivery-item-top
+  padding: 25px 0
+  display: flex
+  justify-content: space-between
+  gap: 10px
+
+.catalog-delivery-item-top__title
+  font-size: 15px
+  font-weight: 400
+  line-height: 18px
+  letter-spacing: 0.12em
+  text-transform: uppercase
+
+.catalog-delivery-item-top__note
+  margin-top: 5px
+  font-family: $wellingtons-font
+  font-size: 10px
+  line-height: 17px
+  letter-spacing: 0.02em
+  color: $brown-dark
+
+.catalog-delivery-item-top__icon
+  margin-top: 5px
+  width: 16px
+  height: 8px
+  margin-left: auto
+  flex-shrink: 0
+  +svg
+
+.catalog-delivery-item-inner
+  padding-bottom: 15px
+
+.catalog-delivery-table-headers
+  font-size: 13px
+  line-height: 15.6px
+  letter-spacing: 0.12em
+  padding-bottom: 10px
+  display: flex
+  gap: 10px
+  text-transform: uppercase
+
+.catalog-delivery-table__header:nth-child(1)
+  flex: 1 1 104px
+
+.catalog-delivery-table__header:nth-child(2)
+  flex: 1 1 248px
+
+.catalog-delivery-table-row
+  display: flex
+  gap: 10px
+  font-family: $wellingtons-font
+  font-size: 12px
+  line-height: 20.4px
+  letter-spacing: 0.02em
+  border-top: 1px solid $beige-dark
+  padding: 10px 0
+
+.catalog-delivery-table-cell:nth-child(1)
+  flex: 1 1 104px
+
+.catalog-delivery-table-cell:nth-child(2)
+  flex: 1 1 248px
+
+.catalog-modal-link-container
+  margin-top: 30px
+
+.catalog-modal__link
+  text-transform: uppercase
+  font-size: 13px
+  line-height: 15.6px
+  letter-spacing: 0.12em
+  border-bottom: 1px solid
+  color: $orange-color
+
+
++mq(tablet)
+  .catalog-delivery-item-container
+    padding: 0 45px
