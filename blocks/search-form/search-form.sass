@@ -1,0 +1,31 @@
+.search-form
+  position: relative
+  width: 100%
+
+.search-form-group
+  position: relative
+
+.search-form__control
+  width: 100%
+  display: block
+  font-family: $wellingtons-font
+  font-size: 12px
+  font-weight: 400
+  line-height: 20.4px
+  letter-spacing: 0.02em
+  text-align: left
+  padding: 14px 14px 14px 35px
+  border-bottom: 1px solid $pink-light-color
+
+.search-form__submit
+  position: absolute
+  top: 50%
+  left: 0
+  width: 26px
+  height: 26px
+  margin-top: -13px
+  +svg
+
++mq(desktop)
+  .search-form
+    margin-bottom: 17px

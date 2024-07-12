@@ -4,6 +4,7 @@ import { clear } from 'webpack-hot-middleware/client-overlay'
 export default () => {
   const headerModalMenu = document.querySelector('.header-modal-menu'),
     header = document.querySelector('.header'),
+    headerSearch = document.querySelector('.header-search'),
     page = document.querySelector('.page'),
     headerModal = document.querySelector('.header-modal')
 
@@ -84,6 +85,40 @@ export default () => {
     if (headerModalOverlay) {
       headerModalOverlay.addEventListener('click', () => {
         if (page) page.classList.remove('page_menu-opened')
+      })
+    }
+  }
+
+  if (headerSearch) {
+    const toggle = document.querySelector('.header-search-toggle'),
+      close = headerSearch.querySelector('.header-search__close'),
+      headerSearchOverlay = document.querySelector('.header-search-overlay')
+
+    headerSearch.classList.add('header-search_ready')
+
+    if (toggle) {
+      toggle.addEventListener('click', () => {
+        if (page) {
+          if (page.classList.contains('page_search-opened')) {
+            page.classList.remove('page_search-opened')
+          } else {
+            page.classList.add('page_search-opened')
+          }
+        }
+      })
+    }
+
+    if (close) {
+      close.addEventListener('click', () => {
+        if (page) page.classList.remove('page_search-opened')
+      })
+    }
+
+    if (headerSearchOverlay) {
+      headerSearchOverlay.classList.add('header-search-overlay_ready')
+
+      headerSearchOverlay.addEventListener('click', () => {
+        if (page) page.classList.remove('page_search-opened')
       })
     }
   }

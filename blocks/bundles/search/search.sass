@@ -1,0 +1,76 @@
+@import "../../variables/variables"
+@import "../../mixins/mixins"
+@import "../../slider/slider"
+@import '../../pager/pager'
+@import '../../dropdown/dropdown'
+@import '../../catalog-sort/catalog-sort'
+@import '../../catalog-card/catalog-card'
+@import '../../catalog-mega-card/catalog-mega-card'
+@import "../../homepage-viewed/homepage-viewed"
+
+.search
+  padding-top: 102px
+
+.search__message
+  text-align: center
+  font-family: $wellingtons-font
+  font-size: 12px
+  line-height: 20.4px
+  letter-spacing: 0.02em
+  margin-bottom: 14px
+
+.catalog-toolbar
+  display: flex
+  align-items: center
+  justify-content: space-between
+
+.catalog__toggle
+  font-size: 12px
+  font-weight: 400
+  line-height: 14.4px
+  letter-spacing: 0.12em
+  display: flex
+  align-items: center
+  gap: 8px
+  text-transform: uppercase
+  padding: 10px 0
+
+.catalog__toggle-icon
+  flex-shrink: 0
+  width: 15px
+  +svg
+.catalog-list
+  display: grid
+  grid-template-columns: repeat(2, minmax(0, 1fr))
+  gap: 40px 2px
+  padding-bottom: 40px
+
+.catalog-pager
+  grid-column-start: 1
+  grid-column-end: -1
+  text-align: center
+
++mq(tablet)
+  .search
+    padding-top: 140px
+
+  .catalog-list
+    grid-template-columns: repeat(3, minmax(0, 1fr))
+
++mq(desktop)
+  .catalog-toolbar
+    margin-bottom: 10px
+
+  .catalog-list
+    max-width: $wp3
+    padding: 0 $co3 106px
+    margin: 0 auto
+
+  .catalog__toggle
+    transition: color $default-transition
+
+  .catalog__toggle:hover
+    color: $brown-light
+
+  .catalog-pager
+    margin-top: 40px

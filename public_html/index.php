@@ -14,6 +14,7 @@
     <li><a href="catalog.php">Каталог</a></li>
     <li><a href="catalog-detail.php">Каталог детальная</a></li>
     <li><a href="static.php">Статичный раздел</a></li>
+    <li><a href="search.php">Поиск</a></li>
 </ul>
 </body>
 </html>

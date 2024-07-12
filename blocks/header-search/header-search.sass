@@ -1,0 +1,81 @@
+@import "../search-form/search-form"
+
+.header-search-overlay
+  display: none
+
+.header-search
+  display: none
+  position: fixed
+  top: 0
+  left: 0
+  right: 0
+  bottom: 0
+  background-color: #FFFBF1
+  opacity: 0
+  visibility: hidden
+  z-index: -1
+  transition: opacity $default-transition, visibility 0s $default-transition, z-index 0s $default-transition
+
+.header-search_ready
+  display: block
+
+.page_search-opened .header-search
+  z-index: 1000
+  opacity: 1
+  visibility: visible
+  transition: opacity $default-transition, visibility 0s, z-index 0s
+
+.header-search-container
+  height: 100%
+
+.header-search-inner
+  height: 100%
+  position: relative
+
+.header-search__close
+  position: absolute
+  top: 20px
+  right: 0
+
++mq(tablet, max)
+  .header-search-logo
+    display: none
+
+  .header-search-inner
+    display: flex
+    align-items: center
+
++mq(tablet)
+  .header-search
+    height: 270px
+    
+  .header-search-overlay
+    position: fixed
+    top: 0
+    left: 0
+    right: 0
+    bottom: 0
+    cursor: pointer
+    background-color: rgba(0,0,0, 0.2)
+    z-index: -1
+    visibility: hidden
+    opacity: 0
+    transition: opacity $default-transition, z-index 0s $default-transition, visibility 0s $default-transition
+
+  .header-search-overlay_ready
+    display: block
+
+  .page_search-opened .header-search-overlay
+    z-index: 999
+    opacity: 1
+    visibility: visible
+    transition: opacity $default-transition, z-index 0s, visibility 0s
+
+  .header-search-inner
+    padding: 30px 0
+
+  .header-search-logo
+    width: 102px
+    height: 43px
+    margin: 0 auto 30px
+    +svg
