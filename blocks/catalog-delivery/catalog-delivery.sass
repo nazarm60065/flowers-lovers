@@ -5,11 +5,15 @@
 .catalog-delivery-item
   border-bottom: 1px solid $beige-dark
 
+.catalog-delivery-item_opened .catalog-delivery-item-top__icon
+  transform: rotate(-180deg)
+
 .catalog-delivery-item-top
   padding: 25px 0
   display: flex
   justify-content: space-between
   gap: 10px
+  cursor: pointer
 
 .catalog-delivery-item-top__title
   font-size: 15px
@@ -32,6 +36,7 @@
   height: 8px
   margin-left: auto
   flex-shrink: 0
+  transition: transform $default-transition
   +svg
 
 .catalog-delivery-item-inner

@@ -19,8 +19,26 @@
   margin-left: -$co1
   transition: opacity $default-transition
 
+.homepage-viewed-slider_hide
+  opacity: 0
+
 .homepage-viewed-slider .homepage-catalog-slide
   width: 50%
+
+.homepage-viewed-tabs
+  display: flex
+  flex-wrap: wrap
+  gap: 10px 30px
+
+.homepage-viewed-tab__button
+  font-size: 13px
+  line-height: 15.6px
+  letter-spacing: 0.12em
+  color: $brown-light
+  text-transform: uppercase
+
+.homepage-viewed-tab__button_active
+  color: $main-color
 
 +mq(tablet, max)
   .homepage-viewed-toolbar
@@ -70,6 +88,11 @@
 
   .homepage-viewed-slider .homepage-catalog-slide
     width: calc(25% - 2px)
+
+  .homepage-viewed-tab__button
+    font-size: 18px
+    line-height: 1
+
 
 +mq(wide-screen)
   .homepage-viewed
