@@ -6,4 +6,6 @@ module.exports = {
   'bundle-static': './blocks/bundles/static/static',
   'bundle-form': './blocks/bundles/form/form',
   'bundle-search': './blocks/bundles/search/search',
+  'bundle-about': './blocks/bundles/about/about',
+  'bundle-delivery': './blocks/bundles/delivery/delivery',
 }

@@ -20,7 +20,9 @@ $pageConfig = [
 <? include 'include/header.php';
 /** @var Mustache_Engine $mustache */
 ?>
-
+  <div class="container">
+      <?= $mustache->render('breadcrumbs', include $_SERVER['DOCUMENT_ROOT'] . '/context/about/breadcrumbs.php'); ?>
+  </div>
 
 
 <? include 'include/footer.php';

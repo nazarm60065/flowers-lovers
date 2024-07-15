@@ -1,0 +1,84 @@
+@import '../../variables/variables'
+@import '../../mixins/mixins'
+@import '../../slider/slider'
+@import '../../homepage-features/homepage-features'
+@import '../../catalog-card/catalog-card'
+@import '../../homepage-viewed/homepage-viewed'
+
+.about
+  padding-top: 80px
+
+.about-top
+  text-align: center
+  margin: 50px 0
+
+.about__suptitle
+  font-family: $anastasia-font
+  font-size: 29px
+  line-height: 1
+  margin-bottom: 10px
+
+.about__title
+  font-size: 24px
+  line-height: 1
+  font-weight: 400
+  letter-spacing: 0.12em
+  text-transform: uppercase
+  margin-bottom: 30px
+
+.about__text
+  font-family: $wellingtons-font
+  font-size: 12px
+  line-height: 20.4px
+  letter-spacing: 0.02em
+
+.about-image-wrapper
+  margin: 60px auto
+
+.about-image__img
+  width: 100%
+  height: auto
+
+
+.homepage__title
+  font-size: 24px
+  line-height: 1
+  letter-spacing: 0.12em
+  text-align: center
+  text-transform: uppercase
+
+.homepage-features
+  margin-top: 60px
+
++mq(tablet)
+  .about
+    padding-top: 125px
+
+  .homepage__title
+    font-size: 32px
+
+  +mq(desktop, max)
+    .about-image-wrapper
+      max-width: 1160px
+
++mq(desktop)
+  .about-top
+    margin-top: 14px
+    margin-bottom: 100px
+
+  .about__suptitle
+    font-size: 32px
+
+  .about__title
+    font-size: 32px
+
+  .about__text
+    margin: 40px auto
+    font-size: 14px
+    line-height: 23.8px
+    max-width: 758px
+
+  .about-image-wrapper
+    margin: 100px auto
+    max-width: $wp3
+    padding: 0 $co3

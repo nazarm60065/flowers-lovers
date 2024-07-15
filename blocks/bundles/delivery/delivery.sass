@@ -1,0 +1,212 @@
+@import '../../variables/variables'
+@import '../../mixins/mixins'
+@import '../../slider/slider'
+@import '../../catalog-card/catalog-card'
+@import '../../homepage-faq/homepage-faq'
+@import '../../homepage-viewed/homepage-viewed'
+
+.delivery
+  padding-top: 80px
+
+.delivery-top
+  margin: 70px 0
+
+.delivery__title
+  font-size: 24px
+  line-height: 1
+  font-weight: normal
+  letter-spacing: 0.12em
+  text-align: center
+  text-transform: uppercase
+
+.delivery-list-wrapper
+  margin: 70px 0
+
+.delivery-list__title
+  font-size: 18px
+  line-height: 1
+  letter-spacing: 0.12em
+  text-align: center
+  margin-bottom: 20px
+  text-transform: uppercase
+
+.delivery-item
+  margin: 70px 0
+  &:first-child
+    margin-top: 0
+
+.delivery-item__header
+  color: $brown-light
+  font-family: $wellingtons-font
+  font-size: 10px
+  line-height: 17px
+  letter-spacing: 0.02em
+  text-align: left
+
+.delivery-item__title
+  font-size: 13px
+  line-height: 15.6px
+  letter-spacing: 0.12em
+  text-align: center
+  text-transform: uppercase
+  margin-bottom: 20px
+  small
+    font-family: $wellingtons-font
+    font-size: 10px
+    line-height: 17px
+    letter-spacing: 0.02em
+    text-transform: none
+
+.delivery-time-table
+  border-top: 1px solid $beige-dark
+
+.delivery-time-table-row
+  display: grid
+  grid-template-columns: auto 50px
+  gap: 20px
+  padding: 10px 20px
+  border-bottom: 1px solid $beige-dark
+
+.delivery-time-table-row_headers
+  grid-template-columns: auto 60px
+
+.delivery-time-table-cell
+  font-family: $wellingtons-font
+  font-size: 12px
+  line-height: 20.4px
+  letter-spacing: 0.02em
+  text-align: left
+
+
+
+.delivery-images
+  margin: 70px 0
+  padding-bottom: 75px
+  position: relative
+  &:after
+    content: ''
+    position: absolute
+    left: 0
+    right: 0
+    bottom: 0
+    height: 5px
+    border-top: 1px solid $beige-dark
+    border-bottom: 1px solid $beige-dark
+
+.delivery-images__title
+  margin-bottom: 30px
+
+.delivery-images-item-wrapper
+  position: relative
+  padding-bottom: 62.1762%
+  margin-bottom: 15px
+
+.delivery-images-item-inner
+  +absoluteFluid
+  line-height: 0
+
+.delivery-images-item__img
+  width: 100%
+  height: 100%
+  object-fit: cover
+
+.delivery-images-item__title
+  font-size: 13px
+  font-weight: 400
+  line-height: 15.6px
+  letter-spacing: 0.12em
+  text-align: center
+  text-transform: uppercase
+
+
+.homepage__title
+  font-size: 24px
+  line-height: 1
+  letter-spacing: 0.12em
+  text-align: center
+  text-transform: uppercase
+
++mq(tablet, max)
+  .delivery-item__header_desktop
+    display: none
+
+  .delivery-item__title_desktop
+    display: none
+
+  .delivery-images-item
+    margin-bottom: 35px
+    &:last-child
+      margin-bottom: 0
+
++mq(tablet)
+  .delivery
+    padding-top: 125px
+
+  .delivery__title
+    font-size: 32px
+
+  .delivery-top
+    max-width: 660px
+    margin: 30px auto 80px
+
+  .delivery-list-wrapper
+    max-width: 660px
+    margin-left: auto
+    margin-right: auto
+
+  .delivery-list__title
+    margin-bottom: 30px
+
+  .delivery-item
+    margin: 20px 0
+    display: grid
+    grid-template-columns: auto 360px
+
+  .delivery-item__title
+    margin-bottom: 0
+    text-align: left
+
+  .delivery-item-col_first
+    border-top: 1px solid $beige-dark
+
+  .delivery-item-col_first .delivery-item__header
+    padding: 10px
+    border-bottom: 1px solid $beige-dark
+
+  .delivery-item-col_first .delivery-item__title
+    padding: 10px
+    text-align: left
+
+  .delivery-item__title_mobile
+    display: none
+
+  .delivery-time-table-row:last-child
+    border-bottom: none
+
+  .delivery-item:not(:first-child) .delivery-time-table-row:first-child,
+  .delivery-item:not(:first-child) .delivery-item__header_desktop
+    display: none
+
+  .delivery-item:not(:first-child) .delivery-item-col_first,
+  .delivery-item:not(:first-child) .delivery-time-table
+    border-top: none
+
+  .delivery-images
+    margin: 70px 0 60px
+    padding-bottom: 65px
+
+  .delivery-images__title
+    margin-bottom: 50px
+
+  .delivery-images-list
+    display: grid
+    grid-template-columns: repeat(2, minmax(0, 1fr))
+    gap: 2px
+
+  .delivery-images-item-wrapper
+    margin-bottom: 40px
+
+  .homepage__title
+    font-size: 32px
+
+

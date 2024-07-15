@@ -103,6 +103,12 @@ export default () => {
             page.classList.remove('page_search-opened')
           } else {
             page.classList.add('page_search-opened')
+
+            const control = headerSearch.querySelector('input.search-form__control')
+
+            if (control) {
+              control.focus()
+            }
           }
         }
       })
