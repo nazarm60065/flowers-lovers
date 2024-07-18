@@ -27,24 +27,16 @@ export default () => {
       })
     }
 
-    sliderObj = new Swiper(slider, {
-      modules: [Navigation],
-      spaceBetween: 2,
-      slidesPerView: "auto",
-      navigation: {
-        prevEl: '.homepage-viewed-slider__arrow_prev',
-        nextEl: '.homepage-viewed-slider__arrow_next',
-        disabledClass: 'slider__arrow_disabled',
-        lockClass: 'slider__arrow_lock',
-      },
-    })
+    initSlider()
 
     function filter(tab = '') {
       if (slider && tab) {
         slider.classList.add('homepage-viewed-slider_hide')
+        sliderObj.destroy()
 
         setTimeout(() => {
           filterSlides(tab)
+          initSlider()
           slider.classList.remove('homepage-viewed-slider_hide')
         }, 300)
       }
@@ -63,5 +55,19 @@ export default () => {
         })
       }
     }
+  }
+
+  function initSlider() {
+    sliderObj = new Swiper(slider, {
+      modules: [Navigation],
+      spaceBetween: 2,
+      slidesPerView: "auto",
+      navigation: {
+        prevEl: '.homepage-viewed-slider__arrow_prev',
+        nextEl: '.homepage-viewed-slider__arrow_next',
+        disabledClass: 'slider__arrow_disabled',
+        lockClass: 'slider__arrow_lock',
+      },
+    })
   }
 }

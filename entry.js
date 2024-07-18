@@ -9,4 +9,5 @@ module.exports = {
   'bundle-about': './blocks/bundles/about/about',
   'bundle-delivery': './blocks/bundles/delivery/delivery',
   'bundle-privacy-policy': './blocks/bundles/privacy-policy/privacy-policy',
+  'bundle-basket': './blocks/bundles/basket/basket',
 }

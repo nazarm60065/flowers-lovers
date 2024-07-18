@@ -17,6 +17,7 @@
   <li><a href="about.php">О компании</a></li>
   <li><a href="delivery.php">Доставка</a></li>
   <li><a href="privacy-policy.php">Политика обработки персональных данных</a></li>
+  <li><a href="basket.php">Корзина</a></li>
 
   <li><a href="static.php">Статический раздел</a></li>
 </ul>
