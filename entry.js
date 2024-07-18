@@ -10,4 +10,5 @@ module.exports = {
   'bundle-delivery': './blocks/bundles/delivery/delivery',
   'bundle-privacy-policy': './blocks/bundles/privacy-policy/privacy-policy',
   'bundle-basket': './blocks/bundles/basket/basket',
+  'bundle-order': './blocks/bundles/order/order',
 }

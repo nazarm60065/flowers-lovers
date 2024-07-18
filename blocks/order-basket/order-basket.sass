@@ -1,0 +1,143 @@
+.order-basket
+  position: relative
+
+.order-basket-item-top
+  cursor: pointer
+
+.order-basket-list
+  padding-top: 20px
+
+.order-basket-item
+  position: relative
+  margin: 20px 0
+  padding-bottom: 20px
+  border-bottom: 1px solid $beige-dark
+  display: flex
+  align-items: flex-start
+  gap: 15px
+
+.order-basket-item:first-child
+  margin-top: 0
+
+.order-basket-item:last-child
+  padding-bottom: 0
+  border-bottom: none
+  margin-bottom: 0
+
+.order-basket-item-image
+  width: 130px
+  height: 130px
+  flex-shrink: 0
+
+.order-basket-item-image__img
+  width: 100%
+  height: 100%
+  object-fit: cover
+
+.order-basket-item-content
+  width: 100%
+  min-width: 0
+
+.order-basket-item__title
+  font-family: $wellingtons-font
+  font-size: 14px
+  font-weight: 400
+  line-height: 23.8px
+  letter-spacing: 0.02em
+
+.order-basket-item-prop
+  margin-bottom: 5px
+  font-family: $wellingtons-font
+  font-size: 12px
+  font-weight: 400
+  line-height: 20.4px
+  letter-spacing: 0.02em
+  &:last-child
+    margin-bottom: 0
+
+.order-basket-item-sum
+  margin-top: 20px
+  font-family: $wellingtons-font
+  font-size: 14px
+  font-weight: 400
+  line-height: 19.6px
+
+
+.order-basket-total
+  margin-top: 15px
+  font-family: $wellingtons-font
+  font-size: 12px
+  font-weight: 400
+  line-height: 20.4px
+  letter-spacing: 0.02em
+  text-align: left
+
+.order-basket-total-item
+  margin-bottom: 5px
+  display: flex
+  justify-content: space-between
+  &:last-child
+    margin-bottom: 0
+
+.order-basket-total-item__value
+  font-size: 14px
+  line-height: 19.6px
+
+
+.order-basket-total-item_total
+  margin-top: 15px
+  padding: 15px 0
+  border-top: 1px solid $beige-dark
+  border-bottom: 1px solid $beige-dark
+
+  .order-basket-total-item__value
+    font-size: 16px
+    line-height: 27.2px
+
++mq(desktop)
+  .order-basket-list
+    padding-top: 0
+
+  .order-basket-item
+    gap: 25px
+    margin: 25px 0
+    padding-bottom: 25px
+
+  .order-basket-item-image
+    width: 140px
+    height: 140px
+
+  .order-basket-item-content
+    display: flex
+    justify-content: space-between
+    gap: 20px
+
+  .order-basket-item__title
+    font-size: 16px
+    line-height: 27.2px
+
+  .order-basket-item-sum
+    font-size: 16px
+    line-height: 22.4px
+    margin-top: 0
+
+  .order-basket-total
+    margin-top: 25px
+    border-top: 1px solid $beige-dark
+    padding-top: 20px
+
+  .order-basket-total-item
+    margin-bottom: 10px
+
+  .order-basket-total-item__value
+    font-size: 16px
+    line-height: 22.4px
+
+  .order-basket-total-item_total
+    margin-top: 20px
+    padding-top: 24px
+    border-bottom: none
+
+    .order-basket-total-item__value
+      font-size: 20px
+      line-height: 28px

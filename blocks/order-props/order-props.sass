@@ -1,0 +1,187 @@
+.order-props-fields
+  display: flex
+  flex-wrap: wrap
+  justify-content: space-between
+  gap: 20px
+
+.order-props-group
+  position: relative
+  width: 100%
+
+.order-props-label
+  display: block
+  width: 100%
+  cursor: pointer
+  position: relative
+
+.order-props-group__title
+  display: block
+  width: 100%
+  font-size: 13px
+  font-weight: 400
+  line-height: 15.6px
+  letter-spacing: 0.12em
+  margin-bottom: 8px
+  text-transform: uppercase
+
+.order-props-group_has-error .order-props__control
+  border-color: #F91D1D
+
+.order-props__control
+  font-family: $wellingtons-font
+  font-size: 12px
+  font-weight: 400
+  line-height: 20.4px
+  letter-spacing: 0.02em
+  text-align: left
+  padding: 8px 10px
+  border: 1px solid $pink-color
+  &::placeholder
+    color: $brown-light
+
+.order-props-group-DELIVERY_DATE .order-props-label
+  width: 160px
+
+input.order-props__control[type="date"]::-webkit-inner-spin-button,
+input.order-props__control[type="date"]::-webkit-calendar-picker-indicator
+  opacity: 0
+
+.order-props-group__icon
+  position: absolute
+  right: 12px
+  bottom: 9px
+  width: 16px
+  user-select: none
+  pointer-events: none
+  line-height: 0
+
+
+.order-props-dropdown
+  display: block
+  width: 100%
+  max-width: 240px
+
+.order-props-dropdown.dropdown_has-value .order-props-dropdown-current
+  color: $main-color
+
+.order-props-dropdown.dropdown_expand .order-props-dropdown-current
+  border-bottom-color: transparent
+
+.order-props-dropdown-current
+  width: 100%
+  color: $brown-light
+
+.order-props-dropdown-current__icon
+  margin-left: auto
+
+.order-props-dropdown-list
+  background-color: $beige
+  border: 1px solid $pink-color
+  border-top: none
+
+.order-props-dropdown-item
+  font-family: $wellingtons-font
+  font-size: 12px
+  font-weight: 400
+  line-height: 20.4px
+  letter-spacing: 0.02em
+  text-align: left
+
+.order-props-dropdown-item__value.dropdown__value_selected
+  display: none
+
+.order-props-dropdown-item__value
+  display: block
+  width: 100%
+  padding: 8px 10px
+  text-align: left
+
+
+.order-props-group-link-container
+  margin-top: 13px
+
+.order-props-group__link
+  font-family: $wellingtons-font
+  font-size: 10px
+  font-weight: 400
+  line-height: 17px
+  letter-spacing: 0.02em
+  text-align: left
+  border-bottom: 1px solid $brown-light
+
+
+.order-props-checkbox
+  position: relative
+  display: flex
+  align-items: flex-start
+  gap: 8px
+  width: 100%
+  font-family: $wellingtons-font
+  font-size: 10px
+  font-weight: 400
+  line-height: 17px
+  letter-spacing: 0.02em
+  text-align: left
+  margin-bottom: 8px
+
+.order-props-checkbox__marker
+  width: 16px
+  height: 16px
+  border: 1px solid $pink-color
+  svg
+    padding: 2px
+    width: 100%
+    height: 100%
+    opacity: 0
+    transition: opacity $default-transition
+
+.order-props-checkbox input[type="checkbox"]:checked ~ .order-props-checkbox__marker svg
+  opacity: 1
+
+.order-props-radio
+  position: relative
+  display: flex
+  align-items: flex-start
+  gap: 8px
+  width: 100%
+  font-family: $wellingtons-font
+  font-size: 12px
+  font-weight: 400
+  line-height: 20.4px
+  letter-spacing: 0.02em
+  text-align: left
+  margin-bottom: 5px
+
+.order-props-radio__marker
+  width: 18px
+  height: 18px
+  border: 1px solid $pink-color
+  border-radius: 50%
+  padding: 4px
+  &:before
+    content: ''
+    display: block
+    width: 8px
+    height: 8px
+    border-radius: 50%
+    background-color: #EAD2CB
+    opacity: 0
+    transition: opacity $default-transition
+
+.order-props-radio input[type="radio"]:checked ~ .order-props-radio__marker:before
+  opacity: 1
+
+.order-props__control_textarea
+  height: 100px
+  resize: vertical
+
+.order-props__error
+  font-size: 10px
+  font-weight: 400
+  color: #F91D1D
+  margin-top: 4px
+
+
++mq(desktop)
+  .order-props__error
+    font-size: 14px

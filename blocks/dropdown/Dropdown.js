@@ -8,7 +8,7 @@ export class Dropdown {
 					dropdown: '.dropdown',
 					current: '.dropdown-current',
 					currentText: '.dropdown-current__text',
-					value: '.dropdown__value'
+					value: '.dropdown__value',
 				},
 				defaultCurrentText: 'Выберите элемент',
 				animationSpeed: 400,
@@ -36,7 +36,7 @@ export class Dropdown {
 	init() {
 		this.selectors = this.params.selectors
 		this.classes = this.params.classes
-		this.dropdown = document.querySelector(this.selectors.dropdown)
+		this.dropdown = (typeof this.selectors.dropdown === 'object') ? this.selectors.dropdown : document.querySelector(this.selectors.dropdown)
 
 		if (this.params.onInit && typeof this.params.onInit === 'function') {
 			this.params.onInit(this.dropdown)
@@ -64,10 +64,8 @@ export class Dropdown {
 	}
 
 	currentClickHandler(current) {
-		let dropdown = current.closest(this.selectors.dropdown)
-
-		if (!dropdown.classList.contains(this.classes.disabled)) {
-			this.listToggle(dropdown)
+		if (!this.dropdown.classList.contains(this.classes.disabled)) {
+			this.listToggle(this.dropdown)
 		}
 	}
 
@@ -112,18 +110,19 @@ export class Dropdown {
 	}
 
 	valueClickHandler(valueEl) {
-		let dropdown = valueEl.closest(this.selectors.dropdown)
-
 		if (
 			!valueEl.classList.contains(this.classes.valueDisabled)
 		) {
 			const value = valueEl.dataset['value']
 
-			let currentValue = dropdown.querySelector('.' + this.classes.valueSelected),
-				currentText = dropdown.querySelector(this.selectors.currentText)
+			let currentValue = this.dropdown.querySelector('.' + this.classes.valueSelected),
+				currentText = this.dropdown.querySelector(this.selectors.currentText)
 
 			if (value) {
+				this.dropdown.classList.add(this.classes.dropdownHasValue)
 				this.setCurrentValue(currentText, value)
+			} else {
+				this.dropdown.classList.remove(this.classes.dropdownHasValue)
 			}
 
 			if (currentValue) {
@@ -136,11 +135,11 @@ export class Dropdown {
 				this.params.onChange &&
 				typeof this.params.onChange === 'function'
 			) {
-				this.params.onChange(valueEl, dropdown)
+				this.params.onChange(valueEl, this.dropdown)
 			}
 
 			if (!this.params.multiple) {
-				this.dropdownCollapse(dropdown)
+				this.dropdownCollapse(this.dropdown)
 			}
 		}
 	}
