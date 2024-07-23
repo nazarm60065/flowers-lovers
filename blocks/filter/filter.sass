@@ -115,7 +115,7 @@
 
 +mq(tablet)
   .filter-modal
-    width: 720px
+    width: 440px
     left: 0
 
   .filter-modal-overlay
@@ -125,7 +125,7 @@
     right: 0
     bottom: 0
     cursor: pointer
-    background-color: rgba(0,0,0, 0.2)
+    background-color: rgba(0,0,0, 0.6)
     z-index: -1
     visibility: hidden
     opacity: 0
@@ -139,3 +139,8 @@
     opacity: 1
     visibility: visible
     transition: opacity $default-transition, z-index 0s, visibility 0s
+
+  .filter-modal-top-container,
+  .filter-modal-bottom-container,
+  .filter-group-container
+    padding: 0 30px

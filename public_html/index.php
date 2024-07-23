@@ -19,6 +19,9 @@
   <li><a href="privacy-policy.php">Политика обработки персональных данных</a></li>
   <li><a href="basket.php">Корзина</a></li>
   <li><a href="order.php">Оформление заказа</a></li>
+  <li><a href="form.php">Форма</a></li>
+  <li><a href="lk.php">Личный кабинет</a></li>
+  <li><a href="loyalty.php">Программа лояльности</a></li>
 
   <li><a href="static.php">Статический раздел</a></li>
 </ul>

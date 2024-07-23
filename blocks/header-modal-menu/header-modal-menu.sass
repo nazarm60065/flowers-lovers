@@ -35,7 +35,9 @@
   font-size: 12px
   line-height: 20.4px
   letter-spacing: 0.02em
-
+  transition: color $default-transition
+  &:hover
+    color: #A19892
 
 .header-modal-menu-list
   margin-top: 15px
@@ -50,6 +52,9 @@
   color: $orange-color
   border-bottom: 1px solid
   text-transform: uppercase
+  transition: border $default-transition
+  &:hover
+    border-bottom-color: transparent
 
 +mq(tablet)
   .header-modal-menu
@@ -74,7 +79,7 @@
   .header-modal-menu-section
     border-bottom: none
     padding-bottom: 0
-    margin-bottom: 20px
+    margin-bottom: 40px
     &:last-child
       margin-bottom: 0
 

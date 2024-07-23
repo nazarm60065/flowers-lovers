@@ -7,53 +7,60 @@ export default () => {
   const tabs = document.querySelector('.homepage-collection-tabs'),
     slider = document.querySelector('.homepage-collection-slider')
 
-  let activeTab, timer, slidesList = [], tabSwiperObj
+  let activeTab, timer, slidesList = [], tabSwiperObj, sliderSwiperObj
+
+  initTab()
+  initSlider()
 
   if (tabs) {
-    tabSwiperObj = new Swiper(tabs, {
-      modules: [Navigation],
-      slidesPerView: 'auto',
-      spaceBetween: 20,
-      centerInsufficientSlides: true,
-      on: {
-        init: sliderEdgeHandler({}),
-        slideChange: sliderEdgeHandler({}),
-        transitionStart: sliderEdgeHandler({}),
-        transitionEnd: sliderEdgeHandler({}),
-      },
-      navigation: {
-        prevEl: '.homepage-collection-tabs__arrow_prev',
-        nextEl: '.homepage-collection-tabs__arrow_next',
-        disabledClass: 'homepage-collection-tabs__arrow_disabled',
-        lockClass: 'slide__arrow_lock'
+    activeTab = document.querySelector('.homepage-collection-tab_active')
+
+    if (activeTab) filterSlides(activeTab.dataset['tab'])
+    if (tabSwiperObj) tabSwiperObj.slideTo(activeTab.dataset['index'] - 1)
+
+    document.addEventListener('click', event => {
+      const tabButton = event.target.closest('.homepage-collection-tab')
+
+      if (tabButton && !tabButton.classList.contains('homepage-collection-tab_active')) {
+        activeTab.classList.remove('homepage-collection-tab_active')
+        tabButton.classList.add('homepage-collection-tab_active')
+        activeTab = tabButton
+        filter(tabButton.dataset['tab'])
       }
     })
   }
 
-  if (slider) {
-    slidesList = slider.querySelectorAll('.homepage-catalog-slide')
-
-    new Swiper(slider, {
-      spaceBetween: 2,
-      slidesPerView: 'auto',
-      centerInsufficientSlides: true,
-    })
-
+  function initTab() {
     if (tabs) {
-      activeTab = document.querySelector('.homepage-collection-tab_active')
-
-      if (activeTab) filterSlides(activeTab.dataset['tab'])
-      if (tabSwiperObj) tabSwiperObj.slideTo(activeTab.dataset['index'] - 1)
-
-      document.addEventListener('click', event => {
-        const tabButton = event.target.closest('.homepage-collection-tab')
-
-        if (tabButton && !tabButton.classList.contains('homepage-collection-tab_active')) {
-          activeTab.classList.remove('homepage-collection-tab_active')
-          tabButton.classList.add('homepage-collection-tab_active')
-          activeTab = tabButton
-          filter(tabButton.dataset['tab'])
+      tabSwiperObj = new Swiper(tabs, {
+        modules: [Navigation],
+        slidesPerView: 'auto',
+        spaceBetween: 20,
+        centerInsufficientSlides: true,
+        on: {
+          init: sliderEdgeHandler({}),
+          slideChange: sliderEdgeHandler({}),
+          transitionStart: sliderEdgeHandler({}),
+          transitionEnd: sliderEdgeHandler({}),
+        },
+        navigation: {
+          prevEl: '.homepage-collection-tabs__arrow_prev',
+          nextEl: '.homepage-collection-tabs__arrow_next',
+          disabledClass: 'homepage-collection-tabs__arrow_disabled',
+          lockClass: 'slide__arrow_lock'
         }
+      })
+    }
+  }
+
+  function initSlider() {
+    if (slider) {
+      slidesList = slider.querySelectorAll('.homepage-catalog-slide')
+
+      sliderSwiperObj = new Swiper(slider, {
+        spaceBetween: 2,
+        slidesPerView: 'auto',
+        centerInsufficientSlides: true,
       })
     }
   }
@@ -63,7 +70,10 @@ export default () => {
       slider.classList.add('homepage-collection-slider_hide')
 
       setTimeout(() => {
+        if (sliderSwiperObj) sliderSwiperObj.destroy()
+
         filterSlides(tab)
+        initSlider()
         slider.classList.remove('homepage-collection-slider_hide')
       }, 300)
     }

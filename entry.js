@@ -11,4 +11,6 @@ module.exports = {
   'bundle-privacy-policy': './blocks/bundles/privacy-policy/privacy-policy',
   'bundle-basket': './blocks/bundles/basket/basket',
   'bundle-order': './blocks/bundles/order/order',
+  'bundle-lk': './blocks/bundles/lk/lk',
+  'bundle-loyalty': './blocks/bundles/loyalty/loyalty',
 }

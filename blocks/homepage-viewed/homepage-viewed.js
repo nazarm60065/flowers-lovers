@@ -68,6 +68,12 @@ export default () => {
         disabledClass: 'slider__arrow_disabled',
         lockClass: 'slider__arrow_lock',
       },
+      breakpoints: {
+        1280: {
+          slidesPerView: 4,
+          slidesPerGroup: 4,
+        }
+      }
     })
   }
 }

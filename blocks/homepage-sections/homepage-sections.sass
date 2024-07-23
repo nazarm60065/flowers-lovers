@@ -85,13 +85,28 @@
 +mq(desktop)
   .homepage-sections
     margin: 60px auto 100px
-    padding-bottom: 60px
+    padding-bottom: 64px
 
   .homepage-sections-top
     margin-bottom: 60px
 
   .homepage-sections__suptitle
     margin-bottom: 7px
+
+  .homepage-section
+    z-index: 0
+    .link-as-card
+      z-index: 1
+
+  .homepage-section:hover:after
+    opacity: 1
+
+  .homepage-section:after
+    content: ''
+    +absoluteFluid
+    background-color: rgba(0, 0, 0, 0.2)
+    opacity: 0
+    transition: opacity $default-transition
 
   .homepage-section-content
     padding-bottom: 48px
@@ -101,3 +116,8 @@
 
   .homepage-section__subtitle
     margin-top: 2px
+
++mq(wide-screen)
+  .homepage-sections
+    padding-bottom: 84px
+    margin-bottom: 110px

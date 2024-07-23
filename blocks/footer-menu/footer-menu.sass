@@ -18,7 +18,7 @@
   text-transform: uppercase
 
 .footer-menu-item
-  margin-bottom: 15px
+  margin-bottom: 13px
   &:last-child
     margin-bottom: 0
 
@@ -27,6 +27,12 @@
   font-size: 12px
   line-height: 20.4px
   letter-spacing: 0.02em
+  padding-bottom: 2px
+  border-bottom: 1px solid transparent
+  transition: border $default-transition
+
+  &:hover
+    border-bottom-color: #fff
 
 +mq(desktop, max)
   .footer-menu-section

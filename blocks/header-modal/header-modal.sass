@@ -14,7 +14,7 @@
   z-index: -1
   visibility: hidden
   opacity: 0
-  transition: opacity $default-transition, z-index 0s $default-transition, visibility 0s $default-transition
+  transition: opacity $default-transition, z-index 0s $default-transition, visibility 0s $default-transition, transform $default-transition
 
 .header-modal_ready
   display: block
@@ -23,7 +23,7 @@
   z-index: 1000
   opacity: 1
   visibility: visible
-  transition: opacity $default-transition, z-index 0s, visibility 0s
+  transition: opacity $default-transition, z-index 0s, visibility 0s, transform $default-transition
 
 .header-modal-overlay
   display: none
@@ -109,9 +109,14 @@
 
 +mq(tablet)
   .header-modal
-    width: 720px
+    min-width: 720px
+    width: 50vw
     right: auto
     padding-top: 23px
+    transform: translateX(-30%)
+
+  .page_menu-opened .header-modal
+    transform: translateX(0)
 
   .header-modal-overlay
     position: fixed
@@ -120,7 +125,7 @@
     right: 0
     bottom: 0
     cursor: pointer
-    background-color: rgba(0,0,0, 0.2)
+    background-color: rgba(0,0,0, 0.6)
     z-index: -1
     visibility: hidden
     opacity: 0

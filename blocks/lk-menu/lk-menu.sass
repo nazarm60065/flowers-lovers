@@ -1,0 +1,83 @@
+.lk-menu
+  position: relative
+  padding-top: 15px
+
+.lk-menu_opened .lk-menu-top__icon
+  transform: rotate(180deg)
+
+.lk-menu-top
+  display: flex
+  align-items: center
+  font-size: 15px
+  font-weight: 400
+  line-height: 18px
+  letter-spacing: 0.12em
+  text-align: center
+  text-transform: uppercase
+
+.lk-menu-top__icon
+  flex-shrink: 0
+  margin-left: auto
+  width: 15px
+  transition: transform $default-transition
+  +svg
+
+.lk-menu-list
+  padding-top: 15px
+
+.lk-menu-item
+  font-size: 12px
+  font-weight: 400
+  line-height: 14.4px
+  letter-spacing: 0.12em
+  text-align: left
+  margin-bottom: 15px
+  text-transform: uppercase
+  &:last-child
+    margin-bottom: 0
+
+.lk-menu-item_active
+  color: $brown-light
+
+.lk-menu-logout
+  margin-top: 15px
+  border-top: 1px solid $beige-dark
+  padding-top: 15px
+  text-transform: uppercase
+
+.lk-menu-logout__link
+  display: flex
+  align-items: center
+  gap: 10px
+  font-size: 12px
+  font-weight: 400
+  line-height: 14.4px
+  letter-spacing: 0.12em
+  text-align: left
+  text-transform: uppercase
+  color: $pink-color
+
+.lk-menu-logout__icon
+  flex-shrink: 0
+  width: 15px
+
+
++mq(tablet)
+  .lk-menu
+    padding-top: 0
+
+  .lk-menu-top
+    display: none
+
+  .lk-menu-list
+    padding-top: 0
+
++mq(desktop)
+  .lk-menu-item
+    margin-bottom: 20px
+    font-size: 13px
+    line-height: 15.6px
+
+  .lk-menu-logout
+    margin-top: 20px
+    padding-top: 20px

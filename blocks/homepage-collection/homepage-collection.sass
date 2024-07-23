@@ -7,7 +7,6 @@
   margin-bottom: 20px
 
 .homepage-collection-tabs
-  overflow: visible
   margin-bottom: 35px
 
 .homepage-collection-tabs:before,
@@ -45,6 +44,8 @@
   letter-spacing: 0.02em
   color: $brown-light
   transition: color $default-transition
+  &:hover
+    color: #D2B9AE
 
 .homepage-collection-tab_active .homepage-collection-tab__button
   color: $main-color
@@ -57,6 +58,12 @@
   height: 16px
   transition: opacity $default-transition
   +svg
+
+  path
+    transition: $default-transition
+
+.homepage-collection-tabs__arrow:not(.homepage-collection-tabs__arrow_disabled):hover path
+  stroke: #707070
 
 .homepage-collection-tabs__arrow_disabled
   opacity: 0
