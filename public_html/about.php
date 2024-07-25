@@ -142,7 +142,7 @@ $pageConfig = [
   <section class="homepage-viewed">
     <div class="container homepage-viewed-container">
       <div class="homepage-viewed-top">
-        <div class="homepage-viewed__title">Вы недавно смотрели</div>
+        <div class="homepage-viewed__title">Наши лучшие букеты </div>
         <div class="homepage-viewed-toolbar">
           <button
             class="homepage-viewed-slider__arrow homepage-viewed-slider__arrow_prev slider__arrow slider__arrow_prev"

@@ -1206,32 +1206,32 @@ $pageConfig = [
           <div class="filter-group-hidden">
             <div class="filter-group-inner">
               <div class="filter-checkbox-list">
-                <div class="filter-checkbox">
-                  <label class="filter-checkbox-label">
-                    <input type="checkbox" class="form-hidden filter-checkbox__control" name="property1">
-                    <span class="filter-checkbox__marker"></span>
-                    <span class="filter-checkbox__text">Экспресс</span>
+                <div class="filter-radio">
+                  <label class="filter-radio-label">
+                    <input type="radio" class="form-hidden filter-radio__control" name="delivery-date">
+                    <span class="filter-radio__marker"></span>
+                    <span class="filter-radio__text">Экспресс</span>
                   </label>
                 </div>
-                <div class="filter-checkbox">
-                  <label class="filter-checkbox-label">
-                    <input type="checkbox" class="form-hidden filter-checkbox__control" name="property2">
-                    <span class="filter-checkbox__marker"></span>
-                    <span class="filter-checkbox__text">В течение дня</span>
+                <div class="filter-radio">
+                  <label class="filter-radio-label">
+                    <input type="radio" class="form-hidden filter-radio__control" name="delivery-date">
+                    <span class="filter-radio__marker"></span>
+                    <span class="filter-radio__text">В течение дня</span>
                   </label>
                 </div>
-                <div class="filter-checkbox">
-                  <label class="filter-checkbox-label">
-                    <input type="checkbox" class="form-hidden filter-checkbox__control" name="property3">
-                    <span class="filter-checkbox__marker"></span>
-                    <span class="filter-checkbox__text">В течение недели</span>
+                <div class="filter-radio">
+                  <label class="filter-radio-label">
+                    <input type="radio" class="form-hidden filter-radio__control" name="delivery-date">
+                    <span class="filter-radio__marker"></span>
+                    <span class="filter-radio__text">В течение недели</span>
                   </label>
                 </div>
-                <div class="filter-checkbox">
-                  <label class="filter-checkbox-label">
-                    <input type="checkbox" class="form-hidden filter-checkbox__control" name="property4">
-                    <span class="filter-checkbox__marker"></span>
-                    <span class="filter-checkbox__text">Под заказ</span>
+                <div class="filter-radio">
+                  <label class="filter-radio-label">
+                    <input type="radio" class="form-hidden filter-radio__control" name="delivery-date">
+                    <span class="filter-radio__marker"></span>
+                    <span class="filter-radio__text">Под заказ</span>
                   </label>
                 </div>
               </div>

@@ -50,7 +50,7 @@ $pageConfig = [
             <div class="order-props-group order-props-group-DELIVERY_DATE">
               <div class="order-props-group__title">Дата доставки*</div>
               <label class="order-props-label">
-                <input type="date" class="order-props__control" placeholder="">
+                <input type="date" class="order-props__control" placeholder="дд.мм.гггг">
                 <span class="order-props-group__icon">
                   <svg xmlns="http://www.w3.org/2000/svg" width="16" height="18" fill="none" viewBox="0 0 16 18"><path
                       fill="#242424"
@@ -253,7 +253,8 @@ $pageConfig = [
                       </div>
                     </div>
                     <div class="order-basket-item-sum">
-                      1 х 15 400 ₽
+                      <span class="order-basket-item-sum__quantity">1 х</span>
+                      <span class="order-basket-item-sum__value">15 400 ₽</span>
                     </div>
                   </div>
                   <a href="#" class="link-as-card"></a>
@@ -271,7 +272,8 @@ $pageConfig = [
                       </div>
                     </div>
                     <div class="order-basket-item-sum">
-                      1 х 16 500 ₽
+                      <span class="order-basket-item-sum__quantity">1 х</span>
+                      <span class="order-basket-item-sum__value">16 500 ₽</span>
                     </div>
                   </div>
                   <a href="#" class="link-as-card"></a>

@@ -106,9 +106,23 @@
   z-index: 1
 
 .catalog-card__to-cart
-  padding: 6px 19px 9px
+  padding: 6px 8px 9px
+  min-width: 120px
+
++mq(desktop, max)
+  .catalog-card-image-inner_back
+    display: none
 
 +mq(desktop)
+  .catalog-card:not(.catalog-card_back):hover .catalog-card-image-wrapper:after
+    opacity: 1
+
+  .catalog-card_back:hover .catalog-card-image-inner:not(.catalog-card-image-inner_back)
+    opacity: 0
+
+  .catalog-card_back:hover .catalog-card-image-inner_back
+    opacity: 1
+
   .catalog-card__available
     top: 16px
     left: 16px
@@ -130,3 +144,20 @@
 
   .catalog-card-sku
     margin-bottom: 22px
+
+  .catalog-card-image-wrapper:after
+    content: ''
+    position: absolute
+    top: 0
+    left: 0
+    right: 0
+    bottom: 0
+    background-color: rgba(0, 0, 0, 0.2)
+    opacity: 0
+    transition: opacity $default-transition
+
+  .catalog-card-image-inner
+    transition: opacity $default-transition
+
+  .catalog-card-image-inner_back
+    opacity: 0

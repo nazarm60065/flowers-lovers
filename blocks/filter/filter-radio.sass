@@ -1,0 +1,36 @@
+.filter-radio-list
+  display: grid
+  gap: 15px
+
+.filter-radio
+  font-family: $wellingtons-font
+  font-size: 12px
+  line-height: 20.4px
+  letter-spacing: 0.02em
+
+.filter-radio-label
+  display: flex
+  align-items: center
+  gap: 15px
+  cursor: pointer
+
+.filter-radio__control:checked ~ .filter-radio__marker:before
+  opacity: 1
+
+.filter-radio__marker
+  width: 18px
+  height: 18px
+  border-radius: 50%
+  flex-shrink: 0
+  border: 1px solid $pink-light-color
+  position: relative
+  padding: 4px
+  &:before
+    content: ''
+    display: block
+    border-radius: 50%
+    width: 100%
+    height: 100%
+    background-color: $pink-light-color
+    opacity: 0
+    transition: $default-transition

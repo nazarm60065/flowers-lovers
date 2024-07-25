@@ -4,27 +4,24 @@ import '@fancyapps/ui/dist/fancybox/fancybox.css'
 window.Fancybox = Fancybox
 
 export const fbInit = () => {
+
+
   Fancybox.bind("[data-fancybox]", {
     mainClass: "custom-fancybox",
+    defaultDisplay: 'flex',
     dragToClose: false,
     trapFocus: false,
     autoFocus: false,
   })
 
-  Fancybox.bind(".link-modal-form", {
-    mainClass: "fancybox-modal-form",
+  Fancybox.bind("[data-fancybox-slide]", {
+    mainClass: "custom-fancybox",
+    showClass: "f-classicIn from-next",
+    hideClass: "f-classicOut to-next",
+    defaultDisplay: 'flex',
     dragToClose: false,
     trapFocus: false,
     autoFocus: false,
-    closeButton: false,
-    on: {
-      reveal() {
-        document.querySelector('.page').classList.add('page_modal-opened')
-      },
-      destroy() {
-        document.querySelector('.page').classList.remove('page_modal-opened')
-      }
-    }
   })
 }
 

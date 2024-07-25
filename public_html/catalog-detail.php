@@ -109,7 +109,7 @@ $pageConfig = [
         </div>
         <div class="catalog-detail-card-info">
           <div class="catalog-detail-card-info-item">
-            <a href="#delivery" class="catalog-detail-card-info-item__link" data-fancybox>
+            <a href="#delivery" class="catalog-detail-card-info-item__link" data-fancybox-slide>
               <span class="catalog-detail-card-info-item__text">доставка</span>
               <span class="catalog-detail-card-info-item__icon">
                 <svg xmlns="http://www.w3.org/2000/svg" width="7" height="12" fill="none" viewBox="0 0 7 12"><path
@@ -119,7 +119,7 @@ $pageConfig = [
             </a>
           </div>
           <div class="catalog-detail-card-info-item">
-            <a href="#care" class="catalog-detail-card-info-item__link" data-fancybox>
+            <a href="#care" class="catalog-detail-card-info-item__link" data-fancybox-slide>
               <span class="catalog-detail-card-info-item__text">Уход за букетом</span>
               <span class="catalog-detail-card-info-item__icon">
                 <svg xmlns="http://www.w3.org/2000/svg" width="7" height="12" fill="none" viewBox="0 0 7 12"><path
@@ -129,7 +129,7 @@ $pageConfig = [
             </a>
           </div>
           <div class="catalog-detail-card-info-item">
-            <a href="#equip" class="catalog-detail-card-info-item__link" data-fancybox>
+            <a href="#equip" class="catalog-detail-card-info-item__link" data-fancybox-slide>
               <span class="catalog-detail-card-info-item__text">комплектация</span>
               <span class="catalog-detail-card-info-item__icon">
                 <svg xmlns="http://www.w3.org/2000/svg" width="7" height="12" fill="none" viewBox="0 0 7 12"><path

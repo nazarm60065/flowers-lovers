@@ -373,7 +373,7 @@ $pageConfig = [
   <div class="container">
     <div class="catalog-detail-card-info">
       <div class="catalog-detail-card-info-item">
-        <a href="#delivery" class="catalog-detail-card-info-item__link" data-fancybox="">
+        <a href="#delivery" class="catalog-detail-card-info-item__link" data-fancybox-slide>
           <span class="catalog-detail-card-info-item__text">курьерская доставка</span>
           <span class="catalog-detail-card-info-item__icon">
                 <svg xmlns="http://www.w3.org/2000/svg" width="7" height="12" fill="none" viewBox="0 0 7 12"><path stroke="#242424" stroke-linecap="round" stroke-miterlimit="10" stroke-width=".5" d="M.867 11.5 5.92 6.2a.29.29 0 0 0 0-.398L.867.501"></path></svg>
@@ -381,7 +381,7 @@ $pageConfig = [
         </a>
       </div>
       <div class="catalog-detail-card-info-item">
-        <a href="#care" class="catalog-detail-card-info-item__link" data-fancybox="">
+        <a href="#care" class="catalog-detail-card-info-item__link" data-fancybox-slide>
           <span class="catalog-detail-card-info-item__text">фирменная Упаковка</span>
           <span class="catalog-detail-card-info-item__icon">
                 <svg xmlns="http://www.w3.org/2000/svg" width="7" height="12" fill="none" viewBox="0 0 7 12"><path stroke="#242424" stroke-linecap="round" stroke-miterlimit="10" stroke-width=".5" d="M.867 11.5 5.92 6.2a.29.29 0 0 0 0-.398L.867.501"></path></svg>
@@ -389,7 +389,7 @@ $pageConfig = [
         </a>
       </div>
       <div class="catalog-detail-card-info-item">
-        <a href="#equip" class="catalog-detail-card-info-item__link" data-fancybox="">
+        <a href="#equip" class="catalog-detail-card-info-item__link" data-fancybox-slide>
           <span class="catalog-detail-card-info-item__text">заботливый Сервис</span>
           <span class="catalog-detail-card-info-item__icon">
                 <svg xmlns="http://www.w3.org/2000/svg" width="7" height="12" fill="none" viewBox="0 0 7 12"><path stroke="#242424" stroke-linecap="round" stroke-miterlimit="10" stroke-width=".5" d="M.867 11.5 5.92 6.2a.29.29 0 0 0 0-.398L.867.501"></path></svg>

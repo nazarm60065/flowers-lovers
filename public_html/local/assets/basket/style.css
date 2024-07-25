@@ -2,7 +2,7 @@
 
 
 .text-danger {
-  color: #F91D1D;
+  color: #DE7553;
 }
 
 .basket-page {
@@ -441,12 +441,15 @@ h2.basket-item-info-name {
 }
 
 .basket-coupon-alert {
-  font-size: 14px;
+  font-family: 'TT Wellingtons', Arial, sans-serif;
+  font-size: 12px;
+  line-height: 16px;
 }
 
 .basket-coupon-alert .close-link {
-  padding-top: 2px;
+  font-family: 'TT Wellingtons', Arial, sans-serif;
   font-size: 12px;
+  line-height: 16px;
   border-bottom: 1px solid;
   margin-left: 10px;
   -webkit-transition: 0.2s;
@@ -456,7 +459,6 @@ h2.basket-item-info-name {
 }
 
 .basket-coupon-alert .close-link:hover {
-  color: #998BC4;
   border-bottom-color: transparent;
 }
 

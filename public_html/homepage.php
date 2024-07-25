@@ -132,7 +132,7 @@ $pageConfig = [
       </div>
       <div class="swiper homepage-catalog-slider">
         <div class="swiper-wrapper">
-          <div class="swiper-slide catalog-card homepage-catalog-slide">
+          <div class="swiper-slide catalog-card catalog-card_back homepage-catalog-slide">
             <div class="catalog-card-image-wrapper">
               <div class="catalog-card-image-inner catalog-card-image-inner_active">
                 <div class="catalog-card__available">
@@ -143,6 +143,10 @@ $pageConfig = [
                 <div class="catalog-card__label">
                   На фото размер L
                 </div>
+              </div>
+              <div class="catalog-card-image-inner catalog-card-image-inner_back">
+                <img src="/local/assets/images/catalog/image2.jpg" alt="Дыхание весны"
+                     class="catalog-card-image__img" loading="lazy">
               </div>
             </div>
             <div class="catalog-card-content">
@@ -219,7 +223,7 @@ $pageConfig = [
             </div>
             <a href="#" class="link-as-card"></a>
           </div>
-          <div class="swiper-slide catalog-card homepage-catalog-slide">
+          <div class="swiper-slide catalog-card catalog-card_back homepage-catalog-slide">
             <div class="catalog-card-image-wrapper">
               <div class="catalog-card-image-inner catalog-card-image-inner_active">
                 <img src="/local/assets/images/catalog/image3.jpg" alt="Дыхание весны"
@@ -227,6 +231,10 @@ $pageConfig = [
                 <div class="catalog-card__label">
                   На фото размер L
                 </div>
+              </div>
+              <div class="catalog-card-image-inner catalog-card-image-inner_back">
+                <img src="/local/assets/images/catalog/image1.jpg" alt="Дыхание весны"
+                     class="catalog-card-image__img" loading="lazy">
               </div>
             </div>
             <div class="catalog-card-content">
@@ -257,7 +265,7 @@ $pageConfig = [
             </div>
             <a href="#" class="link-as-card"></a>
           </div>
-          <div class="swiper-slide catalog-card homepage-catalog-slide">
+          <div class="swiper-slide catalog-card catalog-card_back homepage-catalog-slide">
             <div class="catalog-card-image-wrapper">
               <div class="catalog-card-image-inner catalog-card-image-inner_active">
                 <img src="/local/assets/images/catalog/image4.jpg" alt="Дыхание весны"
@@ -265,6 +273,10 @@ $pageConfig = [
                 <div class="catalog-card__label">
                   На фото 69 шт.
                 </div>
+              </div>
+              <div class="catalog-card-image-inner catalog-card-image-inner_back">
+                <img src="/local/assets/images/catalog/image1.jpg" alt="Дыхание весны"
+                     class="catalog-card-image__img" loading="lazy">
               </div>
             </div>
             <div class="catalog-card-content">

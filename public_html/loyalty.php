@@ -24,48 +24,50 @@ $pageConfig = [
       <?= $mustache->render('breadcrumbs', include $_SERVER['DOCUMENT_ROOT'] . '/context/loyalty/breadcrumbs.php'); ?>
   </div>
   <div class="container">
-    <div class="loyalty-top">
-      <h1 class="loyalty__title">Программа лояльности</h1>
-      <div class="loyalty__desc">Участвуйте в клубной программе FlowersLovers. Совершайте покупки в магазине
-        FlowersLovers и увеличивайте размер скидки. Размер скидки зависит от суммы накоплений:
+    <div class="loyalty-wrapper">
+      <div class="loyalty-top">
+        <h1 class="loyalty__title">Программа лояльности</h1>
+        <div class="loyalty__desc">Участвуйте в клубной программе FlowersLovers. Совершайте покупки в магазине
+          FlowersLovers и увеличивайте размер скидки. Размер скидки зависит от суммы накоплений:
+        </div>
       </div>
-    </div>
-    <div class="loyalty-list">
-      <div class="loyalty-item">
-        <div class="loyalty-item__title">Уровни</div>
-        <div class="loyalty-item-content">
-          <div class="loyalty-blocks">
-            <div class="loyalty-block">
-              <div class="loyalty-block__title">5%</div>
-              <div class="loyalty-block__value">от 15 000 до 49 999 ₽</div>
-            </div>
-            <div class="loyalty-block">
-              <div class="loyalty-block__title">7%</div>
-              <div class="loyalty-block__value">от 50 000 до 74 999 ₽</div>
-            </div>
-            <div class="loyalty-block">
-              <div class="loyalty-block__title">10%</div>
-              <div class="loyalty-block__value">от 75 000 до 99 999 ₽</div>
-            </div>
-            <div class="loyalty-block">
-              <div class="loyalty-block__title">15%</div>
-              <div class="loyalty-block__value">от 100 000</div>
+      <div class="loyalty-list">
+        <div class="loyalty-item">
+          <div class="loyalty-item__title">Уровни</div>
+          <div class="loyalty-item-content">
+            <div class="loyalty-blocks">
+              <div class="loyalty-block">
+                <div class="loyalty-block__title">5%</div>
+                <div class="loyalty-block__value">от 15 000 до 49 999 ₽</div>
+              </div>
+              <div class="loyalty-block">
+                <div class="loyalty-block__title">7%</div>
+                <div class="loyalty-block__value">от 50 000 до 74 999 ₽</div>
+              </div>
+              <div class="loyalty-block">
+                <div class="loyalty-block__title">10%</div>
+                <div class="loyalty-block__value">от 75 000 до 99 999 ₽</div>
+              </div>
+              <div class="loyalty-block">
+                <div class="loyalty-block__title">15%</div>
+                <div class="loyalty-block__value">от 100 000</div>
+              </div>
             </div>
           </div>
         </div>
-      </div>
-      <div class="loyalty-item">
-        <div class="loyalty-item__title">Правила программы</div>
-        <div class="loyalty-item-content">
-          <div class="article loyalty-item__text">
-            <ul>
-              <li>Регистрация осуществляется посредством заполнения регистрационной формы личного кабинета.</li>
-              <li>Регистрируя личный кабинет, пользователь дает свое согласие на участие в программе лояльности. Программа лояльности не распространяется на незарегистрированных пользователей.</li>
-              <li>Программа лояльности является накопительной.</li>
-              <li>Срок действия программы неограничен.</li>
-              <li>Интернет-магазин FlowersLovers вправе в одностороннем порядке изменить условия или приостановить действие программы, предварительно опубликовав изменения за 10 календарных дней в соответствующем разделе сайта. Накопительная скидка не распространяется на акционные товары и товары из еженедельной акции «букет недели».</li>
-              <li>В сумме накопительной скидки учитываются все приобретенные товары, включая все товары со скидками. Накопительная скидка не распространяется на стоимость доставки.</li>
-            </ul>
+        <div class="loyalty-item">
+          <div class="loyalty-item__title">Правила программы</div>
+          <div class="loyalty-item-content">
+            <div class="article loyalty-item__text">
+              <ul>
+                <li>Регистрация осуществляется посредством заполнения регистрационной формы личного кабинета.</li>
+                <li>Регистрируя личный кабинет, пользователь дает свое согласие на участие в программе лояльности. Программа лояльности не распространяется на незарегистрированных пользователей.</li>
+                <li>Программа лояльности является накопительной.</li>
+                <li>Срок действия программы неограничен.</li>
+                <li>Интернет-магазин FlowersLovers вправе в одностороннем порядке изменить условия или приостановить действие программы, предварительно опубликовав изменения за 10 календарных дней в соответствующем разделе сайта. Накопительная скидка не распространяется на акционные товары и товары из еженедельной акции «букет недели».</li>
+                <li>В сумме накопительной скидки учитываются все приобретенные товары, включая все товары со скидками. Накопительная скидка не распространяется на стоимость доставки.</li>
+              </ul>
+            </div>
           </div>
         </div>
       </div>

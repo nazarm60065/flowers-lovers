@@ -39,6 +39,12 @@
   &::placeholder
     color: $brown-light
 
+.order-props__control[type="date"]
+  display: block
+  -webkit-appearance: textfield
+  -moz-appearance: textfield
+  height: 38px
+
 .order-props-group-DELIVERY_DATE .order-props-label
   width: 160px
 
@@ -76,7 +82,7 @@ input.order-props__control[type="date"]::-webkit-calendar-picker-indicator
 
 .order-props-dropdown-list
   background-color: $beige
-  border: 1px solid $pink-color
+  border: 1px solid $pink-light-color
   border-top: none
 
 .order-props-dropdown-item
@@ -127,7 +133,7 @@ input.order-props__control[type="date"]::-webkit-calendar-picker-indicator
 .order-props-checkbox__marker
   width: 16px
   height: 16px
-  border: 1px solid $pink-color
+  border: 1px solid $pink-light-color
   svg
     padding: 2px
     width: 100%
