@@ -1,6 +1,9 @@
 .catalog-modal .f-button.is-close-btn
   display: none
 
+.custom-fancybox:has(.catalog-modal) .fancybox__slide
+  overflow: hidden
+
 .custom-fancybox:has(.catalog-modal) .fancybox__slide,
 .custom-fancybox.fancybox__container:not(.is-compact):has(.catalog-modal) .fancybox__slide.has-close-btn
   padding: 0
@@ -102,8 +105,9 @@
   .catalog-modal,
   .catalog-modal.fancybox__content
     width: 530px
-    left: 0
-    align-self: flex-start
+    right: 0
+    left: auto
+    align-self: flex-end
 
   .catalog-modal-top
     padding-top: 45px

@@ -16,8 +16,8 @@ export const fbInit = () => {
 
   Fancybox.bind("[data-fancybox-slide]", {
     mainClass: "custom-fancybox",
-    showClass: "f-classicIn from-next",
-    hideClass: "f-classicOut to-next",
+    showClass: "f-classicIn from-prev",
+    hideClass: "f-classicOut to-prev",
     defaultDisplay: 'flex',
     dragToClose: false,
     trapFocus: false,

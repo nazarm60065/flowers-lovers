@@ -69,7 +69,7 @@ $pageConfig = [
       </div>
     </div>
   </div>
-  <div class="container catalog-container">
+  <div class="container catalog-container catalog-container-toolbar">
     <div class="catalog-toolbar">
       <button class="catalog__toggle catalog__filter-toggle" type="button">
         <span class="catalog__toggle-icon">
